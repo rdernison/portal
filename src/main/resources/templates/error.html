@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: head(title = 'Foutpagina')" />
+<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+					<h1>My Thymeleaf Error Page</h1>
+					<table class="error" style="background-color: white">
+						<tr>
+							<td>Date</td>
+							<td th:text="${timestamp}" />
+						</tr>
+						<tr>
+							<td>Path</td>
+							<td th:text="${path}" />
+						</tr>
+						<tr>
+							<td>Error</td>
+							<td th:text="${error}" />
+						</tr>
+						<tr>
+							<td>Status</td>
+							<td th:text="${status}" />
+						</tr>
+						<tr>
+							<td>Message</td>
+							<td th:text="${message}" />
+						</tr>
+						<tr>
+							<td>Exception</td>
+							<td th:text="${exception}" />
+						</tr>
+						<tr>
+							<td>Trace</td>
+							<td><pre th:text="${trace}" /></td>
+						</tr>
+					</table>
+				</div>
+			<!-- /.row -->
+		</div>
+	</div><!-- /#wrapper -->
+</body>
+</html>

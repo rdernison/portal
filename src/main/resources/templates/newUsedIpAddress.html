@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Nieuw gebruikt ip-adres')" />
+	<body>
+		<div id="wrapper">
+			<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			<div id="page-wrapper">
+				<div class="row">
+	<div id="navbar-wrapper" class="collapse navbar-collapse">
+	 			 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+				        <div th:replace="fragments/navbar-header :: header"></div>
+			        </nav>   <!-- /.navbar-static-top -->
+			        </div>
+		        </div>			
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="navbar" class="collapse navbar-collapse">
+				
+			
+						<h1>Bewerk gebruikt ip-adres</h1>
+						<form action="save" method="post" th:object="${usedIpAddress}"
+							th:action="@{/usedIpAddress/create}">
+							<table>
+								<tr>
+									<td>Adres</td>
+									<td><input type="text" th:field="*{address}"/></td>
+								</tr>
+								<tr>
+									<td><Input type="submit" th:value="Opslaan" /></td>
+								</tr>
+							</table>
+							
+						</form>
+	
+					</div>
+					<!-- /.col-lg-12 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /#page-wrapper -->
+	
+		</div>
+	
+	
+		<script th:src="@{/webjars/jquery/3.5.1/jquery.min.js}"></script>
+      	<script th:src="@{/webjars/bootstrap/4.6.0/js/bootstrap.min.js}"></script>
+	</body>
+</html>

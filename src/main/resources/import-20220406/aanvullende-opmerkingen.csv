@@ -1,0 +1,654 @@
+node|aanvraag|0|26013|26013|und|0|2003 Server|\N
+node|aanvraag|0|26185|26185|und|0|Bij SQL server ook SQL server Management studio installeren|\N
+node|aanvraag|0|26307|26307|und|0|Graag voorzien van :\
+- VISUAL STUDIO 2015\
+|\N
+node|aanvraag|0|26728|26728|und|0|Zie ook aanwezige MOI-SMBA Testomgeving |\N
+node|aanvraag|0|27192|27192|und|0|Deze server moet van plaats de 10.140.178.14 komen.\
+Gaarne de ip adress, Werkgeheugen, CPU's etc zo veel mogelijk gelijk houden.\
+Alleen de OS moet naar de 2012.|\N
+node|aanvraag|0|27229|27229|und|0|Oracle 11G + OWB -> Indien de servergegevens bekend zijn, zal er via Carel Higler licenties worden aangevraagd|\N
+node|aanvraag|0|27464|27464|und|0|Deze VM zal gebruikt worden om de werkwijze met een VDI voor de ontwikkelaars te testen. Er zal de nodige software door ons op geinstalleerd worden waarna we met name de toegang via RDP tot de OTOD omgevingen willen test c.q. demonstreren.|\N
+node|aanvraag|0|27631|27631|und|0|Ook graag IBM C compiler erop zetten|\N
+node|aanvraag|0|27828|27828|und|0|Zie technische requirements.\
+\
+DNS naam binnen/buiten otod:\
+\
+PUM FSCM:\
+erpuwvdev92pumf.ba.uwv.nl\
+\
+Web/app server (incl. procesplanner): EXTRA Middleware IBM JDK 1.7.0 SR6+/64 op /w001/app/ibm/java/...\
+erpuwvdev92app.ba.uwv.nl\
+\
+Database server: EXTRA Middleware Oracle database 12C EE/64 op /a01/app/oracle/product/12.1.0/dbhome_1/... (op account: oradba; group: dba)\
+erpuwvdev92db.ba.uwv.nl\
+\
+Batch server:\
+erpuwvdev92win.ba.uwv.nl\
+\
+SES server:\
+erpuwvdev92ses.ba.uwv.nl\
+\
+Terminal server\
+erpuwvdev92term.ba.uwv.nl|\N
+node|aanvraag|0|27833|27833|und|0|Aanvraag voor een nieuwe ontwikkelserver voor BIT.\
+Specs gelijk aan de VMD010140178045.DEV.local, alleen met 150 GB\
+Alleen OS opleveren, de rest doen we zelf!\
+|\N
+node|aanvraag|0|28758|28758|und|0|Memory 8gb (op termijn moeten we dat waarschijnlijk vergroten als Confluence en Crucible intensief gebruikt gaan worden). \
+Disk space op /u01 200gb\
+Disk space primair/root groter dan 60gb\
+|\N
+node|aanvraag|0|29201|29201|und|0|De bestaande server vmd010140178063 / erpuwvdev92win.ba.uwv.nl / 10.140.178.63 uitbreiden met:\
+- 2 extra processoren\
+- 32 GB extra intern geheugen\
+- toevoegen schijf F: van 200 GB\
+\
+Met deze hardware kunnen we de nieuwe door Oracle ondersteunde zoek technologie toevoegen; ElasticSearch. Na een geslaagde POC gaat deze toevoeging de huidige SES (AIX) server vervangen; voor het verwijderen van die server wordt later apart een aanvraag voor ingediend.|\N
+node|aanvraag|0|29329|29329|und|0|De volgende server kan uit de project configuratie verwijderd worden; deze is vervangen door de installatie van nieuw aangeleverde zoek middleware op de windows server van de omgeving (die we daarvoor hebben laten uitbreiden). Er hoeft van de server geen software, data of storage beward te worden.\
+\
+Te verwijderen:\
+erpuwvdev92ses.ba.uwv.nl	10.140.178.90	VMD010140178090	Search server (AIX)\
+|\N
+node|aanvraag|0|29927|29927|und|0|De bestaande server: "erpuwvdev92term.ba.uwv.nl / 10.140.178.89 / VMD010140178089 / Terminal server" graag uitbreiden met een extra disk van ca. 200GB. Deze disk gaat gebruikt worden als uitwisselingsschijf met IBM DBA/TAB ten behoeve van de PeopleSoft Upgrade zoals besproken op 28-2-2017 (Jochem, Robert, Thijs, Rob en Gert-Jan).\
+|\N
+node|aanvraag|0|29981|29981|und|0|Graag Redhat 7.3|\N
+node|aanvraag|0|30249|30249|und|0|AIX 7.2 i.p.v. 7.1 nodig!|\N
+node|aanvraag|0|30283|30283|und|0|graag SQL server database 2012|\N
+node|aanvraag|0|30331|30331|und|0|Zie huidige OToD ontwikkelomgeving 10.140.178.83|\N
+node|aanvraag|0|30426|30426|und|0|Opmerking Jochem: Graag een applicatie server inrichten identiek aan 10.140.176.12 (dus ook de AIX versie) en DB server inrichten met AIX 7.2 en Oracle 12.1 conform de 10.140.176.32|\N
+node|aanvraag|0|30488|30488|und|0|O server met 2 CPU's als 1e opleveren|\N
+node|aanvraag|0|30537|30537|und|0|In overleg met jullie: we hebben in eerste instantie een windows server 2012 besteld, die willen we omzetten naar een windows server 2016. Aanvraagnummer van 2012 server = 30283|\N
+node|aanvraag|0|30541|30541|und|0|Alleen een kaal OS W2008R2 image opleveren.\
+De middleware doen we zelf.\
+Oscar Vermeer is akkoord voor deze aanvraag|\N
+node|aanvraag|0|30606|30606|und|0|Alleen een kaal OS W2012RO image opleveren. De middleware doen we zelf. Oscar Vermeer is akkoord\
+voor deze aanvraag|\N
+node|aanvraag|0|30667|30667|und|0|Ik heb de aantallen CPU's en zo op 1 gezet. Deze omgeving moet een extra O omgevingen worden conform de bestaande TO1 dus de machines moeten duplicaten zijn van deze machines:\
+10.140.176.113  vmt010140176113.test.local      Reverse proxy\
+10.140.176.145  vmt010140176145.test.local      Diensten TO1\
+10.140.176.93           vmt01014017693.test.local        Presentatie/OID TO1\
+10.140.176.146  vmt010140176146.test.local       SOA/OSB TO1\
+10.140.176.147  vmt010140176147.test.local       WCC TO1\
+10.140.176.151   vmt010140176151.test.local      OSB 12c\
+10.140.177.0     vmt010140177000.test.local      Elise 6.7 (2800)\
+\
+Kunnen jullie ze met dezelfde specs en hetzelfde OS opleveren?\
+Dank!\
+Dries|\N
+node|aanvraag|0|30668|30668|und|0|Deze machine zal TFS 2017 gaan hosten. Daar is MS-SQL 2016/64 voor nodig wat op dezelfde machine geinstalleerd zal gaan worden. Als OS is Windows 2016/64 SP1 vereist.|\N
+node|aanvraag|0|30673|30673|und|0|OS is niet te kiezen. het gaat om Windows Server 2016 standaard. De middleware doen we zelf. Oscar Vermeer is akkoord\
+voor deze aanvraag. Zie bijlage|\N
+node|aanvraag|0|30859|30859|und|0|Windows 2016 en SQL server 2016|\N
+node|aanvraag|0|31079|31079|und|0|App server: W2016 server zie SAD\
+DB server: W2016 en SQL server 2016|\N
+node|aanvraag|0|31126|31126|und|0|Dit worden machines voor de nieuwe TFS omgeving. Een actieve die we gebruiken voor productie en een als een test straat. \
+Het OS moet de laatste release van Windows 2016 worden. De rest doen we zelf.\
+Er moeten er twee komen conform de specs (processoren, geheugen, disk configuratie) van 10.140.176.193\
+Er moeten er twee komen conform de specs (processoren, geheugen, disk configuratie) van 10.140.176.184|\N
+node|aanvraag|0|31265|31265|und|0|Laatste versie Redhat. Database instantie in database hotel (SQL 2014)|\N
+node|aanvraag|0|33000|33000|und|0|De middleware doen we zelf. Oscar\
+Vermeer is akkoord voor deze aanvraag. Zie bijlage|\N
+node|aanvraag|0|35057|35057|und|0|Testomgeving idem aan ontwikkelomgeving|\N
+node|aanvraag|0|35134|35134|und|0|graag dezelfde koppelingen aanleggen en autorisatie als de PN4222 \
+deze machine wordt volledig door APG gebruikt voor ontwikkeling in GIT te gaan gebruiken.|\N
+node|aanvraag|0|35135|35135|und|0|De middleware doen we zelf. Oscar Vermeer is akkoord voor deze aanvraag. Zie bijlage|\N
+node|aanvraag|0|35175|35175|und|0|Aantal CPU's betreft 0,5 cores met in totaal 2 CPU's (prtconf zou dan 0,5 moeten aangeven, nmon 2).|\N
+node|aanvraag|0|35176|35176|und|0|Gaat om 4 cores met in totaal 16 CPU's (prtconf geeft dan aan 4 processors, nmon 16).\
+Paging space = 16 GB.|\N
+node|aanvraag|0|35177|35177|und|0|We willen vanaf deze machine gebruik maken het database hotel (10.140.177.26\\BBS) dus graag zouden we ook de SQL server Client op deze machine geïnstalleerd willen krijgen.\
+P.S. Kunnen jullie DEV\\rth017 ook toegang willen geven met mstsc tot de 10.140.178.122 en de 10.140.177.33|\N
+node|aanvraag|0|35273|35273|und|0|De middleware doen we zelf. Oscar Vermeer is akkoord voor deze aanvraag. Zie bijlage|\N
+node|aanvraag|0|35280|35280|und|0|Graag 1 linuxserver in het DEV domein met RHEL 7.2, YUM beschikbaar. \
+De volgende users graag middels su(do) rootrechten geven:\
+rst159 Rutger Storm\
+jha138 Jeroen de Haan\
+jle082 Jaap Lelie\
+tke014 Tristan Kempes\
+\
+De verdere inrichting zal door het project of het systemteam gedaan worden.  |\N
+node|aanvraag|0|35367|35367|und|0|Gaat om 1 Linux RHEL 7.2 server (voor de rest zelfde als 10.140.177.11, Yum beschikbaar voor packages Storage : /u01 swap : 1 GiB) en 1 AIX server (voor de rest zelfde als 10.140.176.23, 1 GB paging) Graag sudo rechten voor gebruikers pwi048 en pba047\
+|\N
+node|aanvraag|0|35368|35368|und|0|Gaat om 1 Linux RHEL 7.2 server (voor de rest zelfde als 10.140.177.11, Yum beschikbaar voor packages Storage : /u01 swap : 1 GiB) Graag sudo rechten voor gebruikers pwi048 en pba047|\N
+node|aanvraag|0|35473|35473|und|0|DB hotel, Oracle 12C AIX|\N
+node|aanvraag|0|35513|35513|und|0|Gaat om 1 AIX server ( 1 GB paging) Graag sudo rechten voor gebruikers pwi048 en pba047 |\N
+node|aanvraag|0|35569|35569|und|0|8 cores als het kan\
+\
+\
+\
+|\N
+node|aanvraag|0|35613|35613|und|0|Huidige Ontwikkel-omgeving 10.140.178.83 heeft Windows 2012 -> dit moet Windows 2012 R2 worden\
+Huidige Test-omgeving 10.140.176.85 heeft Windows 2012 -> dit moet Windows 2012 R2 worden\
+Database is SQL 2012\
+Behoud van dns namen (DNS verzoek volgt)\
+Overzetting of hergebruik van aanwezige licenties\
+Alles van de huidige omgevingen moeten ook op de nieuwe servers geinstalleerd worden, maar dan in de laatste versie, muv oracle.\
+De nieuwe servers gaan de huidige servers vervangen. De verwachting is dat de huidige servers voor 1 maart 2018 uitgezet kunnen worden.|\N
+node|aanvraag|0|35660|35660|und|0|Alle gebruikers uit de tet-adm groep mogen toegang krijgen tot deze machine, vergelijkbaar met bijvoorbeeld de 10.140.178.58.\
+Graag ook MS Office installeren.|\N
+node|aanvraag|0|35830|35830|und|0|Alleen een kaal OS W2008R2 image opleveren. De middleware doen we zelf. Oscar Vermeer is akkoord\
+voor deze aanvraag. Zie bijlage|\N
+node|aanvraag|0|35862|35862|und|0|De middleware doen we zelf. Oscar Vermeer is akkoord voor deze aanvraag. Zie bijlage|\N
+node|aanvraag|0|35930|35930|und|0|Graag deze machine identiek maken aan 10.140.178.122 en 10.140.178.105   (zelfde specs, zelfde OS)\
+|\N
+node|aanvraag|0|36202|36202|und|0|Zie technische requirements. DNS naam binnen/buiten otod: PUM ELM : erpuwvdev92pume.ba.uwv.nl \
+A.u.b. een zo kaal mogelijk Windows 2016 installatie! Indien mogelijk PUPPET niet installeren, Oracle heeft een eigen PUPPET, waardoor wij meestal de geïnstalleerde PUPPET moeten verwijderen.\
+Oracle PUM installatie  installeert e.e.a. . Geen licentie nodig. |\N
+node|aanvraag|0|36271|36271|und|0|we hebben 5 servers nodig die allemaal gelijk moeten zijn aan VMD010140178120.DEV.local\
+Er zijn local admin rechten nodig om de servers verder in te kunnen richten|\N
+node|aanvraag|0|36521|36521|und|0|Graag kaal OS opleveren. Middleware doen we zelf.|\N
+node|aanvraag|0|36522|36522|und|0|Alleen kaal OS. Middleware doen we zelf|\N
+node|aanvraag|0|36749|36749|und|0|Deze machine is (in eerste instantie) voor test-doeleinden. OS-disk graag de standaardwaarde (als dit geen 30Gb is). Graag de server ook voorzien van een 3-tal EXTRA harddisks van elk 20Gb. De test zal o.a. bestaan uit:-\
+1. Installeren van LVM (Logical Volume Management),\
+2. De extra HDDs formatteren en benaderbaar maken met LVM,\
+3. Voorzien van niet-cruciale data,\
+4. Testen of de OTOD backups goed overweg kunnen met deze machine.\
+-- Jochem is van deze tests op de hoogte en René van Dalen heeft zijn akkoord gegeven --\
+\
+Bij het succesvol afsluiten van de bovenstaande tests zullen we verder gaan met andere tests op het gebied van Docker. Er bestaat een kans dat deze machine, eens uit de test-fase, zal blijven voor het vervullen van bepaalde taken. Hierover is vooralsnog nog geen uitsluitsel.\
+\
+Dank & Groet,\
+Jaap.|\N
+node|aanvraag|0|36887|36887|und|0|1x 8 cores\
+C: schijf van 80 gb\
+D: schijf van 250 gb|\N
+node|aanvraag|0|36987|36987|und|0|Stack: UWV W2K12 R2 APS-2|\N
+node|aanvraag|0|37071|37071|und|0|Terminal server - max 5 - 8 user concurrent\
+EXTRA Middleware IBM JDK 1.7.0 SR6+/64 op\
+/w001/app/ibm/java/... erpuwvdev92app.ba.uwv.nl Database server: EXTRA Middleware Oracle database\
+12C EE/64 op /a01/app/oracle/product/12.1.0/dbhome_1/... (op account: oradba; group: dba)|\N
+node|aanvraag|0|37329|37329|und|0|Vraag anders even na bij AOC.|\N
+node|aanvraag|0|37438|37438|und|0|Local administrator voor DEV\\buildserver_admin en DEV\\buildserver_system\
+\
+Bij vragen over de groepen graag even contact opnemen met Jack IJmker|\N
+node|aanvraag|0|37509|37509|und|0|Graag 5 ontwikkelomgevingen met bovenstaande config. Zijn omgevingen voor het bouwen van .Net applicaties welke ontwikkeld moeten worden ten behoeve van ondersteuning van de nieuw te bouwen UWV app. Graag ook advies over de grootte van elke server, ik zou niet weten hoe die dingen gesized moeten zijn om een beetje lekker te kunnen ontwikkelen. Graag ook .net installatie pakket klaar zetten|\N
+node|aanvraag|0|37543|37543|und|0|Svp van de 60Gb een 8Gb partitie apart aanmaken tbv swapspace.|\N
+node|aanvraag|0|37582|37582|und|0|Bij vragen over de groepen graag even contact opnemen met Jack IJmker.|\N
+node|aanvraag|0|37583|37583|und|0|Graag ook een SQL Server database aanmaken in het DB Hotel.|\N
+node|aanvraag|0|37608|37608|und|0|Eric Groen, Jack IJmker, Daniel van Eijden, Reza Abrizeh local admin rechten zoals bij TFS server die eerder is opgeleverd.|\N
+node|aanvraag|0|37626|37626|und|0|Ik lees in de leveranciers spec's dat er minimaal 4 CPU's nodig zijn van type intel Xeon (4 cores). Minimaal 8 GB RAM en minimaal 20 GB systeem schijf ruimte. Daarnaast zijn rechten nodig op MS SQL server ivm DB toegang. De applicatie heeft middleware nodig MS SQL server (staat niet bij de opties) + in deze OTOD nodig - microsoft .NET versie 4.62. + IIS webserver (alleen webserver, geen FTP) + MSMQ (voor de lokale 'eigen' berichten afhandeling. Voor meer uitleg kom langs bij P. Verboom van project PAS|\N
+node|aanvraag|0|37631|37631|und|0|Windows 2016\
+8 cores\
+Office (met Access indien beschikbaar)\
+\
+Personen die toegang dienen te krijgen:\
+	Erwin Zuijderveldt (ezu001)\
+	Laurens Hulsman (lhu010)\
+	Thomas Duif (tdu002) (beheerder)\
+	Jorrit Nicolai (jni052)\
+	Joris Tuijn (jtu022)\
+	Richard Verheijen (rve168)\
+	Wai-Chee (wma034)\
+	Hannie van Dijk (hdi048)\
+	Menno Borgo (Mbo382)\
+\
+\
+|\N
+node|aanvraag|0|37679|37679|und|0|C:\\=>100GB\
+E:\\=>130GB|\N
+node|aanvraag|0|37680|37680|und|0|C:\\=>100GB \
+E:\\=>130GB|\N
+node|aanvraag|0|37714|37714|und|0|Op deze server PowerBI en Office 2016 installaren. PowerBI hier downloaden --> https://www.microsoft.com/en-us/download/details.aspx?id=57271|\N
+node|aanvraag|0|37757|37757|und|0|Omschrijving: svp 3 nieuwe servers aanmaken op kostenplaats S43108 conform server:\
+servernaam - vmd010140178134.dev.local\
+IP-adres - 10.140.178.134|\N
+node|aanvraag|0|37790|37790|und|0|SQL server van nieuwe stack 6  (Jochem is hier van op de hoogte) -> zie vinkenlijst|\N
+node|aanvraag|0|37831|37831|und|0|De 2 Linux servers graag voorzien van de laatste RHEL versie.\
+Graag de groep "Systemteam" admin rechten geven op alle 3 de servers.|\N
+node|aanvraag|0|37840|37840|und|0|Graag de laatste versie van RHEL. Ook graag de groep Systemteam toevoegen aan de sudoers file.|\N
+node|aanvraag|0|37896|37896|und|0|2x disks: C:\\100gb, E:\\100GB|\N
+node|aanvraag|0|37897|37897|und|0|2x disks: C:\\100gb, E:\\100GB|\N
+node|aanvraag|0|37916|37916|und|0|In onderdeel Technische requirements staan de specificaties|\N
+node|aanvraag|0|38113|38113|und|0|ABS:\
+ABS Front-End, Administrative Tasks, \
+JBOSS, JAVA \
+Standaard: \
+SQL-Studio \
+Browser\
+\
+|\N
+node|aanvraag|0|38136|38136|und|0|Stack: UWV W2K12 R2 APS-2|\N
+node|aanvraag|0|38157|38157|und|0|Lege LINUX server voor project VIOB van E-werken |\N
+node|aanvraag|0|38197|38197|und|0|Deze Linux server graag voorzien van de laatste RHEL versie. Graag de groep "Systemteam" admin rechten geven op de server.|\N
+node|aanvraag|0|38236|38236|und|0|SVP versie RHEL 7.3 (Maipo) installeren.\
+\
+Graag de tweede schijf middels LVM aankoppelen. Het mag ook zo zijn dat de schijf 'slechts' toegevoegd is als /u01, dan zorg ik zelf voor de configuratie. Deze server zal als Docker host gaan fungeren. De huidige Docker host (VMD010140178008) zal de rol van Storage server gaan vervullen (opdelen van taken). Als de migratie van de Docker containers is voltooid, zal de VMD010140178008 naar beneden geschaald gaan worden qua CPU (4 -> 2) en RAM (32 -> 8).|\N
+node|aanvraag|0|38303|38303|und|0|1 GPU bijvoorbeeld NVIDIA Tesla K80 Graphic Card|\N
+node|aanvraag|0|38579|38579|und|0|Aanvraag besproken met Jochem. We willen graag gebruik maken van het MQ hotel en het Oracle database hotel.|\N
+node|aanvraag|0|38694|38694|und|0|Licentie kan ik genereren als het nodig is.|\N
+node|aanvraag|0|38732|38732|und|0|Deze server wordt aangevraagd omdat IBM problemen ondervindt bij het backuppen van de huidige VMD010140178008. Zodra deze server online is gekomen zullen we 50% van de huidige load van de VMD010140178008 gaan verplaatsen naar deze nieuwe server, en de schijfcapaciteit van de VMD010140178008 gaan terugschroeven.\
+* Graag de server uitrusten met RedHat 7.3 (Maipo), te integreren met DEV.Local, en de groep DEV\\SystemTeam sudo rechten verlenen.|\N
+node|aanvraag|0|38760|38760|und|0|BuildServer|\N
+node|aanvraag|0|38764|38764|und|0|gaarne MQ client 8.0 installeren\
+liefst laatste versies van OS en middleware conform stack 5.2\
+gaarne een nieuwe Oracle 12.2 instantie in het db-hotel genaamd fleks_o\
+we gaan zelf het beheer doen van deze machine\
+|\N
+node|aanvraag|0|38765|38765|und|0|Deze aanvraag betreft het verzoek voor het verkrijgen van een SQL-instance (SQL Server 2017) op het SQL-hotel. Er is dus geen behoefte aan een 'eigen' OToD omgeving.\
+Voor de duidelijkheid, we hebben weinig ruimte nodig (meer dan 10Gb zal het zeker niet worden), het gaat vooral om nieuwe SQL-2017 functionaliteit te testen voor de duur van ongeveer 6mnd.\
+We hebben begrepen van OToD beheer (Frankie Vos) dat de realisatie van ons verzoek ongeveer 100 euro per maand zal moeten gaan kosten. Dit is de orde van grootte waaraan wij denken bij de raming voor de kosten van een eigen SQL instance op het SQL hotel.\
+|\N
+node|aanvraag|0|38766|38766|und|0|2 instanties in Oracle DB-hotel: XOBIBAW, XOBIREP (Oracle 12.2). Toegang zie gebruikers boven.\
+|\N
+node|aanvraag|0|38834|38834|und|0|Graag de laatste versie van RHEL. Ook graag de groep Systemteam toevoegen aan de sudoers file.|\N
+node|aanvraag|0|39014|39014|und|0|Middleware richten we zelf in. Alleen OS opleveren.|\N
+node|aanvraag|0|39092|39092|und|0|Op de database server Oracle 12.2 installeren\
+Graag office 2017 installeren op WIndows servers\
+\
+Ingevulde checklist wordt binnenkort opgeleverd.|\N
+node|aanvraag|0|39133|39133|und|0|Gaarne de hoogste versie van RHEL mogelijk.|\N
+node|aanvraag|0|39162|39162|und|0|Gaat dienen als backup schijf voor andere systemen.|\N
+node|aanvraag|0|39342|39342|und|0|Robert weet alle specs precies!\
+\
+Redhat 7.6\
+|\N
+node|aanvraag|0|39343|39343|und|0|Robert weet de preciesere specs|\N
+node|aanvraag|0|39344|39344|und|0|Robert weet de preciezere specs.|\N
+node|aanvraag|0|39352|39352|und|0|Graag de server uitrusten met RedHat 7.3 (Maipo), te integreren met DEV.Local, en de groep DEV\\SystemTeam sudo rechten verlenen.|\N
+node|aanvraag|0|39370|39370|und|0|Alleen OS opleveren. Dev/bit in local admin groep zetten.|\N
+node|aanvraag|0|39414|39414|und|0|Webserver\
+Windows 2016 SE\
+.NET 4.7\
+Java JRE 8 \
+IIS Web Server 10\
+\
+\
+Applicatieserver\
+Windows 2016 SE\
+.NET 4.7\
+Java JRE 8 \
+MSXML 6\
+IIS Web Server 10|\N
+node|aanvraag|0|39425|39425|und|0|Kaal OS opleveren. Middleware doen we zelf.|\N
+node|aanvraag|0|39456|39456|und|0|Page-file niet gelijk aan RAM-grootte instellen, zodat niet meteen al 48GB van de systeemschijf weg is.\
+Is het mogelijk om Home-directories van gebruikers gelijk op e (E:\\Users\\<puik>) te laten plaatsen i.p.v. de default c:\\user\\<PUIK>? Dit i.v.m. het gebruik van diverse ontwikkel tooling die standaard in de home-directory schrijft en nogal wat ruimte kan gebruiken.  |\N
+node|aanvraag|0|39465|39465|und|0|SQL Developer - Visual Studio 2017/2019 - Oracle ODP (Oracle Client) - IIS standaard|\N
+node|aanvraag|0|39479|39479|und|0|Graag precies dezelfde server als onderstaand.\
+\
+vmd010140178115\
+Datacap\
+10.140.178.115	4	0.40	16 384	100	W 2012 R2 64b	16/10/2017 - 16:25	E: 120gb	Operatio|\N
+node|aanvraag|0|39609|39609|und|0|Graag adgroep dev\\systemteam toevoegen aan sudoers |\N
+node|aanvraag|0|39775|39775|und|0|Aanvraag is besproken met Jochem, betreft een tijdelijke server die we nodig hebben.\
+Graag rekening houden met de volgende acties/specs:\
+•	Aanmaken local admin account voor Peter op  vmt010140176212\
+•	Uitrollen van een nieuwe VM met dezelfde specs als vmt010140176212\
+•	In overleg moment bepalen & tijdelijk uitzetten van de vmt010140176212 zodat clone gemaakt kan worden\
+|\N
+node|aanvraag|0|39813|39813|und|0|Graag ook een 4 Gb swapfile aanmaken. Wij gaan de huidige Accesserver ( staat in test domein) omzetten naar het Dev domein. Als deze klaar is zullen we de andere server opzeggen.|\N
+node|aanvraag|0|39833|39833|und|0|Graag ook een 4 Gb swapfile aanmaken. Wij gaan de huidige Accesserver ( staat in test domein) omzetten naar het Dev domein. Als deze klaar is zullen we de andere server opzeggen.\
+|\N
+node|aanvraag|0|39914|39914|und|0|LET OP: OS=Windows 2016 en hebben we SQL Server 2016 EE SP2 nodig!|\N
+node|aanvraag|0|39921|39921|und|0|Voor unix de local accounts voor Systemteam leden aanmaken met sudo rechten voor root \
+\
+Paul Loderus             plo028\
+Bas Luyx                    blu009\
+Dennis Engelmann     den012\
+Tristan Kempes          tke014\
+Jaap Lelie                   jle082\
+Gabor Landman         gla025\
+Wim Hoegee              who055\
+David Boateng           dbo103    \
+Bert Kraakman          bkr029       \
+\
+Op de Windows servers de AD-groep systemteam toevoegen aan de administrators groep en Office 2017 installeren aub.|\N
+node|aanvraag|0|40064|40064|und|0|Dit is de E-Afspraak opleidings omgeving. Kan identiek zijn aan de OTOD test die al bestaat, maar zal geen onderdeel zijn van het OTAP proces.\
+Deze opleidingsomgeving zal een andere SLA moeten hebben. Dagelijks terug zetten van start data etc.\
+Af te stemmen met project PAS PM\
+Ik lees in de leveranciers spec's dat er minimaal 4 CPU's nodig zijn van type intel Xeon (4 cores). Minimaal\
+8 GB RAM en minimaal 20 GB systeem schijf ruimte. Daarnaast zijn rechten nodig op MS SQL server ivm\
+DB toegang. De applicatie heeft middleware nodig MS SQL server (staat niet bij de opties) + in deze\
+OTOD nodig - microsoft .NET versie 4.62. + IIS webserver (alleen webserver, geen FTP) + MSMQ (voor de\
+lokale 'eigen' berichten afhandeling. Voor meer uitleg kom langs bij P. Verboom van project PAS|\N
+node|aanvraag|0|40077|40077|und|0|Gelijk aan TKWWO|\N
+node|aanvraag|0|40149|40149|und|0|Groepnaam aanhouden zoals bij eerdere ODM omgeving (O). Zie voorbeeld: 10.140.178.235.\
+Red Hat Linux 7.6|\N
+node|aanvraag|0|40150|40150|und|0|Groepnaam aanhouden zoals bij eerdere ODM omgeving (O). Zie voorbeeld: 10.140.178.235. Red Hat Linux 7.6\
+\
+|\N
+node|aanvraag|0|40151|40151|und|0|Groepsnaam aanhouden zoals bij eerdere ODM omgeving (O). Zie voorbeeld: 10.140.178.253.\
+\
+|\N
+node|aanvraag|0|40152|40152|und|0|Groepsnaam aanhouden zoals bij eerdere ODM omgeving (O). Zie voorbeeld: 10.140.178.253.\
+\
+|\N
+node|aanvraag|0|40185|40185|und|0|In overleg met Robert Kootede specs. opgesteld: 3x Win 2016Server, 2x CPU, 8GB ram, 60GB Systeemschrijf en 50GB Applicatie/Dataschijf  Het PowerBI team heeft gemiddeld 3 medewerkers en per medewerker een separate werkplek binnen OToD om vertragingen te voorkomen. Per server zijn de kosten ong €400,- per maand.|\N
+node|aanvraag|0|40292|40292|und|0|Groepsnamen aanhouden zoals eerdere aangevraagde ODM omgeving, zie ip 10.140.179.1\
+Deze aanvraag is voor 4 identieke servers.|\N
+node|aanvraag|0|40314|40314|und|0|Graag in totaal 3 nieuwe servers voor SONAR TT5. Deze zullen op termijn de oude gaan vervangen|\N
+node|aanvraag|0|40351|40351|und|0|inclusief MS PowerBI installatie (best effort) in overleg met Robert Koote en Mariëlle van Delft en Mike Schipper. Naar afspraak evt andere software.|\N
+node|aanvraag|0|40355|40355|und|0|C:\\Users naar E:\\Users configureren!\
+Dus niet alleen kopieren. Users home drive wordt e:|\N
+node|aanvraag|0|40360|40360|und|0|Graag in totaal 3 nieuwe servers voor SONAR TT2. Deze zullen op termijn de oude gaan vervangen|\N
+node|aanvraag|0|40396|40396|und|0|Graag 3 Windows servers opleveren volgens genoemde specificaties.|\N
+node|aanvraag|0|40450|40450|und|0|Proxy server	HTTP: proxy.voorzieningen.uwv.nl\
+Poort: 3128\
+Proxy settings Exceptions/bypass	10.140.*|\N
+node|aanvraag|0|40453|40453|und|0|Graag in totaal 7 nieuwe servers voor SONAR TT5 (3x windows, 4x AIX) . Deze zullen op termijn de oude gaan vervangen.\
+Graag voor de AIX servers de users tke014 en jle082 toevoegen als admin.|\N
+node|aanvraag|0|40454|40454|und|0|We ondervinden problemen met Sonar op de recent opgeleverde AIX machines. Het enige verschil voor zover wij nu kunnen nagaan is het AIX Technology Level (sinds eind 2019 TL4)   Graag willen ter test kijken of dit de oorzaak van het probleem kan zijn. Hierom willen wij graag  deze AIX server met TL3 opgeleverd krijgen.\
+Graag de users tke014 en jle082 toevoegen als admin.|\N
+node|aanvraag|0|40464|40464|und|0|Rechten geven voor gebruikster: abr039 - Annemarie Brinkhorst|\N
+node|aanvraag|0|40600|40600|und|0|Als meer RAM en/of meer CPU's mogelijk zijn, dan graag uitbreiden naar de max.|\N
+node|aanvraag|0|40615|40615|und|0|Graag user ewbadmin@DEV.local (ewbadmin) volle rechten geven op de server: ALL=(ALL)       NOPASSWD:ALL\
+Graag leden van groep ewb_admin@DEV.local rechten geven om te switchen naar ewbadmin: /usr/bin/su - ewbadmin|\N
+node|aanvraag|0|40656|40656|und|0|buildserver_system, buildserver_admin, buildserver_admin|\N
+node|aanvraag|0|40666|40666|und|0|We hebben 1 enkele win2016 server nodig maar wel met aan aantal componenten (BizTalk 2016, SQL Server 2016, WMQ 9.1, IIS, FILE)|\N
+node|aanvraag|0|40730|40730|und|0|Graag AD groep ewb_admin toevoegen aan de administrator groep.|\N
+node|aanvraag|0|40792|40792|und|0|Graag AD-groep KOA_ADMIN dat hiervoor ook middels een ticket is aangevraagd toegang geven tot de server.\
+Verder graag serviceuser koaadmin ALL=(ALL) NOPASSWD: ALL geven. \
+Graag de leden van de groep KOA_ADMIN machtigen om te switchen naar de koaadmin user ( /usr/bin/su - koaadmin )\
+Zie voor beheerdocument graag het document behorende bij servers vmd010140178218 en vmt010140176063. Dezelfde team doet het beheer over de applicaties.|\N
+node|aanvraag|0|40803|40803|und|0|RedHat Hoogste versie\
+3.2	Linux packages\
+Linux packages worden meestal geinstalleerd met yum. Deze utillity zoekt uit welke afhankelijkheden er zijn, dus welke packages er nog meer moeten worden geinstalleerd.\
+\
+Package		\
+compat-libstdc++33		\
+gtk2 \
+	Xserver	\
+libaio	Oracle	\
+libXtst 		\
+xorg-x11-utils		\
+xorg-x11-auth		\
+xorg-x11-fonts-Type1		\
+psmisc 		\
+libnsl		\
+Zip/unzip		\
+Git client	git	\
+nmon	monitoring	\
+|\N
+node|aanvraag|0|40836|40836|und|0|OS volgens de volgende standaard stack [STS, UWV RH7 BSS-4].|\N
+node|aanvraag|0|40856|40856|und|0|Deze server zal gebruikt gaan worden als extra backupserver voor de Sonar straten. Graag toegang voor de AD groep 'systemteam'\
+Graag 2 aparte schijven van elk 1 TB middels LVM mounten, zodat dit later eventueel indien nodig makkelijk kan worden uitgebreid.\
+Zie als voorbeeld  andere backupserver: vmd010140178008 :\
+\
+[tke014@DEV.local@vmd010140178008 infrastructure]$ sudo lsblk\
+NAME                 MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT\
+fd0                    2:0    1    4K  0 disk\
+sda                    8:0    0  105G  0 disk\
+├─sda1                 8:1    0  500M  0 part /boot\
+├─sda2                 8:2    0 73.3G  0 part /\
+└─sda3                 8:3    0 31.3G  0 part [SWAP]\
+sdb                    8:16   0 1000G  0 disk\
+└─sdb1                 8:17   0 1000G  0 part\
+  └─storage1-data    253:0    0 1000G  0 lvm  /mnt/data\
+sdc                    8:32   0 1000G  0 disk\
+└─sdc1                 8:33   0 1000G  0 part\
+  └─storage2-backups 253:1    0    3T  0 lvm  /mnt/backups\
+sdd                    8:48   0 1000G  0 disk\
+└─sdd1                 8:49   0 1000G  0 part\
+  └─storage2-backups 253:1    0    3T  0 lvm  /mnt/backups\
+sde                    8:64   0 1000G  0 disk\
+└─sde1                 8:65   0 1000G  0 part\
+  └─storage2-backups 253:1    0    3T  0 lvm  /mnt/backups\
+sr0                   11:0    1 1024M  0 rom\
+\
+[tke014@DEV.local@vmd010140178008 infrastructure]$ sudo pvs\
+  PV         VG       Fmt  Attr PSize     PFree\
+  /dev/sdb1  storage1 lvm2 a--  <1000.00g    0\
+  /dev/sdc1  storage2 lvm2 a--  <1000.00g    0\
+  /dev/sdd1  storage2 lvm2 a--  <1000.00g    0\
+  /dev/sde1  storage2 lvm2 a--  <1000.00g    0\
+\
+[tke014@DEV.local@vmd010140178008 infrastructure]$ sudo vgs\
+  VG       #PV #LV #SN Attr   VSize     VFree\
+  storage1   1   1   0 wz--n- <1000.00g    0\
+  storage2   3   1   0 wz--n-    <2.93t    0\
+\
+\
+\
+\
+|\N
+node|aanvraag|0|40870|40870|und|0|wbd_system is de user waaronder alles geinstallerd kan worden. wbd_admin is de groep waar alle admins onderzitten. wbd_developer zijn eventuele andere users|\N
+node|aanvraag|0|40871|40871|und|0|wbd_system is de user onder welke alles geinstalleerd wordt.\
+wbd_admin is de groep waarin de admins staan\
+wbd_developer is de groep waar de andere developers in staan\
+|\N
+node|aanvraag|0|40943|40943|und|0|Packages:		\
+compat-libstdc++33		\
+gtk2 \
+Xserver	\
+libaio	Oracle	\
+libXtst 		\
+xorg-x11-utils		\
+xorg-x11-auth		\
+xorg-x11-fonts-Type1		\
+psmisc 		\
+libnsl		\
+Zip/unzip		\
+Git client	->Deze plaatsen in de repository op Azure DevOps Server. Dit kan als men een Git client installeert. \
+nmon\
+Epel repo toevoegen ivm tools.\
+epel/x86_64                                     Extra Packages for Enterprise Linux 7 - x86_64\
+\
+Het volgende commando moet uitgevoerd worden.\
+Koppel de AOC Repository\
+Mkdir –p /data/AOCShare\
+Cd /data\
+sudo mount 10.140.178.26:/data ./AOCShare/\
+\
+\
+Directorie/mount point	owner	opm\
+/data	Sofie_admin	Te installeren software in dezelfde directory structuur als in de Software Repository\
+/data/AOCShare	Sofie_admin	Mount point voor software repository op 10.140.178.26/data\
+/data/BACKUP	Sofie_admin	Backups (exp) van Oracle REPO schemas.\
+/opt/<projectnaam>	Sofie_admin	Alle geinstalleerde software van <projectnaam> (mount point)\
+/home/ewbadmin/UWV	Sofie_admin	Beheer en installatie scripts van de UWV \
+\
+Proxy:\
+Opnemen in /etc/profile\
+\
+export HTTP_PROXY=http://10.122.74.1:3128\
+export http_proxy=http://10.122.74.1:3128\
+export HTTPS_PROXY=https://10.122.74.1:3128\
+export https_proxy=http://10.122.74.1:3128\
+export no_proxy='10.140.*'\
+|\N
+node|aanvraag|0|40966|40966|und|0|Graag AD groep ODM_ADMIN in de administrator groep zetten|\N
+node|aanvraag|0|41079|41079|und|0|Omdat we de meeste windows machines aanmaken met systeem account buildserver_system is het handig om dit voor Sofie en verdere SMZ projecten het account smz_system te gebruiken. Voor het werkbedrijf hebben we al wbd_system.\
+Dit account zal eerst moeten worden aangemaakt door OTOD in hun AD.\
+Administrator account op het systeem en remote desktop user.|\N
+node|aanvraag|0|41107|41107|und|0|uwv_system die nog aangemaakt moet worden en ook administrator wordt op dit systeem.|\N
+node|aanvraag|0|41117|41117|und|0|naast deze applicatieserver willen we voor de TA op ONTWIKKEL ook gebruik gaan maken van het DB-Hotel (Oracle 19c) en het MQ-hotel (MQ9.0.0.6).\
+In bijgevoegde vinkenlijst staan de benodigde MW-componenten genoemd. In samenspraak met het GOH TA-team kan gekeken worden welke componenten zelf (door het GOH TA-team) geïnstalleerd kunnen worden en welke vanuit het TOTEM-team worden verwacht.\
+Let op: in de Vinkenlijst wordt gesproken van MQ9.1 maar die is nog niet voorhanden in een MQ-hotel, daarom wordt er voor de huidige MQ-hotel versie van MQ gekozen voor deze servers.|\N
+node|aanvraag|0|41119|41119|und|0|Er is reeds een ontwikkelomgeving voor het project, waarin de dataservices worden gerealiseerd. Er wordt een tweede instantie gevraagd, in verband met een tweede ontwikkelaar. \
+Aanvragen Windows 2016 Ontwikkel server met extra:\
+o	IIS\
+o	Oracle Client 12.C/SQLDeveloper\
+o	Visual Studio (laatste versie) (met connectie voor MSDN)\
+o	VM specificatie: 2 vcpu, 12 GB memory, 50 GB aan E:-schijf\
+\
+Toegang voor Sujen Kandasamy en Robert Mast. \
+|\N
+node|aanvraag|0|41153|41153|und|0|Graag zoveel mogelijk gelijk aanmaken als de 10.140.178.166.\
+|\N
+node|aanvraag|0|41160|41160|und|0|ows_system moet administrator worden.|\N
+node|aanvraag|0|41162|41162|und|0|Betreft de aanvraag voor een ORACLE 19C DB (dus geen 12c) installatie op O en T  t.b.v. het realiseren van de SMZ Materiedatabase vanuit het programma SMZ IV Optimalisatie. Voor verdere details is onze ICT Architect Reza Haydarlou aanspreekbaar. \
+De aanvraag bij DXC voor een ORACLE 19C op A + P loopt tegelijkertijd. Voorlopig een minimale config, die later uitgebreid gaat worden. |\N
+node|aanvraag|0|41163|41163|und|0|beide machines bij DXC\
+database Oracle 12c uit database hotel + backup|\N
+node|aanvraag|0|41170|41170|und|0|Graag bkr029 en tke014 toegang geven en root rechten|\N
+node|aanvraag|0|41172|41172|und|0|Extra local user account is nodig. GUPBeheer wachtwoord: Welkom01Welkom01!|\N
+node|aanvraag|0|41173|41173|und|0|Zie 10.140.178.254 als voorbeeld.|\N
+node|aanvraag|0|41178|41178|und|0|Aanmaken bij OToD IBM|\N
+node|aanvraag|0|41184|41184|und|0|Gaarne bij OToD DXC|\N
+node|aanvraag|0|41185|41185|und|0|Gaarne bij DXC|\N
+node|aanvraag|0|41186|41186|und|0|Gaarne hierop MS SQL Server en SSMS op de Ontwikkelwerkplek|\N
+node|aanvraag|0|41193|41193|und|0|Gaarne bij DXC|\N
+node|aanvraag|0|41196|41196|und|0|ADOS server. Bij DXC tbv Test/accept. SonarQube, Nexus en BuildServer\
+|\N
+node|aanvraag|0|41198|41198|und|0|Graag de CPU indeling als volgt: 1 socket / 4 cores per socket zodat er één vNUMA ontstaat.\
+Administratieve rechten toekennen aan groep O-PWS-Administration-LS.|\N
+node|aanvraag|0|41200|41200|und|0|Server bij DXC aanmaken.|\N
+node|aanvraag|0|41204|41204|und|0|graag toegang voor kro045 en htu009|\N
+node|aanvraag|0|41213|41213|und|0|LET OP!!\
+1 server moet in DXC-O worden aangemaakt.\
+1 server moet in de AM zone worden aangemaakt|\N
+node|aanvraag|0|41215|41215|und|0|Test-domein. Opleveren aan Hans van Gorkum en Robert Rood.\
+Graag installeren van de software op de bijgeleverde vinkenlijst. voor de zekerheid: RH7 APS/DBS4; JAVA8, Oracle weblogic 12.2.1.4; Oracle HTTP 12.2.1.4; MQ9.2; Oracle client en DB 19c. MQ9.2 opnemen in het MQ Hotel, database graag ook in het DB-hotel|\N
+node|aanvraag|0|41216|41216|und|0|3 aparte machines aanvragen |\N
+node|aanvraag|0|41217|41217|und|0|De Oracle inrichting mag gelijk aan een eerdere aanvraag 41211 waarover al contact is geweest tussen Hans Tuin en Robert Koote (m.b.t. oracle cluster e.d.)|\N
+node|aanvraag|0|41219|41219|und|0|BELANGRIJK: Deze ontwikkelservers moeten in de AM zone worden aangemaakt!!!|\N
+node|aanvraag|0|41222|41222|und|0|Tevens ook een Oracle DB in het Oracle cluster bij DXC|\N
+node|aanvraag|0|41224|41224|und|0|gaarne 4keer|\N
+node|aanvraag|0|41225|41225|und|0|Gaarne 9 keer hetzelfde|\N
+node|aanvraag|0|41230|41230|und|0|Zie de installatiehandleiding, er is attached storage (extra disk) nodig van 150GB naast de systeemschijf van 200GB.|\N
+node|aanvraag|0|41232|41232|und|0|Zoals per email met Totem team afgestemd, hierbij de specificatie van OS/SQL in de opmerkingen:\
+\
+DXC Server 1: Windows Server 2019\
+DXC Server 2: Windows Server 2019 + SQL Server 2019\
+\
+Er loopt inmiddels een HLD traject bij DXC voor Acceptatie en Productie met dezelfde versie van OS/Sqlserver. Nadat deze machines zijn opgeleverd zal ik een verzoek indienen om de bestaande 2016 machines op te heffen.|\N
+node|aanvraag|0|41233|41233|und|0|Gaarne deze configuratie in O DXC 10 keer!|\N
+node|aanvraag|0|41234|41234|und|0|LET op: OS w2019, kan ik niet selecteren. Want deze is van DXC.\
+Database SqlServer 2017 in database-hotel. Naam is niet van belang.\
+D-schijf 100 GB|\N
+node|aanvraag|0|41237|41237|und|0|Letop!\
+- Groep dama-admin-o heb ik vandaag aangevraagd onder ticket RQ-449676\
+- Graag Apache Tomcat 9.0 ipv 8.0|\N
+node|aanvraag|0|41238|41238|und|0|Graag laatste OS-versie installeren (RedHat 7.9 Maipo), en alle leden van het SystemTeam toegang verlenen. In UWPOL hebben we deze groep: "UWPOL\\UWVSPG-UG-UWV-O-PWS-ADMINS_uwv"|\N
+node|aanvraag|0|41239|41239|und|0|Graag laatste OS-versie installeren (RedHat 7.9 Maipo), en alle leden van het SystemTeam toegang verlenen. In UWPOL hebben we deze groep: "UWPOL\\UWVSPG-UG-UWV-O-PWS-ADMINS_uwv"|\N
+node|aanvraag|0|41241|41241|und|0|LetOP! adgroep rsp-admin-o heb ik vandaag aangevraagd, mogelijk dat die er nog niet is, graag even checken zie RQ-450232. Tevens hebben deze gebruikers vandaag ook UCRA-O/UCRA-T aangevraagd in ABS.|\N
+node|aanvraag|0|41242|41242|und|0|LetOP! graag Windows Server 2019 \
+(Dit wordt de Azure DevOps Server 2019 DXC ontwikkelomgeving)|\N
+node|aanvraag|0|41243|41243|und|0|Graag Windows Server 2019 als OS. Let Op de groep openvms-admin-o heb ik vandaag aangevraagd onder ticket RQ-450978|\N
+node|aanvraag|0|41244|41244|und|0|- Graag Windows Server 2019\
+- Kan er tevens een DNS entry geregistreerd worden voor deze machine: buildserver01.o-dc.ba.uwv.nl |\N
+node|aanvraag|0|41245|41245|und|0|Gaan om 15 servers in het DXC-O domein. Het DXC aanvraagformulier is als bijlage toegevoegd bij de "Technische requirements" Met Jochem Bermon afgesproken dat we dit op deze manier mogen aanvragen.|\N
+node|aanvraag|0|41246|41246|und|0|Graag W2019|\N
+node|aanvraag|0|41247|41247|und|0|gaarne data en log gescheiden op disks|\N
+node|aanvraag|0|41249|41249|und|0|Aanmaken bij OToD IBM|\N
+node|aanvraag|0|41251|41251|und|0|Server aanvragen geschieden via DXC.|\N
+node|aanvraag|0|41252|41252|und|0|Verzoek om Windows Server 2019 incl SQL Server 2019 inclusief Reporting en Analysis services. Harddisks volgens SQL server standaard met data/log etc. Graag de data schijf 100GB|\N
+node|aanvraag|0|41258|41258|und|0|Graag IIS ook installeren incl recente versie MQ|\N
+node|aanvraag|0|41259|41259|und|0|Tomcat 9.x\
+WebSphere MQ\
+JDK Azul Zulu 1.8|\N
+node|aanvraag|0|41260|41260|und|0|Dit betreft de aanvraag voor de PDIapplicatie. Er is geen afstemming geweest met Jochem aangezien Jochem op vakantie is.|\N
+node|aanvraag|0|41261|41261|und|0|Gaan om 1 database server in het DXC-O domein. Het DXC aanvraagformulier is als bijlage toegevoegd bij de\
+"Technische requirements". Hierop staan 2 db-servers: eentje voor DXC-O domein en eentje voor DXC-T domein. \
+Betreft servers identiek aan andere werk.nl db-servers, zoals ook aangegeven in de bijlage. Gelieve ook toegnag tot servers in te richten conform recent aangevraagd O6 en T6 db-servers (uwva3vlounm0035 en uwva3vltunm0051)|\N
+node|aanvraag|0|41262|41262|und|0|- Aanmaken op DXC AM domein\
+- Windows server 2019 als OS graag!\
+|\N
+node|aanvraag|0|41263|41263|und|0|WINDOWS 2019\
+\
+Graag 5 maal|\N
+node|aanvraag|0|41264|41264|und|0|Gaan om 1 RHEL7 server in het DXC-O domein. Het DXC aanvraagformulier is als bijlage toegevoegd bij\
+het "Architectuur overzicht". \
+Hierop staan 2 servers vermeld: eentje voor DXC-O domein en eentje voor DXC-T\
+domein. Deze servers identiek aan de uwva2vlounm0021.O-dc.ba.uwv.nl, zoals ook aangegeven in de bijlage.\
+Gelieve ook toegang tot servers in te richten voor alle leden van het System Team (conform de uwva2vlounm0021 bijvoorbeeld)\
+\
+|\N
+node|aanvraag|0|41266|41266|und|0|Graag ook een Development database:\
+•	Naam: DAVB\
+•	Size: 50GB\
+•	Oracle Versie: 12c\
+\
+Voor deze applicatie zijn al eerder servers aangevraagd (zie aanvraag 41255). Hiervan blijkt nu dat de OS versie niet klopt. De servers uit de eerder aanvraag kunnen worden verwijderd.\
+|\N
+node|aanvraag|0|41268|41268|und|0|Gaat in totaal om 4 servers, waarvan 1 in het DXC O-domein. Het DXC aanvraagformulier is als bijlage toegevoegd bij de\
+"Technische requirements". \
+Voor de O-omgeving betreft 1 RHEL applicatieserver, identiek aan server zoals die 2 maand geleden is opgeleverd (uwva2vlounm0095)\
+Gelieve ook toegang tot servers in te richten voor alle mensen van het System Team.|\N
+node|aanvraag|0|41269|41269|und|0|.NET framework 4.7|\N
+node|aanvraag|0|41270|41270|und|0|Graag de volgende software versies gebruiken:\
+- Oracle Client 19c\
+- IIS 10\
+- .Net Framework 4.8\
+\
+Graag ook een database aanmaken op het database hotel:\
+- Naam: DKBS\
+- Grootte: 10GB\
+- Versie: 19c\
+\
+Voor toegangsrechten zie kopje infrastructuur|\N
+node|aanvraag|0|41271|41271|und|0|Graag in de AM zone aanmaken. Deze server wordt de nieuwe CI/CD build server voor de Agifall applicaties. Graag zsm opleveren.|\N
+node|aanvraag|0|41272|41272|und|0|Graag een Windows 2019 server.\
+Deze server is bedoeld als ontwikkelwerkplek totdat PWS live gaat. Er gaan 2 ontwikkelaars op werken, namelijk Marc Haasnoot en Martinus Ouwehand. Ik verwacht dus dat er ook 2 user calls nodig zijn.\
+\
+De Developers zullen toegang moeten hebben tot de nieuwe ontwikkelservers en databases van PDWW en WTL|\N
+node|aanvraag|0|41273|41273|und|0|standaard windows server geen extra schijf.   Ik neem aan dat dit aan de DXC kant wordt geïnstalleerd ??|\N
+node|aanvraag|0|41277|41277|und|0|Voor software versies zie Software Vinkenlijst.\
+Graag ook een database aanmaken op het database hotel: \
+- Naam: OODS\
+- Grootte: 30GB \
+- Versie: 19c \
+Voor toegangsrechten zie kopje applicatie\
+|\N
+node|aanvraag|0|41278|41278|und|0|Voor software versies zie Software Vinkenlijst. \
+Graag ook 2 databases aanmaken op het database hotel (MS SQL): \
+- Naam: DUGC\
+- Grootte: 10GB \
+- Versie: Microsoft SQL Server 2017 Enterprise Edition\
+\
+- Naam: DEPM\
+- Grootte: 10GB \
+- Versie: Microsoft SQL Server 2017 Enterprise Edition\
+Voor toegangsrechten zie kopje applicatie\
+|\N
+node|aanvraag|0|41279|41279|und|0|bijgevoegde excelsheet toont alle benodigde OTOD-O en OTOD-T servers (incl CPU, MEM, Storage)\
+Let op: in de excelsheet wordt ook een instance in het DB-hotel gevraagd met DB-naam O1PPLS (meer info was niet nodig begreep ik van Jochem)\
+Let op: in de sheet is een prioriteit van levering opgegeven. Daardoor staan de OTOD-O en OTOD-T servers door elkaar. Wees daar alert op.|\N
+node|aanvraag|0|41280|41280|und|0|Gaat in totaal om 2 database servers, waarvan 1 in het DXC O-domein. Het DXC aanvraagformulier is als bijlage\
+toegevoegd bij de "Technische requirements". Voor de O-omgeving betreft 1 RHEL db-server (identiek aan server uwvm3vlounm0002).\
+\
+Gelieve ook toegang tot server in te richten voor alle mensen van het System Team|\N
+node|aanvraag|0|41281|41281|und|0|Gaarne win2019, met IIS en MQ en .Net core 3.1 Runtime Bundle.  en deze machine 3X, dau-admin-o moet nog aangemaakt worden met Ngr030, rwa070. En een database SQL server 2019 in het database hotel\
+\
+|\N
+node|aanvraag|0|41283|41283|und|0|Het gaat hier om 8 Oracle databases (EE 12c) binnen de Secure-Zone-O van OToD DEV DXC. De precieze aanvraag is terug te vinden in "DB_aanvraag_Secure_zone-O_OPB-BAW.pdf" welke als bijlage is toegevoegd.|\N
+node|aanvraag|0|41284|41284|und|0|Gaat in totaal om 3 servers, waarvan 1 in het DXC O-domein. Het DXC aanvraagformulier is als bijlage\
+toegevoegd bij de "Technische requirements". Voor de O-omgeving betreft 1 RHEL applicatieserver,\
+identiek aan server zoals die eerder is opgeleverd (uwva2vlounm0095). \
+Gelieve ook toegang tot servers in te richten voor alle mensen van het System Team.|\N
+node|aanvraag|0|41285|41285|und|0|Gaat om in totaal 2 RHEL applicatie servers: eentje in O-domein en eentje in T-domein. Het aanvraagformulier is bijgevoegd onder architectuur overzicht. Gelieve toegang tot de servers in te regelen voor alle mensen uit het System TEam.\
+|\N
+node|aanvraag|0|41286|41286|und|0|Graag win 2019\
+Graag 10 X in O |\N
+node|aanvraag|0|41288|41288|und|0|Graag win2019\
+en 3 maal|\N
+node|aanvraag|0|41292|41292|und|0|Graag 2 extra volumes aanmaken. De D: schijf zal voor intern serverbeheer gebruikt worden, de E: schijf zal gebruikt worden om o.a. WSUS packages op neer te zetten. Reden: er is voor Windows Defender gekozen om VDI's te beveiligen. Om bandbreedte te besparen en controle over de updates van zowel Defender als de andere Microsoft producten, is het belangrijk zelf een WSUS systeem op te zetten.|\N
+node|aanvraag|0|41293|41293|und|0|Graag toegang en SUDO rechten ( NOPASSWD) voor groep Systemteam.  Graag middels LVM 1 groot volume maken van 5 TB\
+Deze nieuwe servers zal fungeren als NF server voor het opslaan van backups en is ter vervanging van uwvm2vlounm0024 en uwvm2vlounm0025, deze servers kunnen jullie eventueel als voorbeeld nemen.\
+|\N
+node|aanvraag|0|41295|41295|und|0|Graag Windows 2019 als OS installeren|\N
+node|aanvraag|0|41296|41296|und|0|Het gaat om in totaal 6 RHEL servers, waarvan 3 in het O-domein en 3 in het T-domein. De specificaties van de servers is als XLS-bestand opgenomen in het architectuur overzicht. Gelieve toegang tot servers in te richten voor alle mensen van het System Team.|\N
+node|aanvraag|0|41297|41297|und|0|Graag 2 maal win 2019|\N
+node|aanvraag|0|41298|41298|und|0|Graag Redhat Linux 7.9\
+\
+Graag ook 1 database aanmaken op het database hotel: - Naam: DPOLISBRON- Grootte: 20GB - Versie: Oracle 19c \
+Voor toegangsrechten zie kopje applicatie|\N
+node|aanvraag|0|41299|41299|und|0|Graag Windows 2019 Graag ook 1 database aanmaken op het database hotel: - Naam: DUPA- Grootte: 15GB - Versie: Oracle 19c Voor toegangsrechten zie kopje applicatie|\N
+node|aanvraag|0|41301|41301|und|0|graag 3 win2019 systemen|\N
+node|aanvraag|0|41302|41302|und|0|Voor iedereen zelfde specificaties alstublieft. er zijn 11 servers nodig met dezelfde specs.|\N
+node|aanvraag|0|41303|41303|und|0|Gaan om in totaal 5 RHEL7 servers, waarvan 2 in het DXC-O domein. Het DXC aanvraagformulier is als bijlage toegevoegd bij het "Architectuur overzicht". Hierop staan alle 5 servers vermeld: 2 voor het O-domein en 3 voor het T-domein. \
+De 2 O-servers identiek aan de uwva2vlounm0109.O-dc.ba.uwv.nl, zoals ook aangegeven in de bijlage. Gelieve ook toegang tot servers in te richten voor alle leden van het System Team (conform de uwva2vlounm0109 bijvoorbeeld)|\N
+node|aanvraag|0|41304|41304|und|0|De server moet gelijk worden ingericht als de uwva3vltunm0084, maar dan in de Ontwikkelomgeving. Dries heeft aangegeven dat de DB server in het DB hotel cluster moet worden opgenomen ivm licentie voordelen. Als dit in de Test omgeving niet is gedaan dan hier ook niet.|\N
+node|aanvraag|0|41306|41306|und|0|Deze Linux server is de DXC variant van de huidige vmd010140178222 bij Kyndryl|\N
+node|aanvraag|0|41311|41311|und|0|Graag Windows 2019 en 4 User calls zodat ze tegelijk op de server kunnen werken|\N
+node|aanvraag|0|41312|41312|und|0|REDHAT 8.4\
+|\N
+node|aanvraag|0|41313|41313|und|0|Gaat om in totaal 8 Linux server met RHEL8. In totaal 4 servers in het O-domein en 4-servers in het T-domein. In het architectuuroverzicht is een XLS opgenomen met de specificaties van de betreffende servers.\
+Graag ook toegang tot deze servers inregelen voor de mensen van het System Team en projectmedewerkers (mko290, rha157 en bbo141)|\N
+node|aanvraag|0|41314|41314|und|0|JBOSS-EAP 7.1, oracle java jdk  1.8.0_161,\
+Wij zijn bezig met licentiebeheer, aangegeven is dat het parallel aan elkaar kan lopen. De Zomer Oracle database zal geplaatst worden in het DB Hotel van DXC.\
+Beheer verklaring kon niet worden bijgevoegd in het juiste vakje, vandaar onderin erbij gezet.|\N
+node|aanvraag|0|41315|41315|und|0|Beste Collega,\
+\
+Voor project IBEL is het nodig om een O-OTOD te hebben voor EGV applicatie, het idee is om dit gelijk te maken aan de huidige T-OTOD EGV.\
+\
+We zijn bezig met Licentiebeheer voor akkoord, maar begrepen dat het parallel mag lopen. Gewenste middleware:\
+\
+1. IBM MQ(Version: 9.0.0.4, Level: p900-004-180504)\
+2. Oracle Java JDK 1.8.0_181 \
+\
+PDF Checklist voor Beheer verklaring upload werkte niet, dus via 1 van de andere upload deze bijgevoegd.\
+\
+Groet,\
+Niels\
+|\N
+node|aanvraag|0|41316|41316|und|0|Oracle DB van deze Spiegel omgeving --> minimaal V 12.1 (of hoger)|\N

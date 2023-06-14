@@ -1,0 +1,40 @@
+ <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" th:fragment="menu">
+    <li class="nav-item" sec:authorize="hasAuthority('admin')"><a class="nav-link" href="/request/submitted" th:href="@{/request/all}">Alle ingediende aanvragen</a></li>
+    <li class="nav-item" sec:authorize="hasAuthority('admin')"><a class="nav-link" href="/calculation" th:href="@{/calculation}">Alle berekeningen</a></li>
+    <li class="nav-item" sec:authorize="hasAuthority('admin')"><a class="nav-link" href="/project" th:href="@{/project}">Projecten</a></li>
+    <li class="nav-item" sec:authorize="hasAuthority('admin')"><a class="nav-link" href="/server" th:href="@{/server}">Servers</a></li>
+    <!--/* 
+    <li class="nav-item"><a class="nav-link" href="/disk" th:href="@{/disk}">Extra schijven</a></li>
+    <li class="nav-item"><a class="nav-link" href="/tsam-service-request" th:href="@{/tsam-service-request}">Service-requests</a></li>
+    <li class="nav-item"><a class="nav-link" href="/importFromTsam" th:href="@{/importFromTsam}">Import van TSAM</a></li>
+    <li class="nav-item"><a class="nav-link" href="/os" th:href="@{/os}">OS'en beheren</a></li>
+    <li class="nav-item"><a class="nav-link" href="/availableIpAddresses" th:href="@{/availableIpAddresses}">Beschikbare IP-adressen</a></li>
+    <li class="nav-item"><a class="nav-link" href="/availableIpAddresses/paged" th:href="@{/availableIpAddresses/paged}">Beschikbare IP-adressen</a></li>
+    <li class="nav-item"><a class="nav-link" href="/usedIpAddress" th:href="@{/usedIpAddress}">Gebruikte ip-adressen</a></li>               
+     */-->
+    <li class="nav-item" sec:authorize="hasAuthority('admin')"><a class="nav-link" href="/project/new" th:href="@{/project/new}">Maak project aan</a></li>
+    <!--/* 
+    <li class="nav-item"><a class="nav-link" href="/server/new" th:href="@{/server/new}">Server aanmaken</a></li>
+    <li class="nav-item"><a class="nav-link" href="/disk/new" th:href="@{/disk/new}">Extra schijf aanmaken</a></li>
+    <li class="nav-item"><a class="nav-link" href="/usedIpAddress/new" th:href="@{/usedIpAddress/new}">Gebruikt ip-adres aanmaken</a></li>
+    <li class="nav-item"><a class="nav-link" href="/roles" th:href="@{/roles}">Reset OTOD-wachtwoord</a></li>
+     */-->
+    <li class="nav-item"><a class="nav-link" href="/request/new" th:href="@{/request/new}">Vraag OTOD-omgeving aan</a></li>
+    <!--/* 
+    <li class="nav-item"><a class="nav-link" class="navbar-brand" href="/myRequests" th:href="@{/myRequests}">Mijn aanvragen</a></li>
+    <li class="nav-item"><a class="nav-link" class="navbar-brand" href="/logout" th:href="@{/logout}">Uitloggen</a></li>
+</ul>
+            
+<ul class="nav navbar-top-links navbar-left" th:fragment="menu2">
+     <li class="nav-item">
+         <a class="nav-link" href="/users" th:href="@{/users}">Vraag OTOD-omgeving aan</a>
+     </li> 
+     <sec:authorize access="hasRole('ROLE_ADMIN')">
+  */-->
+     <li class="nav-item" sec:authorize="hasAuthority('admin')">
+     	<a class="nav-link" href="/admin" th:href="@{/admin}">Beheer</a>
+     </li>
+     <li class="nav-item">
+     	<a class="nav-link" href="/user/resetPassword" th:href="@{/user/resetPassword}">Wijzig wachtwoord</a>
+     </li>
+</ul>

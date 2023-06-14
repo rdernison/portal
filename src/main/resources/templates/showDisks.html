@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Extra harde schijven')" />
+	<body>
+	    <div id="wrapper">
+			<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			<div id="page-wrapper">
+				<div class="row">
+				<div id="navbar-wrapper" class="collapse navbar-collapse">
+	 		
+		 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+				        <div th:replace="fragments/navbar-header :: header"></div>
+			        </nav>   <!-- /.navbar-static-top -->
+			        </div>
+		        </div>			
+				<div class="row">
+	                <div class="col-lg-12">
+	                	<div id="navbar" class="collapse navbar-collapse">
+				
+			
+						<h1 class="h3 mb-2 text-gray-800">Extra harde schijven</h1>
+					<form method="get" action="#" th:action="@{/disk/find}" th:object="${disk}">
+							<table>
+								<tr>
+									<td>Computernaam</td>
+									<td>Bestandssysteem</td>
+								</tr>
+								<tr>
+									<td><input type="text" th:field="*{computerName}" /></td>
+									<td><input type="text" th:field="*{fileSystem}" /></td>
+									<td><input type="submit" value="Zoek" /></td>
+								</tr>
+							</table>
+							</form>
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+						<tr>
+							<th>Computernaam</th>
+							<th>Schijf ID</th>
+							<th>Filesysteem</th>
+							<th>Mount pad</th>
+							<th>Pool naam</th>
+							<th>Schijfgrootte (MB)</th>
+							<th>Volume naam</th>
+							<th>Volumegroep</th>
+							<th>Status</th>
+						</tr>
+				
+						<tr th:each="disk, iStat : ${disks}"s>
+							<td th:text="${disk.computerName == '' ? disk.server.name : disk.computerName}" />
+							<td th:text="${disk.diskId}" align="right"/>
+							<td th:text="${disk.fileSystem}" />
+							<td th:text="${disk.mountPoint}" />
+							<td th:text="${disk.poolName}" />
+							<td th:text="${disk.size}" align="right"/>
+							<td th:text="${disk.volumeName}" />
+							<td th:text="${disk.volumeGroup}" />
+							<td th:text="${disk.status == 0 ? 'Operational' : 'Decommissioned'}" />
+						</tr>
+					</table>
+	                <!-- /.col-lg-12 -->
+	                </div>
+	            </div>
+	            <!-- /.row -->
+	        </div>
+	        <!-- /#page-wrapper -->
+	 
+	    </div>
+	    
+	</body>
+</html>

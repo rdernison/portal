@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Mijn aanvragen')" />
+	<body>
+<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container" style="float: left"> 
+								<h1 class="h3 mb-2 text-gray-800">Mijn aanvragen</h1>
+					<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<tr>
+								<th>Titel</th>
+								<th>Opgepakt door</th>
+								<th>OToD-projectnaam</th>
+								<th>Datum van inzending</th>
+								<th>Gewenste opleverdatum</th>
+								<th>Opgeleverd</th>
+								<th>Naam serviceaanvrager</th>
+								<th>Naam budgethouder</th>
+								<th>Getekend contract</th>
+							</tr>
+							<tr th:each="request, iStat : ${myRequests}">
+								<td><a th:href="@{'/request/editMine/' + ${request.id}}" th:text="${request.title == null ? request.applicationName : request.title}"></a></td>
+								<td th:text="${request.employee}"/>
+								<td th:text="${request.projectName}"/>
+								<td th:text="${#temporals.format(request.requestDate, 'dd-MM-yyyy')}"/>
+								<td th:text="${request.desirableDeliveryDate}"/>
+								<td th:text="${request.deliveryDate}"/>
+								<td th:text="${request.nameServiceRequester}"/>
+								<td th:text="${request.nameBudgetOwner}"/>
+								<td th:text="${request.signedContract}"/>
+							</tr>
+						</table>
+						</div>
+   	</body>
+</html>

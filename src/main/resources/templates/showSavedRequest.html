@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Opgeslagen aanvragen')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+				
+			
+						<h1 class="h3 mb-2 text-gray-800">Aanvraag</h1>
+						<table>
+							<tr>
+								<th>Titel</th>								
+								<td><a th:href="@{'/request/' + ${request.id}}" th:text="${request.title == null ? request.applicationName : request.title}"></a></td>
+							</tr>
+							<tr>
+								<th>Opgepakt door</th>
+								<td th:text="${request.employee}"/>
+							</tr>
+							<tr>
+								<th>OToD-projectnaam</th>
+								<td th:text="${request.projectName}"/>
+							</tr>
+							<tr>
+								<th>Datum van inzending</th>
+								<td th:text="${request.requestDate}"/>
+							</tr>
+							<tr>
+								<th>Gewenste opleverdatum</th>
+								<td th:text="${request.desirableDeliveryDate}"/>
+							</tr>
+							<tr>
+								<th>Opgeleverd</th>
+								<td th:text="${request.deliveryDate}"/>
+							</tr>
+							<tr>
+								<th>Naam serviceaanvrager</th>
+								<td th:text="${request.nameServiceRequester}"/>
+							</tr>
+							<tr>
+								<th>Naam budgethouder</th>
+								<td th:text="${request.nameBudgetOwner}"/>
+							</tr>
+							<tr>
+								<th>Kostenplaats</th>
+								<td th:text="${request.costCenterObj != null
+								? request.costCenterObj.code + ' ' + request.costCenterObj.description
+								: request.costCenter}"/>
+							</tr>
+							<tr>
+								<th>Getekend contract</th>
+								<td th:text="${request.signedContract}"/>
+							</tr> 
+											</table>
+											</div>
+	
+	</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+	    <script src="../../../resources/js/jquery-1.11.0.min.js"
+	        data-th-href="@{/resources/js/jquery-1.11.0.min.js}"></script> -->
+	
+		<!-- Include all compiled plugins (below), or include individual files as needed
+	    <script src="../../../resources/js/bootstrap-3.1.1.min.js"
+	        data-th-href="@{/resources/js/bootstrap-3.1.1.min.js}"></script> -->
+	
+		<!-- Core Scripts - Include with every page
+	    <script src="../../../resources/js/plugins/metisMenu/jquery.metisMenu.js"
+	        data-th-href="@{/resources/js/plugins/metisMenu/jquery.metisMenu.js}"></script> -->
+	
+		<!-- SB Admin Scripts - Include with every page
+	    <script src="../../../resources/js/sb-admin.js"
+	        data-th-href="@{/resources/js/sb-admin.js}"></script> -->
+	 </body>
+</html>

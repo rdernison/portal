@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Geslaagde loginpogingen')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+				
+				
+			
+						<h1 class="h3 mb-2 text-gray-800">Succesvolle logins</h1>
+						<!-- 
+					<form method="get" action="#" th:action="@{/disk/find}" th:object="${disk}">
+							<table>
+								<tr>
+									<td>Computernaam</td>
+									<td>Bestandssysteem</td>
+								</tr>
+								<tr>
+									<td><input type="text" th:field="*{computerName}" /></td>
+									<td><input type="text" th:field="*{fileSystem}" /></td>
+									<td><input type="submit" value="Zoek" /></td>
+								</tr>
+							</table>
+							</form> -->
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+						<tr>
+							<th>Username</th>
+							<th>Ip-adres</th>
+							<th>Tijd</th>
+						</tr>
+				
+						<tr th:each="loginSuccess, iStat : ${loginSuccesses}">
+							<td th:text="${loginSuccess.user?.username}" />
+							<td th:text="${loginSuccess.sourceIp}" />
+							<td th:text="${loginSuccess.creationDate}" />
+						</tr>
+					</table>
+	                <!-- /.col-lg-12 -->
+	                </div>
+	    
+	</body>
+</html>

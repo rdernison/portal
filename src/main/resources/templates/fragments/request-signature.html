@@ -1,0 +1,35 @@
+							<div class="panel panel-warning">
+								<div class="panel-heading" id="heading7" role="tab">
+									<h3 class="panel-title">
+										<a aria-controls="signature" aria-expanded="false"
+											class="collapsed" data-parent="#accordion"
+											data-toggle="collapse" href="#signature" role="button">Ondertekening<span
+											class="glyphicon glyphicon-collapse-down"></span></a>
+									</h3>
+								</div>
+								<div aria-labelledby="heading7"
+									class="panel-collapse collapse" id="signature"
+									role="tabpanel">
+									<div class="panel-body">
+										<table>
+											<tr>
+												<th>Opmerkingen</th>
+												<td><input type="text" th:field="*{comment}"/></td>
+											</tr>
+											<tr>
+												<th>Getekend beheerdocument</th>
+												<td><input type="file" name="file" th:required="required"/></td>
+												<td><a th:href="'/request/files/' + ${request.signedContract}" th:text="${request.signedContract}" /></td>												
+											</tr>
+											<tr>
+												<th>Ja, de licenties voor middleware zijn akkoord door ICT licentie beheer *</th>
+												<td><input type="checkbox" th:field="*{licensesAccepted}" th:required="required" /></td>
+											</tr>
+											<tr>
+												<th>Aanvraag opslaan (en pas later indienen)</th>
+												<td><input type="checkbox" th:field="*{saveToEdit}"/></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>

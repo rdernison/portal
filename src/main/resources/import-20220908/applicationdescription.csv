@@ -1,0 +1,229 @@
+node|aanvraag|0|25986|25986|und|0|Identiek aan de al bestaande testserver voor Fleks (AIX, 10.140.176.17).\
+Recente snapshot kan gebruikt worden om kopie te trekken.|\N
+node|aanvraag|0|26013|26013|und|0|ModusOne brievenserver gelijk aan de overige ModusOne servers op OTOD|\N
+node|aanvraag|0|26302|26302|und|0|UWV Persoons Administratie|\N
+node|aanvraag|0|26307|26307|und|0|Graag voorzien van :\
+- SQLSERVER 2012\
+- .NET4.5\
+- VISUAL STUDIO 2015\
+- IIS |\N
+node|aanvraag|0|26310|26310|und|0|UWV Persoons Administratie|\N
+node|aanvraag|0|26506|26506|und|0|HGO is een .net-applicatie voor een archiveren en ontsluiten van historische gegevens. Het is een web-applicatie met een Oracle 11g-database. Ook is er een webservice koppeling via de KlantBeeldServer met Suwinet-Inkijk|\N
+node|aanvraag|0|26507|26507|und|0|PDI: PremieDIfferentiatie\
+Ondersteuning afdeling bijzondere premietaken bij vaststellen werkgeverpremie tbv de belastingdienst.|\N
+node|aanvraag|0|26627|26627|und|0|Deze is ten behoeve van testwerkzaamheden van het Lab ivm project DWBB|\N
+node|aanvraag|0|26814|26814|und|0|Werk.nl / Sonar / Elise|\N
+node|aanvraag|0|26916|26916|und|0|De Werk.nl applicatie plus supporting servers voor MQ en Hi postcode.|\N
+node|aanvraag|0|27077|27077|und|0|TFS2015|\N
+node|aanvraag|0|27121|27121|und|0|HI Postcode server tbv Werk.nl|\N
+node|aanvraag|0|27149|27149|und|0|Tijdelijke server tbv de initele inrichting van de diverse omgevingen.|\N
+node|aanvraag|0|27229|27229|und|0|Management Informatie Voorziening is een Oracle Database Applicatie|\N
+node|aanvraag|0|27230|27230|und|0|Management Informatie Voorziening is een Oracle Database Applicatie|\N
+node|aanvraag|0|27276|27276|und|0|Kale Windows 2012 R server met SQL Server 2012 en IIS|\N
+node|aanvraag|0|27443|27443|und|0|GCU, pakket om correspondentie aan te maken en te verwerken.|\N
+node|aanvraag|0|27527|27527|und|0|BizTalk Processing server|\N
+node|aanvraag|0|27647|27647|und|0|Een set .NET applicaties tbv UWV.NL|\N
+node|aanvraag|0|27828|27828|und|0|Oracle Peoplesoft ERP 9.2|\N
+node|aanvraag|0|27833|27833|und|0|nvt|\N
+node|aanvraag|0|27907|27907|und|0|Dit zijn de support servers (TFS, Nuget en buildservers) voor de K&S omgeving|\N
+node|aanvraag|0|28343|28343|und|0|De werk.nl website. Er zijn 2 TO omgevingen ingericht. Dit is de 3e en laatste O omgeving.|\N
+node|aanvraag|0|28448|28448|und|0|WBS Ketentestomgeving|\N
+node|aanvraag|0|28449|28449|und|0|Dit is de aanvraag voor de 5 missende servers.|\N
+node|aanvraag|0|28713|28713|und|0|Oracle PeopleSoft Financials & Human Capital Management|\N
+node|aanvraag|0|28720|28720|und|0|Brievensysteem van B&B|\N
+node|aanvraag|0|28737|28737|und|0|Elise 6.6|\N
+node|aanvraag|0|28752|28752|und|0|N.v.t. Er wordt een AIX server aangevraagd. Verder TET zal deze server via een clone methode als T2 inrichten.\
+De verwachting dat op deze applicatieserver volgende applicaties komen staan:\
+Polis Bron, \
+Polis Database,\
+Polis Leveren, \
+Polis Bulk Leveren, \
+PLM,\
+ABO,\
+PWS,\
+UPA\
+\
+|\N
+node|aanvraag|0|28961|28961|und|0|Virtuele werkplek voor John Wolthuis (JWO066)|\N
+node|aanvraag|0|29068|29068|und|0|Monitoring tool|\N
+node|aanvraag|0|29103|29103|und|0|Oracle Service Bus. Deze wordt 'los geweekt' uit Werk.nl en als aparte entiteit neergezet.|\N
+node|aanvraag|0|29104|29104|und|0|Oracle Business Intelligence|\N
+node|aanvraag|0|29122|29122|und|0|Loket Individuele Reactie Afhandeling|\N
+node|aanvraag|0|29295|29295|und|0|Tooling voor de programmeurs|\N
+node|aanvraag|0|29373|29373|und|0|HGO is een .net applicatie voor het opslaan en inkijken van historische data gedurende de bewaartermijnen. HGO levert ook via een webservice gegevens aan aan de SUWINET-keten (via KBS)|\N
+node|aanvraag|0|29547|29547|und|0|Virtualisation tool|\N
+node|aanvraag|0|29658|29658|und|0|Sonar|\N
+node|aanvraag|0|29659|29659|und|0|LIRA|\N
+node|aanvraag|0|29661|29661|und|0|Sonar|\N
+node|aanvraag|0|29830|29830|und|0|Oracle Identity Management|\N
+node|aanvraag|0|30124|30124|und|0|Oracle Access Manager, deze machine moet dus in het Oracle cluster geplaatst worden.|\N
+node|aanvraag|0|30125|30125|und|0|java IDE|\N
+node|aanvraag|0|30255|30255|und|0|Er wordt een AIX server aangevraagd, TET zal deze server inrichten met WGA-01, LA-01 en UPA/LDR modules. Er worden tevens Polis/Bron en UPA/LDR database instances van het DB Hotel aangevraagd.  \
+Voorgestelde machinenaam is  T9|\N
+node|aanvraag|0|30331|30331|und|0|Applicaties installeren wij zelf.|\N
+node|aanvraag|0|30488|30488|und|0|Software Inputmanagement DIV|\N
+node|aanvraag|0|30541|30541|und|0|BizTalk|\N
+node|aanvraag|0|30606|30606|und|0|BizTalk|\N
+node|aanvraag|0|30623|30623|und|0|Management Informatie Voorziening|\N
+node|aanvraag|0|30667|30667|und|0|Werk.nl Portal transitie van Oracle naar .NET|\N
+node|aanvraag|0|30672|30672|und|0|Windows .NET Web server|\N
+node|aanvraag|0|30673|30673|und|0|BizTalk|\N
+node|aanvraag|0|30859|30859|und|0|Web applicatie voor interne procesafhandeling|\N
+node|aanvraag|0|30885|30885|und|0|Vergunningen applicatie|\N
+node|aanvraag|0|31210|31210|und|0|Zie de Technical User Guide|\N
+node|aanvraag|0|31218|31218|und|0|Testomgeving van TET|\N
+node|aanvraag|0|31265|31265|und|0|IBM Operational Decision Manager 8.9.0|\N
+node|aanvraag|0|35072|35072|und|0|Testomgeving voor TET|\N
+node|aanvraag|0|35095|35095|und|0|WBS voor TT4|\N
+node|aanvraag|0|35135|35135|und|0|NVT|\N
+node|aanvraag|0|35177|35177|und|0|Betalingsonmacht behandeling systeem|\N
+node|aanvraag|0|35273|35273|und|0|MQ Server|\N
+node|aanvraag|0|35280|35280|und|0|Redis - Distributed Cashing|\N
+node|aanvraag|0|35307|35307|und|0|n.v.t. |\N
+node|aanvraag|0|35368|35368|und|0|De huidige WBS/IDM server heeft AIX als OS. Dit moet Linux worden net als de overige straten.|\N
+node|aanvraag|0|35452|35452|und|0|Siebel documenten server|\N
+node|aanvraag|0|35660|35660|und|0|Microsoft Office met in ieder geval Word, Excel, PowerPoint|\N
+node|aanvraag|0|35661|35661|und|0|Microsoft Office met in ieder geval Word, Excel, PowerPoint|\N
+node|aanvraag|0|35682|35682|und|0|SI MQ|\N
+node|aanvraag|0|35830|35830|und|0|BizTalk|\N
+node|aanvraag|0|35854|35854|und|0|SJAAK is een applicatie die zorg draagt voor de vastlegging van (technische) testgevallen en argumenten. Tevens verzorgt de applicatie de aansturing van de robots die de technische tests uitvoeren.|\N
+node|aanvraag|0|36013|36013|und|0|Oracle Service Bus|\N
+node|aanvraag|0|36017|36017|und|0|Financieel systeem van UWV|\N
+node|aanvraag|0|36019|36019|und|0|java IDE|\N
+node|aanvraag|0|36166|36166|und|0|Applicaties installeren wij zelf.|\N
+node|aanvraag|0|36176|36176|und|0|BPMone Case management Systeem van Bezwaar en Beroep|\N
+node|aanvraag|0|36202|36202|und|0|Oracle PeopleSoft ELM 9.2|\N
+node|aanvraag|0|36271|36271|und|0|Ihkv GOH MOM dienen de ontwikkelomgevingen van het BIT-team (onderdeel SI) ingericht te worden. Deze worden door SI-BizTalk zelf ingericht. Daarom is alleen server (5 stuks) nodig volgens opgegeven specs met daarop windows 2016 als OS.|\N
+node|aanvraag|0|36539|36539|und|0|ihkv GOH MOM dient de testomgeving van MOM opnieuw gerealiseerd te worden. Deze worden grotendeels door SI (Biztalk-team, MQ-team) zelf ingericht. daarom hebben we alleen kale servers met OS (win2016) nodig.|\N
+node|aanvraag|0|36664|36664|und|0|ihkv GOH CBBS dient de testomgeving van CBBS opnieuw gerealiseerd te worden.|\N
+node|aanvraag|0|37071|37071|und|0|Oracle PeopleSoft ELM 9.2|\N
+node|aanvraag|0|37329|37329|und|0|Oracle Client 12, SQL Server client,    |\N
+node|aanvraag|0|37437|37437|und|0|Applicaties installeren wij zelf.|\N
+node|aanvraag|0|37438|37438|und|0|Applicaties installeren wij zelf.|\N
+node|aanvraag|0|37543|37543|und|0|Verschaffen van versie overzichten in de diverse omgevingen|\N
+node|aanvraag|0|37582|37582|und|0|Applicaties installeren wij zelf.|\N
+node|aanvraag|0|37583|37583|und|0|Graag ook reporting services aanzetten. Voor meer info https://docs.microsoft.com/en-us/tfs/server/install/sql-server/install-sql-server?view=tfs-2018 zie nr. 8. \
+•Analysis Services (required for reporting)\
+•Reporting Services – Native (required for reporting)|\N
+node|aanvraag|0|37608|37608|und|0|Applicaties installeren wij zelf.|\N
+node|aanvraag|0|37626|37626|und|0|Deze standaard applicatie maakt, wijzigt en annuleert afspraken gemaakt vanuit UWV mbt. klantcontacten. Deze applicatie wordt de UWV brede afspraken service tussen UWV bedrijfsapplicaties en de klant|\N
+node|aanvraag|0|37631|37631|und|0|Office (met Access indien beschikbaar)|\N
+node|aanvraag|0|37664|37664|und|0|Graag SQL database in hotel|\N
+node|aanvraag|0|37701|37701|und|0|Graag Oracle Client 12, SQL Server client |\N
+node|aanvraag|0|37895|37895|und|0|Dagloon berekeningen voor uitkeringen|\N
+node|aanvraag|0|38113|38113|und|0|Autorisatiebeheersysteem van UWV (ABS 2.0)|\N
+node|aanvraag|0|38192|38192|und|0|We willen graag twee applicatieservers en 1 database hotel (SQL)\
+Applicatieservers:\
+Windows 2016 SE\
+.NET 4.7\
+WCF 4.5\
+IIS 10.0\
+|\N
+node|aanvraag|0|38197|38197|und|0|WORK IT |\N
+node|aanvraag|0|38236|38236|und|0|Docker Host|\N
+node|aanvraag|0|38282|38282|und|0|Applicaties instaleren wijzelf.|\N
+node|aanvraag|0|38298|38298|und|0|EAED bestaat uit Filenet en een stuk maatwerk gebouwd door CAP. CAP zal zelf de installatie van EAED op de OTOD-omgeving uitvoeren.|\N
+node|aanvraag|0|38330|38330|und|0|Selenium|\N
+node|aanvraag|0|38732|38732|und|0|Backup server voor TO/TT omgevingen|\N
+node|aanvraag|0|38760|38760|und|0|MS Build|\N
+node|aanvraag|0|38763|38763|und|0|DIV Regie Laag (DRL) is de portaal voor het EAED en zorgt dat alle berichten/documenten aan het EAED op een standaard wijze worden aangeboden.|\N
+node|aanvraag|0|38766|38766|und|0|Oracle applicatie ter ondersteuning van de uitvoering binnen WERKbedrijf. Ondersteunt de uitvoering bij het beheer van de caseload voor WW, AG en Gemeenteklanten. Wordt o.a. gebruikt als selectie-instrument voor het plannen van afspraken, inzetten van gerichte dienstverlening en zoeken van klanten voor vacatures. Selectie van gegevens gebeurd op basis van de data uit Sonar.|\N
+node|aanvraag|0|38979|38979|und|0|IBM BAW   bestanden toegankelijk maken|\N
+node|aanvraag|0|39009|39009|und|0|Zie Confipedia item: TWS GENERIEK|\N
+node|aanvraag|0|39021|39021|und|0|Werknl frontend|\N
+node|aanvraag|0|39120|39120|und|0|Ik heb geen idee wat ik moet invullen. De inhoudt van de huidige server gaat as is over naar een nieuwe server, behalve dat de AIX versie 7.2 moet worden.|\N
+node|aanvraag|0|39165|39165|und|0|SMF (Sociaal Medische Functie) maakt deel uit van het domein Frontoffice Claim en is een hulpmidel bij het\
+bepalen van en adviseren over arbeidsgeschiktheid in het kader van de WIA, WAO, WAZ en Wajong. SMF\
+faciliteert teamgericht en uniform werken door arbeidsdeskundigen, verzekeringsartsen, procesbegeleiders en\
+teamondersteuners. SMF is een systeemcomplex dat uit een aantal applicaties bestaat waarin meerdere\
+technologieën gebruikt worden. De meeste applicaties worden via FLOWer aangeroepen, een\
+werkstroombesturingssysteem dat de gebruikers ondersteunt bij het uitvoeren van processen. Dit gebeurt door\
+bepalen van de volgorde waarin taken moeten worden uitgevoerd, verdelen van het werk en bewaken van\
+doorloop- en rappeltijden. De volgende onderdelen worden tijdens dit Groot Onderhoud meegenomen: AA\
+Dienst, AGP, OSI, PACTA, PPM, SCO, incl. ZWARBORAP Docs.|\N
+node|aanvraag|0|39237|39237|und|0|Premiedifferrentiatie|\N
+node|aanvraag|0|39352|39352|und|0|Backup server voor TO/TT omgevingen|\N
+node|aanvraag|0|39456|39456|und|0|Microsoft Office met in ieder geval Word, Excel, PowerPoint|\N
+node|aanvraag|0|39473|39473|und|0|DIV Regie Laag (DRL) is de portaal voor het EAED en zorgt dat alle berichten/documenten aan het EAED op een standaard wijze worden aangeboden.|\N
+node|aanvraag|0|39699|39699|und|0|SMF (Sociaal Medische Functie) maakt deel uit van het domein Frontoffice Claim en is een hulpmidel bij het bepalen van en adviseren over arbeidsgeschiktheid in het kader van de WIA, WAO, WAZ en Wajong. SMF faciliteert teamgericht en uniform werken door arbeidsdeskundigen, verzekeringsartsen, procesbegeleiders en teamondersteuners. SMF is een systeemcomplex dat uit een aantal applicaties bestaat waarin meerdere technologieën gebruikt worden. De meeste applicaties worden via FLOWer aangeroepen, een werkstroombesturingssysteem dat de gebruikers ondersteunt bij het uitvoeren van processen. Dit gebeurt door bepalen van de volgorde waarin taken moeten worden uitgevoerd, verdelen van het werk en bewaken van doorloop- en rappeltijden. De volgende onderdelen worden tijdens dit Groot Onderhoud meegenomen: AA Dienst, AGP, OSI, PACTA, PPM, SCO, incl. ZWARBORAP Docs.|\N
+node|aanvraag|0|39879|39879|und|0|betreft KVB,Eures en Werkverkenner|\N
+node|aanvraag|0|40014|40014|und|0|Dit is vervangen door een share op de 178.15|\N
+node|aanvraag|0|40064|40064|und|0|Dit is de E-Afspraak OTOD omgeving voor opleidingen in het 1e half jaar 2020. Deze omgeving moet 'stabiel' blijven, en data moet worden gebackuped.\
+Mogelijk dagelijks terug zetten van DATA ivm opleiding|\N
+node|aanvraag|0|40149|40149|und|0|IBM ODM|\N
+node|aanvraag|0|40150|40150|und|0|ODM|\N
+node|aanvraag|0|40151|40151|und|0|ODM|\N
+node|aanvraag|0|40152|40152|und|0|ODM|\N
+node|aanvraag|0|40185|40185|und|0|IV Dashboard in PowerBI|\N
+node|aanvraag|0|40292|40292|und|0|4 identieke servers voor: Business Rules Management Platform|\N
+node|aanvraag|0|40351|40351|und|0|PowerBI Dashboard tbv Banenafspraak|\N
+node|aanvraag|0|40396|40396|und|0|IBM ODM|\N
+node|aanvraag|0|40615|40615|und|0|BAW|\N
+node|aanvraag|0|40625|40625|und|0|NOW. Noodwet voor Ondernemers. Geent op applicatie Peercode. Zelfde stack. Zelfde sw.leverancier|\N
+node|aanvraag|0|40690|40690|und|0|Klant Kontakt Database: Databaseapplicatie waarin opgeslagen wordt of klanten hun post digitaal of per post willen ontvangen.|\N
+node|aanvraag|0|40792|40792|und|0|Klantapplicatie WW|\N
+node|aanvraag|0|40836|40836|und|0|Klantapplicatie AJD TWV KOA ontwikkel|\N
+node|aanvraag|0|41153|41153|und|0|Graag Microsoft Office installeren, in ieder geval Word, Excel en PowerPoint.|\N
+node|aanvraag|0|41172|41172|und|0|Generiek UWVML Platform voor MIMAS|\N
+node|aanvraag|0|41194|41194|und|0|Graag een IBM omgeving|\N
+node|aanvraag|0|41195|41195|und|0|Graag een DXC omgeving|\N
+node|aanvraag|0|41201|41201|und|0|Het betreft 2 applicaties die in één omgeving staan.|\N
+node|aanvraag|0|41202|41202|und|0|Graag een DXC Test omgeving|\N
+node|aanvraag|0|41203|41203|und|0|Graag een DXC Test omgeving|\N
+node|aanvraag|0|41204|41204|und|0|De systemen zijn bedoeld voor een aantal Java programmeurs|\N
+node|aanvraag|0|41205|41205|und|0|Graag een DXC Test omgeving|\N
+node|aanvraag|0|41214|41214|und|0|BRAVO DXC omgevingen|\N
+node|aanvraag|0|41216|41216|und|0|Graag in een dxc omgeving |\N
+node|aanvraag|0|41217|41217|und|0|Betreft aanvraag Oracle servers O/T bij DXC|\N
+node|aanvraag|0|41219|41219|und|0|Business Automation Workflow (BPM pakket van IBM waarin workflows kunnen worden aangemaakt)|\N
+node|aanvraag|0|41220|41220|und|0|Powershell is onderdeel van Windows. Extra powershell modules zullen op de server geinstalleerd worden.|\N
+node|aanvraag|0|41230|41230|und|0|Het betreft hier een verzoek om een DXC ontwikkelomgeving voor Github Enterprise. Github heeft geen installer maar biedt een VM-image dat gebruikt kan worden voor installatie. Zie voor download van het VM image: https://enterprise.github.com/releases/3.0.0/download. Verder kan de installatiehandleiding gevolgd worden zie https://docs.github.com/en/enterprise-server@3.1/admin/installation. We willen dan graag vanaf https://docs.github.com/en/enterprise-server@3.1/admin/configuration/configuring-your-enterprise/about-enterprise-configuration het stokje overnemen en verdere configuratie uitvoeren.\
+|\N
+node|aanvraag|0|41232|41232|und|0|Letop het betreft hier een aanvraag voor Windows Server 2019 en SQL Server 2019|\N
+node|aanvraag|0|41235|41235|und|0|KDBWWO betreft werkplek aanvraag voor Frank Pennings|\N
+node|aanvraag|0|41237|41237|und|0|Op verzoek van Sujen Kandasamy. Kostenplaats: UN0867 programma STAP, deliverable Digitaal Arbeidsmarktadvies.|\N
+node|aanvraag|0|41239|41239|und|0|Database Server|\N
+node|aanvraag|0|41240|41240|und|0|Het systeem WINTER (Werkverdeling) is oorspronkelijk bedoeld voor de ondersteuning van het WIA-klantproces. Inmiddels wordt WINTER met name gebruikt als de postbode van de diverse divisies. De basis van WINTER ligt in het ondersteunen van de werkverdeling: het routeren van signalen en triggers tussen de diverse divisies die bij de afhandeling van een overdracht of poststuk zijn betrokken. |\N
+node|aanvraag|0|41241|41241|und|0|Risico Scan Platform - Handhaving. Verzoek om drie ontwikkelwerkplekken bij DXC|\N
+node|aanvraag|0|41242|41242|und|0|Dit betreft de aanvragen voor de testomgevingen van ADOS en Sonarqube bij DXC op Windows Server 2019. Tevens de ADOS ontwikkelomgeving bij DXC die we nog niet hadden.|\N
+node|aanvraag|0|41244|41244|und|0|Voor CI: AzureDevOps|\N
+node|aanvraag|0|41252|41252|und|0|Betreft CI AZUREDEVOPS SQL Server databases 2019|\N
+node|aanvraag|0|41255|41255|und|0|Beschikbaar stellen van verzekeringsgegevens (arbeidsverleden en polis gegevens) aan verzekerde via internet portaal.|\N
+node|aanvraag|0|41256|41256|und|0|Leveren informatie aan de Belastingdienst t.b.v. uitvoering van de Wet Tegemoetkoming Loondomein. De informatie komt primair uit POLIS BRON.|\N
+node|aanvraag|0|41257|41257|und|0|Voor de Wet Arbeidsmarkt in Balans wordt het PDWW (PremieDifferentiatie WW) gedeelte in de WTL applicatie gerealiseerd.|\N
+node|aanvraag|0|41260|41260|und|0|Ondersteuning afdeling bijzondere premietaken bij vaststellen werkgeverpremie t.b.v. de belastingdienst.|\N
+node|aanvraag|0|41266|41266|und|0|Beschikbaar stellen van verzekeringsgegevens (arbeidsverleden en polis gegevens) aan verzekerde via internet portaal.\
+|\N
+node|aanvraag|0|41270|41270|und|0|Geautomatiseerde afhandeling van vraag/antwoord verzoeken uit het SUWI netwerk. Voegt gegevens samen via XML inkijkservices op ex-uvi systemen.|\N
+node|aanvraag|0|41277|41277|und|0|ODS is een Operationele Data Store voor gegevens met betrekking tot Personen inclusief gemoedsbezwaarde, Werkgevers, Arbeidsverhoudingen, en Overige Relaties inclusief de Vrijwillig Verzekerden. Deze gegevens zijn afkomstig van de uitgefaseerde ex-uvi’s, de Polisadministratie en de SVB. Door middel van de Gegevensdiensten, Mutatiesignalen en de Productie beheertool worden de gegevens ontsloten ten behoeve van de afnemers. MSO is een MutatieSysteem voor ODS, waarmee de gegevens in ODS handmatig kunnen worden gemuteerd.|\N
+node|aanvraag|0|41278|41278|und|0|UGC: UWV Gegevensdiensten Contracten is het CRM-systeem van divisie Gegevensdiensten met functionaliteit en informatie t.a.v. cont(r)acten op het gebied van gegevensleveringen en facturering.\
+A2A staat voor Applicatie tot Applicatie.\
+CCA/SAZP staat voor Contacten- en Contractenadministratie / Self Service Afnemers Zakelijk Portaal.\
+\
+EPM: Het EindProduct Magazijn (EPM) is de locatie waar, per afnemer en per contract, gegevensleveringen (afkomstig van een bronsysteem, datawarehouse, een afnemer of een servicedesk medewerker) worden opgeslagen, zodat ze later intern of extern opgehaald kunnen worden.\
+A2A staat voor Applicatie tot Applicatie.|\N
+node|aanvraag|0|41294|41294|und|0|Risico Scan Platform - Handhaving. Verzoek om drie ontwikkelwerkplekken bij DXC|\N
+node|aanvraag|0|41302|41302|und|0|Risico Scan Platform - Handhaving. Verzoek om meerdere ontwikkelplekken bij DXC.|\N
+node|aanvraag|0|41305|41305|und|0|Generiek Correspondentiesysteem UWV wordt gebruikt om brieven te vervaardigen|\N
+node|aanvraag|0|41307|41307|und|0|Test automation framework|\N
+node|aanvraag|0|41308|41308|und|0|Bestaande CBBS applicatie 12.1 wordt geinstalleerd door CGI|\N
+node|aanvraag|0|41316|41316|und|0|In overleg met Marcel Meijn (CAP ; project medewerkers Spiegel project UWV) moet dan op deze nieuwe Spiegel OTOD ONTW omgeving een werkbaar Spiegel project domein ontstaan. Daarmee kunnen we dan wijzigingen doorvoeren en testen die nodig zijn om Spiegel in 2022 en 2023 door te kunnen laten draaien voor de WB dienstverlening|\N
+node|aanvraag|0|41317|41317|und|0|Generieke INkomsten Applicatie: Verwerking van de inkomsten opgaven van clienten voor de WW en ZW|\N
+node|aanvraag|0|41319|41319|und|0|Ondersteunende applicatie tbv Verzekeringsartsen en Arbeidsdeskundigen van SMZ|\N
+node|aanvraag|0|41320|41320|und|0|Rapportage tool voor SMZ medewerkers|\N
+node|aanvraag|0|41322|41322|und|0|AI module die getraind,gevalideerd en getest wordt in O en T omgevingen, daarna als pakket overzetten naar applicatie E-Dossier waar het geïntegreerd wordt|\N
+node|aanvraag|0|41326|41326|und|0|Case applicatie t.b.v. UWV B&B|\N
+node|aanvraag|0|41328|41328|und|0|Bestaande CBBS applicatie 12.1 wordt geïnstalleerd door CGI.|\N
+node|aanvraag|0|41331|41331|und|0|Bedrijfsbrede Rapportage Voorziening|\N
+node|aanvraag|0|41341|41341|und|0|Virtualize  server voor het hosten van stubs|\N
+node|aanvraag|0|41344|41344|und|0|niet van toepassing, alleen was het veld applicatienaam ineens verplicht hoewel er tussen haken optioneel staat |\N
+node|aanvraag|0|41359|41359|und|0|Ondersteunende applicatie tbv Verzekeringsartsen en Arbeidsdeskundigen van SMZ|\N
+node|aanvraag|0|41360|41360|und|0|Bedrijfsbrede Rapportage Voorziening|\N
+node|aanvraag|0|41361|41361|und|0|Symantec Endpoint Protection|\N
+node|aanvraag|0|41362|41362|und|0|Graag 5 Ontwikkelmachines Windows 2019 VM|\N
+node|aanvraag|0|41364|41364|und|0|API Gateway|\N
+node|aanvraag|0|41383|41383|und|0|Het Medewerkersportaal is een nieuwe applicatie die de medewerkers van SMZ ondersteunt bij de uitvoering van het ZW-Arbo proces. Daarmee fungeert het als de beoogde opvolger van IMF [en de Digitale Gevalskaart]. Later wordt ook SMF vervangen met het Medewerkersportaal. Let op: configuratie-item in Confipedia (ZWA-MSF) wordt aangepast. Voor nu is ZWA-MSF nog geldende CI-item.  |\N
+node|aanvraag|0|41386|41386|und|0|API Gateway|\N
+node|aanvraag|0|41392|41392|und|0|Sailpoint IdentityIQ - een maatwerkoplossing ter vervanging van ABS. meer informatie  - https://www.sailpoint.com/products/identityiq/|\N
+node|aanvraag|0|41394|41394|und|0|Rapportage tool UWV|\N
+node|aanvraag|0|41397|41397|und|0|E-Afspraak installatie (licentie document is al in jullie bezit). Deze OTOD E-Afspraak test moet met OS W 2019 + SQL S 2017 ingericht worden.|\N

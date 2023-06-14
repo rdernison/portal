@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Mijn berekeningen')" />
+	<body>
+	    <div id="wrapper">
+			<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			<div id="page-wrapper">
+				<div class="row">
+				<div id="navbar-wrapper" class="collapse navbar-collapse">
+	 		
+		 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+				        <div th:replace="fragments/navbar-header :: header"></div>
+			        </nav>   <!-- /.navbar-static-top -->
+			        </div>
+		        </div>			
+				<div class="row">
+	                <div class="col-lg-12">
+						<h1 class="h3 mb-2 text-gray-800">Mijn berekeningen</h1>
+	               </div>
+	                <!-- /.col-lg-12 -->
+	            </div>
+	            <!-- /.row -->
+	        </div>
+	        <!-- /#page-wrapper -->
+	    </div>
+	</body>
+</html>

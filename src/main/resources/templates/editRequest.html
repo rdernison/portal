@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Bewerk aanvraag')" />
+	<body>
+	<div><h1>OToD - Portal</h1></div>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+			
+						<h1 class="h3 mb-2 text-gray-800">Bewerk aanvraag</h1>
+						<form method="post" th:object="${request}" th:action="@{/request/save}" enctype="multipart/form-data" name="requestForm" id="requestForm">
+							<table>
+								<tr>
+									<th>Projectnaam</th>								
+									<td><input type="text" th:field="${request.projectName}"/></td>
+								</tr> 
+								<tr>
+									<th>Applicatienaam</th>								
+									<td><input type="text" th:field="${request.applicationName}"/></td>
+								</tr><!-- 
+								<tr>
+									<th>Opgepakt door</th>
+									<td><input type="text" th:field="${request.employee}"/>
+								</tr>
+								<tr>
+									<th>OToD-projectnaam</th>
+									<td><input type="text" th:field="${request.projectName}"/>
+								</tr> -->
+								<tr>
+									<th>Datum van inzending</th>
+									<td><input type="text" th:field="${request.requestDate}"/></td>
+								</tr>
+								<tr>
+									<th>Gewenste opleverdatum</th>
+									<td><input type="date" class="form-control" th:field="${request.desirableDeliveryDate}"/></td>
+								</tr>
+								<tr>
+									<th>Opgeleverd</th>
+									<td><input type="date" class="form-control" th:field="*{deliveryDate}" /></td>
+									
+								</tr>
+								<tr>
+									<th>Naam serviceaanvrager</th>
+									<td><input type="text" th:field="${request.nameServiceRequester}"/></td>
+								</tr>
+								<tr>
+									<th>Naam budgethouder</th>
+									<td><input type="text" th:field="${request.nameBudgetOwner}"/></td>
+								</tr>
+								<tr>
+									<th>Getekend contract</th>
+									<td><a th:href="'/request/files/' + ${request.signedContract}" th:text="${request.signedContract}"></a></td>
+									<td><input type="file" name="file"/></td>
+								</tr>
+								<tr>
+									<th>Opgepakt door</th>
+									<td>
+										<select th:if="${setAssignee}" th:field="${request.employee}">
+												<option th:each="admin : ${admins}" th:value="${admin.username}"
+													th:text="${admin.fullName}" />
+										</select>						
+										<!-- span th:unless="${setAssignee}" th:text="${request.user}" / -->
+									</td>
+								</tr>
+								<!-- 
+								<tr>
+									<td>Getekend contract</td>
+									<td>
+										<input type="file" name="file"/>
+										<a href="${'file://' + file}" th:text="${file}"></a>
+									</td>
+								</tr> -->
+							</table>
+							<input type="hidden" name="id" th:field="${request.id}" />
+							<input type="submit" value="Opslaan" />
+						</form>
+					</div>
+	
+	
+		<script type="text/javascript"
+		th:src="@{/webjars/jquery/jquery.min.js}"></script>
+	<script type="text/javascript"
+		th:src="@{/webjars/jquery-validation/jquery.validate.min.js}"></script>
+	<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+	<script type="text/javascript"
+		th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+	<script th:src="@{/js/scripts.js}"></script>
+	<script>
+		$(document).ready(function() {
+
+			$("#requestForm").validate({focusCleanup: true, errorClass: "invalid",
+				  showErrors: function(errorMap, errorList) {
+					    $("#summary").html("Your form contains "
+					      + this.numberOfInvalids()
+					      + " errors, please fix them before submit.");
+					    this.defaultShowErrors();
+					  }
+					});
+
+			//$("input[name^='contactList']").each(function() {
+			$("input[name$='contactName']").each(function() {
+				$(this).rules('add', {
+					required : true,
+					rangelength : [ 10, 40 ]
+				});
+			});
+			
+			$("select[name$='contactType']").each(function() {
+				$(this).rules('add', {
+					required : true
+				});
+			});
+			
+
+		});
+	</script>
+	 </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title='Home')" />
+    <body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+							
+			
+	                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" style="vertical-align: top">
+		                    <tr>
+			                    <th>Projecten (Totaal)</th>
+			                    <th>Servers</th>
+			                    <th>Fysieke cores</th>
+			                    <th>Systeemschijf (GB)</th>
+			                    <th>Virtuele CPU's</th>
+			                    <th>RAM (GB)</th>
+			                    <th>Extra schijfruimte (GB)</th>
+		                    </tr>
+		                    <tr>
+			                    <td class="number" th:text="${serverCounts?.numberOfProjects}" align="right" />
+			                    <td class="number" th:text="${serverCounts?.numberOfServers}" align="right"/>
+			                    <td class="number" th:text="${#numbers.formatDecimal(serverCounts?.physicalCores,3,2)}" align="right"/>
+			                    <td class="number" th:text="${serverCounts?.systemDisk}" align="right"/>
+			                    <td class="number" th:text="${serverCounts?.virtualCpus}" align="right"/>
+			                    <td class="number" th:text="${serverCounts?.ram}" align="right"/>
+			                    <td class="number" th:text="${serverCounts?.extraDiskSpace}" align="right"/>
+		                    </tr>
+	                    </table>
+	                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" sec:authorize="hasRole('ROLE_ADMIN')">
+		                    <tr>
+			                    <th>Project</th>
+			                    <th>Servers</th>
+			                    <th>Fysieke cores</th>
+			                    <th>Systeemschijf (GB)</th>
+			                    <th>Virtuele CPU's</th>
+			                    <th>RAM (GB)</th>
+			                    <th>Extra schijfruimte (GB)</th>
+		                    </tr>
+		                    <tr th:each="project : ${allProjects}">
+		                    	<td><a th:href="@{'/project/' + ${project?.projectId}}" th:text="${project?.projectName}"/></td>
+		                    	<td class="number" th:text="${project?.numberOfServers}" align="right"/>
+		                    	<td class="number" th:text="${project?.numberOfPhysicalCores}" align="right"/>
+		                    	<td class="number" th:text="${project?.systemDisk}" align="right"/>
+		                    	<td class="number" th:text="${project?.virtualCpus}" align="right"/>
+		                    	<td class="number" th:text="${project?.ram}" align="right"/>
+			                    <td class="number" th:text="${project?.extraDiskSpace}" align="right"/>
+		                    </tr>
+	                    </table>
+	                    </div></div>
+  		<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+      	<script src="/static/resources/webjars/bootstrap/js/bootstrap.min.js" ></script>
+     </body>
+</html>

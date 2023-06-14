@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Gebruikte ip-adressen')" />
+<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+				
+					<h1 class="h3 mb-2 text-gray-800">Gebruikte IP-adressen</h1>
+					<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+					<thead>
+						<tr>
+							<th>IP-adres</th>
+						</tr>
+						</thead>
+						<tbody>			
+						<tr th:each="usedIpAddress, iStat : ${usedIpAddresses}">
+							<td><a th:href="@{'usedIpAddress/edit/' + ${usedIpAddress.id}}" th:text="${usedIpAddress.address}" /></td>
+						</tr>
+						</tbody>
+					</table>
+	                <!-- /.col-lg-12 -->
+	            </div>
+	    
+	</body>
+</html>

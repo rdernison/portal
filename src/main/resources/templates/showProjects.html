@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Projecten')" />
+	<body>
+	    
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container" style="float: left"> 
+					<h1 class="h3 mb-2 text-gray-800">Projecten</h1>
+					<div>
+							<form method="get" action="#" th:action="@{/project/find}" th:object="${project}">
+								<table>
+									<tr>
+										<td>Naam</td>
+										<td>Status</td><!-- 
+										<td>Aantal rijen per pagina</td> -->
+									</tr>
+									<tr>
+										<td><input type="text" th:field="*{name}" /></td>
+										<td><input type="text" th:field="*{status}" /></td>
+										<!-- 
+										<td><input type="text" name="resultsPerPage" /></td>
+										 -->
+										<td><input type="submit" value="Zoek" /></td>
+									</tr>
+								</table>
+							</form>					
+							<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<thead>
+								<tr>
+								<th>Naam</th>
+								<th>Beschrijving</th>
+								<th>Budgethouder</th>
+								<th>Startdatum</th>
+								<th>Einddatum</th>
+								<th>Status</th>
+								<th>Datum status</th>
+								</tr>
+							</thead>
+							<tbody>
+								<!-- th:if="${project.name == 'ABS'}" -->
+								<tr th:each="project, iStat : ${projects}">
+									<td><a th:href="@{'/project/' + ${project.id}}" th:text="${project.name}"/></td>
+									<td th:text="${project.description}"/>
+									<td th:text="${project.budgetOwner}"/>
+									<td th:text="${project.startDate}"/>
+									<td th:text="${project.endDate}"/>
+									<td th:text="${project.status}"/>
+									<td th:text="${project.statusDate}"/>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+						</div>
+	</body>    
+</html>

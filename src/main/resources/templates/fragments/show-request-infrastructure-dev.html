@@ -1,0 +1,82 @@
+<dev>
+
+						<div>
+							<h3>Dev-users: <span th:text="${#lists.size(request.devUsers)}"/></h3>
+							<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+								<thead>
+									<tr>
+										<th>Groepsnaam</th>
+										<th>Gebruiker-id</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr th:fragment="devUsers"
+										th:each="devUser,rowStat : ${request.devUsers}"
+										>
+										<td th:text="${devUser.groupName}"/>
+										<td th:text="${devUser.userId}"/>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div>
+							<h3>Dev-servers: <span th:text="${#lists.size(request.devServers)}"/></h3>
+							<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+								<thead>
+									<tr>
+										<th>RAM</th>
+										<th>CPU's</th>
+										<th>OS</th>
+										<th>Middleware</th>
+										<th>Disks</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr th:fragment="devServerRequests" 
+											th:each="serverRequest,rowStat : ${request.devServers}"
+											th:if="${serverRequest.ram > 0}">
+										<td th:text="${serverRequest.ram}"/>
+										<td th:text="${serverRequest.cpus}"/>
+										<td th:text="${serverRequest.os.name}"/>
+										<td>
+											<table>
+												<thead>
+													<tr>
+														<th>Naam</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr th:if="${serverRequest}" th:each="mw : ${serverRequest.middlewareRequests}">
+														<td th:if="${mw.middleware.name != '- Geen -'}" th:text="${mw.middleware.name}"/>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+										<td>
+											<table>
+												<thead>
+													<tr>
+														<th>Mount point</th>
+														<th>Opslagcapactiteit (GB)</th>
+														<th>Volumegroep</th>
+														<th>Volumenaam</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr th:if="${serverRequest != null and (disk.size > 0)}" th:each="disk : ${serverRequest.disks}">
+														<td th:text="${disk.mountPoint}"/>
+														<td th:text="${disk.size}"/>
+														<td th:text="${disk.volumeGroup}"/>
+														<td th:text="${disk.volumeName}"/>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						
+						</div>
+
+
+</dev>

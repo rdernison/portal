@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Servers')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container" style="float: left"> 
+				
+			
+							<h1 class="h3 mb-2 text-gray-800">Servers</h1>
+							<div sec:authorize="hasRole('ROLE_ADMIN')">
+							    <a class="nav-link" href="/server/new" th:href="@{/server/new}">Server aanmaken</a>
+							    <a class="nav-link" href="/disk/new" th:href="@{/disk/new}">Extra schijf aanmaken</a>
+							</div>
+							<div>
+							<form method="get" action="#" th:action="@{/server/find}"
+								th:object="${server}">
+								<table>
+									<tr>
+										<td>Projectnaam</td>
+										<td>Computernaam</td>
+										<td>Besturingssysteem</td>
+									</tr>
+									<tr>
+										<td><input type="text" th:field="*{project.name}" /></td>
+										<td><input type="text" th:field="*{name}" /></td>
+										<td><input type="text" th:field="*{osName}" /></td>
+										<td><input type="submit" value="Zoek" /></td>
+									</tr>
+								</table>
+							</form>
+							<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+								<thead>
+									<tr>
+										<th>Project</th>
+										<th>Eigenaar</th>
+										<th>Naam</th>
+										<th>IP-adres</th>
+										<th>Virtuele CPU's</th>
+										<th>Fysieke cores</th>
+										<th>Ram</th>
+										<th>Besturingssysteem</th>
+										<th>Aanmaakdatum</th>
+										<th>Verwijderdatum</th>
+										<th>Status</th>
+										<th>Root-ww</th>
+										<th>Username</th>
+										<th>Admin-ww</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr th:each="server, iStat : ${servers}">
+										<td><a th:if="${server.project != null}"
+											th:href="@{'/project/' + ${server.project.id}}"
+											th:text="${server.project?.name}" /></a></td>
+										<td th:text="${server.project?.budgetOwner}" />
+										<td><a th:href="@{'/server/' + ${server.id}}"
+											th:text="${server.name}" /></a></td>
+										<td th:text="${server.ipAddress}" />
+										<td th:text="${server.virtualCpus}" align="right" />
+										<td th:text="${server.physicalCores}" align="right" />
+										<td th:text="${server.ram}" />
+										<td th:text="${server.os?.name}" />
+										<td th:text="${server.productionDate}" />
+										<td th:text="${server.removalDate}" />
+										<td th:text="${server.status}" />
+										<td th:text="${server.rootPassword}" />
+										<td th:text="${server.username}" />
+										<td th:text="${server.adminPassword}" />
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- /.col-lg-12 --> 
+					</div>
+					<!-- /.row -->
+
+				
+		        </div><!-- 
+	    <script src="../static/resources/js/jquery.min.js" th:src="@{/resources/js/jquery.min.js}"></script>
+	    <script src="../static/resources/js/bootstrap-3.1.1.min.js" th:src="@{/resources/js/bootstrap-3.1.1.min.js}"></script> -->
+	</body>
+</html>

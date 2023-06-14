@@ -1,0 +1,19 @@
+<div class="panel panel-warning">
+	<div class="panel-heading" id="heading5" role="tab">
+		<h3 class="panel-title">
+			<a aria-controls="infrastructure" aria-expanded="false"
+				class="collapsed" data-parent="#accordion" data-toggle="collapse"
+				href="#infrastructure" role="button">Infrastructuur<span
+				class="glyphicon glyphicon-collapse-down"></span></a>
+		</h3>
+	</div>
+	<div aria-labelledby="heading5" class="panel-collapse collapse"
+		id="infrastructure" role="tabpanel">
+		<div class="panel-body">
+			
+			<div th:replace="fragments/request-infrastructure-dev" />
+			<div th:replace="fragments/request-infrastructure-test" />
+
+		</div>
+	</div>
+</div>

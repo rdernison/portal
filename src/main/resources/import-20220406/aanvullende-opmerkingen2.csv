@@ -1,0 +1,166 @@
+node|aanvraag|0|25986|25986|und|0|Identiek aan de al bestaande testserver voor Fleks (AIX, 10.140.176.17).\
+Recente snapshot kan gebruikt worden om kopie te trekken.|\N
+node|aanvraag|0|26193|26193|und|0|Rest volgt.|\N
+node|aanvraag|0|26507|26507|und|0|We weten nog niet welke personen gekoppeld gaan worden aan de diverse rollen|\N
+node|aanvraag|0|26814|26814|und|0|Alle servers zijn in apart project aangemaakt, zoals in het prio overzicht aangegeven.|\N
+node|aanvraag|0|26916|26916|und|0|Alle servers zijn in apart project aangemaakt, zoals in het prio overzicht aangegeven.|\N
+node|aanvraag|0|27077|27077|und|0|We installeren TFS2015 inclusief de DB zelf.|\N
+node|aanvraag|0|27092|27092|und|0|In te vullen na intake overleg|\N
+node|aanvraag|0|27276|27276|und|0|Graag het sql system password doen toekomen aan REAB|\N
+node|aanvraag|0|27527|27527|und|0|Voeg de OTOD TEST BIT groep toe aan de local administrators groep.\
+\
+|\N
+node|aanvraag|0|27833|27833|und|0|Alleen OS opleveren, de rest doen we zelf!\
+groep DEV\\BIT in local admin groep zetten.|\N
+node|aanvraag|0|28713|28713|und|0|Zie technische requirements. DNS naam binnen/buiten otod zie bijgaand document.\
+EXTRA Middleware\
+Applicatieserver (erpuwvtst92app.ba.uwv.nl): IBM JDK 1.7.0 SR6+/64 op /w001/app/ibm/java/...\
+Database server (erpuwvdev92db.ba.uwv.nl): EXTRA Middleware Oracle database 12C EE/64 op /a01/app/oracle/product/12.1.0/dbhome_1/... (op account: oradba; group: dba)\
+|\N
+node|aanvraag|0|28752|28752|und|0|De Applicatieserver TET zal via een clone methode inrichten. De databases zullen op een bestande databaseserver ingericht (IP 10.140.176.32, acties TET, ondersteuning CAP) ..|\N
+node|aanvraag|0|29658|29658|und|0|Specs moeten identiek zijn aan Sonar TO1 en TT1 servers|\N
+node|aanvraag|0|29661|29661|und|0|Specs moeten identiek zijn aan Sonar TO1 en TT1 servers|\N
+node|aanvraag|0|29817|29817|und|0|OP verzoek, de aanvraag aangepast en terug gebracht naar 1 server.|\N
+node|aanvraag|0|30331|30331|und|0|Zie huidige OToD omgeving|\N
+node|aanvraag|0|30537|30537|und|0|In overleg met jullie: we hebben in eerste instantie een windows server 2012 besteld, die willen we omzetten naar een windows server 2016. Aanvraagnummer van 2012 server = 30283|\N
+node|aanvraag|0|30606|30606|und|0|De BIT groep in de local admin groep op de server toevoegen|\N
+node|aanvraag|0|30673|30673|und|0|De BIT groep in de local admin groep op de server toevoegen|\N
+node|aanvraag|0|30820|30820|und|0|Functies mogen identiek worden aan de reeds bestaande in de "oude" T5 omgeving waar nu WTL draait.|\N
+node|aanvraag|0|31218|31218|und|0|Graag de O6DB uitbreiden volgens onderstaande opgave:\
+De gewenste sizing voor onze O6DB (12C - O6DB - 10.140.178.53  shared database server)\
+-       300 GB storage\
+-       32 GB mem\
+|\N
+node|aanvraag|0|33000|33000|und|0|De BIT groep in de local admin groep op de server toevoegen|\N
+node|aanvraag|0|35090|35090|und|0|Betreft DOT.NET frontend applicatie/web servers|\N
+node|aanvraag|0|35135|35135|und|0|De BIT groep in de local admin groep op de server toevoegen|\N
+node|aanvraag|0|35273|35273|und|0|De BIT groep in de local admin groep op de server toevoegen|\N
+node|aanvraag|0|35473|35473|und|0|Nieuw te bouwen applicatie en infrastructuur.|\N
+node|aanvraag|0|35671|35671|und|0|Gaarne in overleg met het project|\N
+node|aanvraag|0|35682|35682|und|0|test\\bit in de local admin groep|\N
+node|aanvraag|0|35830|35830|und|0|DEV\\BIT en DEV\\MOM - Local admin in de local administrators groep zetten|\N
+node|aanvraag|0|35854|35854|und|0|Voor rollen zie https://samenwerken.sharepoint.uwv.nl/sites/ict/pm/config/BASL%20HTML/5579784.html|\N
+node|aanvraag|0|35862|35862|und|0|De BIT groep in de local admin groep op de server toevoegen|\N
+node|aanvraag|0|35930|35930|und|0|Installatie zal gedaan worden door onze eigen TFS beheerder.|\N
+node|aanvraag|0|36166|36166|und|0|Ontwikkelserver met als doel om specifieke kwaliteitstools binnen het AOC toe te passen.|\N
+node|aanvraag|0|36176|36176|und|0|Generieke Bezwaar en Beroep Test server voor alle B&B FB-ers voor testwerkzaamheden Fleks, ModusOne|\N
+node|aanvraag|0|37071|37071|und|0|Zie technische requirements. \
+DNS naam binnen/buiten otod-O\
+erpuwvdev92pume.ba.uwv.nl	http/80 rdp/3389 (reeds gerealiseerd)\
+erpuwvdev92app2.ba.uwv.nl	http(s)/80(443)\
+erpuwvdev92db2.ba.uwv.nl	\
+erpuwvdev92win2.ba.uwv.nl	rdp/3389\
+erpuwvdev92term2.ba.uwv.nl	rdp/3389\
+\
+DNS naam binnen/buiten otod-T\
+erpuwvtst92app2.ba.uwv.nl	http(s)/80(443)\
+erpuwvtst92db2.ba.uwv.nl	\
+erpuwvtst92win2.ba.uwv.nl	rdp/3389\
+\
+Web/app server (incl. procesplanner): \
+EXTRA Middleware IBM JDK 1.7.0 SR6+/64 op /w001/app/ibm/java/... \
+erpuwvdev92app2.ba.uwv.nl Database server: EXTRA Middleware Oracle database\
+12C EE/64 op /a01/app/oracle/product/12.1.0/dbhome_1/... (op account: oradba; group: dba)\
+|\N
+node|aanvraag|0|37438|37438|und|0|Ontwikkelserver met als doel om specifieke kwaliteitstools binnen het AOC toe te passen.|\N
+node|aanvraag|0|37543|37543|und|0|Graag SUDO rechten toekennen aan: DEV\\SystemTeam|\N
+node|aanvraag|0|37582|37582|und|0|Deze server zal worden gebruikt als Team Foundation Server (TFS).|\N
+node|aanvraag|0|37626|37626|und|0|Beheer wordt in Q2 van 2019 belegd en overgedragen van project PAS naar UWV staande organisatie (BSU3) voor OTOD. Voor A en P is Tech/ beheer bij IBM te beleggen . Eerst in project, overdracht idem naar staande org. IBM BAU|\N
+node|aanvraag|0|37664|37664|und|0|lijst namen via mail doorgeven|\N
+node|aanvraag|0|37838|37838|und|0|Op de huidige omg. is USA ook. Op de nieuwe omg. is er alleen EPM & UGC. |\N
+node|aanvraag|0|38236|38236|und|0|Gaarne server opnemen in Active Directory DEV.Local tbv SUDO en authenticatie|\N
+node|aanvraag|0|38282|38282|und|0|Graag bestaande AD groep gebruiken, zoals RIO, TFS etc.|\N
+node|aanvraag|0|38766|38766|und|0|Het betreft een upgrade in het kader van Groot Onderhoud. |\N
+node|aanvraag|0|38979|38979|und|0|eerste users graag :\
+kku017  tst131 en jsc217|\N
+node|aanvraag|0|39237|39237|und|0|Julia Himantono gaat namens Capgemini vanaf 9 september de omgeving inrichten. Zij heeft hiervoor dus wel toegang nodig. Graag een mail naar Julia, Farid Abdul aziz en Peter J de Vries als de omgeving beschikbaar is zodat we weten dat we kunnen beginnen.|\N
+node|aanvraag|0|39377|39377|und|0|VIOB groep administrator maken svp|\N
+node|aanvraag|0|39425|39425|und|0|Voeg dev\\bit in de local admin groep toe|\N
+node|aanvraag|0|40064|40064|und|0|Beheer wordt uitgevoerd door (BSU3) in samenwerking met CommUnited voor deze opleiding OTOD. |\N
+node|aanvraag|0|40149|40149|und|0|Graag AD toepassen met users zoals deze op een vergelijkbare Linux omgeving voor ODM is gedaan (zie ook 10.140.178.235)|\N
+node|aanvraag|0|40150|40150|und|0|Graag AD toepassen met users zoals deze op een vergelijkbare Linux omgeving voor ODM is gedaan (zie ook 10.140.178.235)\
+|\N
+node|aanvraag|0|40151|40151|und|0|Graag AD toepassen met users zoals deze op een vergelijkbare Windows Server omgeving voor ODM is gedaan (zie ook 10.140.178.253)\
+|\N
+node|aanvraag|0|40152|40152|und|0|Graag AD toepassen met users zoals deze op een vergelijkbare Windows Server omgeving voor ODM is gedaan (zie ook 10.140.178.253)\
+|\N
+node|aanvraag|0|40292|40292|und|0|Graag AD toepassen met users zoals deze op een vergelijkbare Windows Server omgeving voor ODM is gedaan (zie ook 10.140.179.1).\
+LET OP: Deze aanvraag is voor 4 identieke servers|\N
+node|aanvraag|0|40396|40396|und|0|Graag AD groep odm_usersmz toepassen zoals bij de 10.140.179.0. \
+|\N
+node|aanvraag|0|40615|40615|und|0|Graag users behorende tot de groep ewb_admin toegang geven tot de server en daarbij de mogelijkheid geven om te switchen naar de user ewbadmin (/usr/bin/su - ewbadmin)|\N
+node|aanvraag|0|40632|40632|und|0|Graag identiek aan opbouwen/inrichten aan de 10.140.177.32\
+\
+Dit geldt voor zowel de technische specificaties als de functionele. (aka rechtengroepen ect)|\N
+node|aanvraag|0|40836|40836|und|0|Aanvullend op beheerverklaring al het beheer in tabel B wordt door AOC gedaan i.o.m. WERKbedrijf.|\N
+node|aanvraag|0|40943|40943|und|0|De Sofie_admin user moet voldoende sudo rechten krijgen om voor de applicatie of tool benodigde packages te installeren. Belangrijk zijn de juiste subscripties bij Red Hat.\
+\
+Regels in /etc/sudoers\
+Sofie_admin@dev.local        ALL=(ALL)       NOPASSWD: ALL\
+Sofie_admin ALL=(ALL) NOPASSWD: ALL\
+\
+Deze gebruikers krijgen via de sudoers file het recht om het sudo su –> Sofie_admin te kunnen gebruiken zonder password. \
+De gebruiker ewbadmin kan niet gebruikt worden om in te loggen op het Linux OS.\
+|\N
+node|aanvraag|0|41181|41181|und|0|Ontwikkel omgeving DXC|\N
+node|aanvraag|0|41201|41201|und|0|Het team van Saturnus is verantwoordelijk voor de software en maakt gebruik van de testomgeving.|\N
+node|aanvraag|0|41213|41213|und|0|Hiervoor moet een baw groep gebruikt worden waar onze teamleden staan. \
+Zie groep baw_fab in de huidige IBM OTOD DEV domein. |\N
+node|aanvraag|0|41230|41230|und|0|Na eerdere mailwisseling met Totem is al bekend dat dit geen standaard aanvraag is. Daarom graag overleg met DXC m.b.t. de mogelijkheden binnen OToD.|\N
+node|aanvraag|0|41240|41240|und|0|Winter maakt ook gebruik van de applicatie Locatie Vinder|\N
+node|aanvraag|0|41241|41241|und|0|Werkplekken voor:\
+Velden, Thijs van der (T.) - tve097\
+Wagemaker, Jens - jwa080\
+Dooren, Bono van (B.) - bdo035|\N
+node|aanvraag|0|41270|41270|und|0|Op de database moeten de volgende mensen toegang hebben:\
+- Adri Gerritsen			age076\
+- Frans Teulen			fte013\
+- Aarti Meena			ame122\
+- Rajendra Suryawanshi	rsu015\
+- Julia Himantono *)		jhi035\
+- Aydin Yildirim            	ayi010\
+- Jacob Visscher    		jvi063\
+- Sander Kaandorp 		ska095\
+- Gerard van Calcar		cca023\
+- Gerben Weiland		gwe046\
+|\N
+node|aanvraag|0|41277|41277|und|0|Op de database moeten de volgende mensen toegang hebben: \
+- Adri Gerritsen age076 \
+- Aarti Meena ame122 \
+- Julia Himantono jhi035 \
+- Aydin Yildirim ayi010 \
+- Jacob Visscher jvi063 \
+- Sander Kaandorp ska095 \
+- Gerard van Calcar cca023 \
+- Gerben Weiland gwe046 |\N
+node|aanvraag|0|41278|41278|und|0|Op de database moeten de volgende mensen toegang hebben: \
+- Adri Gerritsen age076 \
+- Aarti Meena ame122 \
+- Frans Teulen	fte013\
+- Julia Himantono jhi035 \
+- Aydin Yildirim ayi010 \
+- Jacob Visscher jvi063 \
+- Sander Kaandorp ska095 \
+- Gerard van Calcar cca023 \
+- Gerben Weiland gwe046 |\N
+node|aanvraag|0|41290|41290|und|0|Het beheer zal vanuit het project in een latere fase worden georganiseerd vanuit het RPA-team dat bij GIV (PI) wordt belegd.\
+\
+Ik heb nog wel een aantal resterende vragen (en waarschijnlijk deze aanvraag niet volledig / juist gedaan). Deze zou ik daarom graag willen doornemen. Hoor het graag!|\N
+node|aanvraag|0|41294|41294|und|0|Werkplek voor Erik Lourens - elo031|\N
+node|aanvraag|0|41302|41302|und|0|Werkplekken voor:\
+Yoni Lubeck	ylu004\
+Andreas Melzer	ame110\
+Hannelore van der Burgh	hbu040\
+Robin Philippo	rph006\
+Arjan Halma	aha189\
+Jorrit Bakker	jba154\
+Nick Sandee	nsa062\
+Pui Yin Leung	ple051\
+Thierry Stamper tst133	tst133\
+Marnix Helfferich mhe307	mhe307\
+Jordy Laarman jla110	jla110\
+|\N
+node|aanvraag|0|41304|41304|und|0|De server moet gelijk worden ingericht als de uwva3vltunm0084, maar dan in de Ontwikkelomgeving. Dries heeft aangegeven dat de DB server in het DB hotel cluster moet worden opgenomen ivm licentie voordelen. Als dit in de Test omgeving niet is gedaan dan hier ook niet.\
+\
+Graag Crontab rechten voor user grid en oracle.|\N
+node|aanvraag|0|41316|41316|und|0|afstemming met Marcel Meijn is nodig voor impl van de Spiegel code. zijn gegevens zijn bij mij bekend (p. Verboom)|\N

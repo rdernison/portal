@@ -1,0 +1,205 @@
+<!-- zie https://github.com/ajkr195/ThymeleafDynamicFields en localhost:2791 -->
+
+<div class="panel panel-warning">
+	<div class="panel-heading" id="heading6a" role="tab">
+		<h3 class="panel-title">
+			<a aria-controls="dev" aria-expanded="false" class="collapsed"
+				data-parent="#infrastructure" data-toggle="collapse" href="#dev"
+				role="button">Specificatie ontwikkelomgeving<span
+				class="glyphicon glyphicon-collapse-down"></span>
+			</a>
+		</h3>
+	</div>
+	<div aria-labelledby="heading6a" class="panel-collapse collapse"
+		id="dev" role="tabpanel">
+		<div class="panel-body">
+
+			<div class="card">
+				<div class="card-header dynamic-update-rows">
+					Gebruikers
+					<button type="button" name="addDevUser" 
+						class="btn btn-sm btn-success float-right"
+						data-dynamic-update-rows-url="/request/addDevUser">
+						<i class="fas fa-plus"></i>
+					</button>
+				</div>
+				<div class="card-body">
+					<div class="row justify-content-center">
+						<!-- 						<h5 class="card-title">Contact Details</h5> -->
+						<div th:if="${errorMessage}"
+							class="alert alert-danger alert-dismissible fade show"
+							role="alert">
+							<strong>Error:</strong> <span th:text="${errorMessage}">Error</span>
+							<button type="button" class="close" data-dismiss="alert"
+								aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+
+						<div th:if="${successMessage}"
+							class="alert alert-success alert-dismissible fade show"
+							role="alert">
+							<strong>Success:</strong> <span th:text="${successMessage}">Success</span>
+							<button type="button" class="close" data-dismiss="alert"
+								aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<span><a th:href="@{/list}"
+								class="btn btn-sm btn-primary ml-2 mr-2"><i
+									class="fas fa-list-ol"></i> Go to Infrastructure List</a></span>
+						</div>
+					</div>
+					<table class="table dynamic-update-rows" th:style="|width: 100%|">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Groepsnaam</th>
+								<th>Gebruiker-id</th>
+							</tr>
+						</thead>
+						<tbody id="dynamicTableContentsDevUsers">
+
+							<tr th:fragment="devUsers"
+								th:each="devUser,devUserStat : ${request.devUsers}">
+								<input type="hidden"
+									th:field="${request.devUsers[__${devUserStat.index}__].role}"
+									value="developer" />
+								<td th:text="${devUserStat.count}">1</td>
+								<td><input type="hidden"
+									th:field="${request.devUsers[__${devUserStat.index}__].id}" />
+									<input type="text"
+									th:field="${request.devUsers[__${devUserStat.index}__].groupName}" />
+									<!-- 
+												<div
+													th:if="${#fields.hasErrors('${request.devUsers[__${devUserStat.index}__].groupName}')}"
+													class="invalid-feedback"
+													th:errors="${request.devUsers[__${devUserStat.index}__].groupName}"></div> -->
+								</td>
+								<td><input class="form-control form-control-sm"
+									th:field="${request.devUsers[__${devUserStat.index}__].userId}"
+									th:errorclass="is-invalid" /> <!--
+												<div
+													th:if="${#fields.hasErrors('${request.devUsers[__${devUserStat.index}__].userId}')}"
+													class="invalid-feedback"
+													th:errors="${request.devUsers[__${devUserStat.index}__].userId}"></div> -->
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header dynamic-update-rows">
+					Servers
+
+					<button type="button" name="addDevServer"
+						class="btn btn-sm btn-success float-right"
+						data-dynamic-update-rows-url="/request/addDevServer">
+						<i class="fas fa-plus"></i>
+					</button>
+				</div>
+				<div class="card-body">
+					<h3>Serverconfiguratie</h3>
+					<h4>Serverspecificatie</h4>
+						<p><span>Aantal ontwikkelservers:</span><span th:text="${#lists.size(request.devServers)}"/></p>
+					<table class="table dynamic-update-rows" th:style="|width: 100%|">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>CPU's</th>
+								<th>RAM (GB)</th>
+								<th>OS</th>
+								<th>Middleware</th>
+								<th>Schijven</th>
+							</tr>
+						</thead>
+						<tbody id="dynamicTableContentsDevServers">
+							<tr th:fragment="devServers"
+								th:each="devServer,devServerStat : ${request.devServers}"
+								th:if="${request.devServers[__${devServerStat.index}__].environment = 'dev'}">
+								<td th:text="${devServerStat.count}" valign="top">1</td>
+								<td valign="top" th:style="|width:100px|"><input
+									class="form-control form-control-sm"
+									th:field="${request.devServers[__${devServerStat.index}__].cpus}"
+									th:errorclass="is-invalid" th:style="|width:200px|" />
+									<div
+										th:if="${#fields.hasErrors('${request.devServers[__${devServerStat.index}__].cpus}')}"
+										class="invalid-feedback"
+										th:errors="${request.devServers[__${devServerStat.index}__].cpus}"></div>
+								</td>
+								<td valign="top" th:style="|width:200px|"><input
+									class="form-control form-control-sm" size="4"
+									th:field="${request.devServers[__${devServerStat.index}__].ram}"
+									th:errorclass="is-invalid" th:style="|width:200px|" />
+									<div
+										th:if="${#fields.hasErrors('${request.devServers[__${devServerStat.index}__].ram}')}"
+										class="invalid-feedback"
+										th:errors="${request.devServers[__${devServerStat.index}__].ram}"></div>
+								</td>
+								<td valign="top" th:style="|width:50px|"><select
+									class="form-control form-control-sm"
+									th:name="${request.devServers[__${devServerStat.index}__].os}"
+									th:field="${request.devServers[__${devServerStat.index}__].os}"
+									th:errorclass="is-invalid" th:style="|width:100px|">
+										<option th:each="os : ${oses}" th:value="${os.id}"
+											th:text="${os.name}" />
+								</select></td>
+								<td th:style="|width:200px|">
+									<table>
+										<!--  thead><tr><th>Name</th></thead -->
+										<tbody>
+											<tr
+												th:each="dsm,rowCount : ${request.devServers[__${devServerStat.index}__].middlewareRequests}">
+												<td valign="top" th:style="|width:200px|"><select
+													class="form-control form-control-sm"
+													th:name="${request.devServers[__${devServerStat.index}__].middlewareRequests[__${rowCount.index}__].middleware}"
+													th:field="${request.devServers[__${devServerStat.index}__].middlewareRequests[__${rowCount.index}__].middleware}"
+													th:errorclass="is-invalid" th:style="|width: 150px|">
+														<option th:each="mw : ${middleware}" th:value="${mw.id}"
+															th:text="${mw.name}" />
+												</select></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td th:style="|width:500px|">
+									<table>
+										<thead>
+											<tr>
+												<th>Mount point / drive letter</th>
+												<th>Schijfgrootte</th>
+												<th>Volumegroep</th>
+												<th>Volumenaam</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr th:fragment="devDisks"
+												th:each="devDisk,rowStatDisk : ${devServer.disks}">
+												<td th:style="|width: 100px|"><input type="text"
+													th:field="${request.devServers[__${devServerStat.index}__].disks[__${rowStatDisk.index}__].mountPoint}" />
+												</td>
+												<td th:style="|width: 100px|"><input type="text"
+													th:field="${request.devServers[__${devServerStat.index}__].disks[__${rowStatDisk.index}__].size}" th:if="${request.devServers[__${devServerStat.index}__].disks[__${rowStatDisk.index}__].size} gt 0" />
+												</td>
+												<td th:style="|width: 100px|"><input type="text"
+													th:field="${request.devServers[__${devServerStat.index}__].disks[__${rowStatDisk.index}__].volumeGroup}" />
+												</td>
+												<td th:style="|width: 100px|"><input type="text"
+													th:field="${request.devServers[__${devServerStat.index}__].disks[__${rowStatDisk.index}__].volumeName}" />
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- 
+						</div> -->
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>

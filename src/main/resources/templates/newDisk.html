@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Nieuwe disk')" />
+	<body>
+		<div id="wrapper">
+			<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			<div id="page-wrapper">
+				<div class="row">
+<div id="navbar-wrapper" class="collapse navbar-collapse">
+	 				 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+				        <div th:replace="fragments/navbar-header :: header"></div>
+			        </nav>   <!-- /.navbar-static-top -->
+			        </div>
+		        </div>			
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="navbar" class="collapse navbar-collapse">
+				
+			
+						<h1>Nieuwe disk</h1>
+						<!-- 
+						
+						Schijf-id
+						Filesystem
+						mount-pad
+						Pool-naam
+						schijfgrootte
+						volumegroep
+						volumenaam
+						OBJID
+						status
+						verwijderdatum
+						 -->
+						<form action="save" method="post" th:object="${disk}"
+							th:action="@{/disk/create}">
+							<table>
+								<tr>
+									<th>Computernaam</th>
+									<td><select th:field="*{server}">
+											<option th:each="server : ${servers}" th:value="${server.id}"
+												th:text="${server.name}" />
+									</select></td>
+								</tr>
+								<tr>
+									<td>Schijf-id</td>
+									<td><input type="text" th:field="*{diskId}" placeholder="integer"/></td>
+								</tr>
+								<tr>
+									<td>Filesysteem</td>
+									<td><input type="text" th:field="*{fileSystem}"></td>
+								</tr>
+								<tr>
+									<td>Mountpad</td>
+									<td><input type="text" th:field="*{mountPoint}" /></td>
+								</tr>
+								<tr>
+									<td>Poolnaam</td>
+									<td><input type="text" th:field="*{poolName}" /></td>
+								</tr>
+								<tr>
+									<td>Schijfgrootte (MB)</td>
+									<td><input type="text" th:field="*{size}" placeholder="integer"/></td>
+								</tr>
+								<tr>
+									<td>Volumegroep</td>
+									<td><input type="text" th:field="*{volumeGroup}" /></td>
+								</tr>
+								<tr>
+									<td>Volumenaam</td>
+									<td><input type="text" th:field="*{volumeName}" /></td>
+								</tr>
+								<tr>
+									<td>OBJID</td>
+									<td><input type="text" th:field="*{objId}" /></td>
+								</tr>
+								<tr>
+									<td>Status</td>
+									<td><select th:field="*{status}">
+											<!-- 
+				<option th:each="status : ${T(nl.uwv.otod.otod_portal.model.DiskStatus).value()}" th:value="${status}" th:text="${status.text}"/> -->
+											<option value=""></option>
+											<option value="1">Operational</option>
+											<option value="0">Decommissioned</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td>Verwijderdatum</td><!-- 
+									<td><input type="datetime-local" class="form-control"
+										th:field="*{removalDate}" /></td>
+										 -->
+									<td>										
+	                    				<input type="date" class="form-control"
+										th:field="*{removalDateStr}" />
+					                </td>
+										
+								</tr>
+								<tr>
+									<td><input type="submit" /></td>
+								</tr>
+							</table>
+							
+							<!-- 
+							<div class="form-group">
+							<label>Obj Id</label>
+							<input type="text" id="objId" placeholder="ObjId" autocomplete="off" class="form-control"
+                           th:field="*{objId}"/>
+							</div>  -->
+						</form>
+	</div>
+					</div>
+					<!-- /.col-lg-12 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /#page-wrapper -->
+	
+		</div>
+	
+	
+	
+		<script th:src="@{/webjars/jquery/jquery.min.js}" src="../static/resources/js/jquery.min.js" type="text/javascript"></script>
+		<script th:src="@{/webjars/popper.js/umd/popper.min.js}" src="../static/resources/js/popper.min.js" type="text/javascript"></script>
+		<script th:src="@{/webjars/bootstrap/js/bootstrap.js}" src="../static/resources/js/bootstrap.js" type="text/javascript"></script>
+		<script th:src="@{/webjars/bootstrap/js/bootstrap-datepicker.js}" src="../static/resources/js/bootstrap-datepicker.js" type="text/javascript"></script>
+		<script th:src="@{/assets/moment/moment.min.js}" src="../static/resources/js/moment.min.js" type="text/javascript"></script>
+		<script
+			th:src="@{/assets/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.js}" type="text/javascript"></script>
+	
+		<script type="text/javascript">
+			$.fn.datetimepicker.Constructor.Default = $.extend({},
+					$.fn.datetimepicker.Constructor.Default, {
+						icons : {
+							time : 'far fa-clock',
+							date : 'far fa-calendar',
+							up : 'fas fa-arrow-up',
+							down : 'fas fa-arrow-down',
+							previous : 'fas fa-chevron-left',
+							next : 'fas fa-chevron-right',
+							today : 'far fa-calendar-check-o',
+							clear : 'far fa-trash',
+							close : 'far fa-times'
+						}
+					});
+	
+			$('#datetimepicker1').datetimepicker({
+				format : 'DD/MM/YYYY h:mm A'
+			});
+		</script>
+	</body>
+</html>

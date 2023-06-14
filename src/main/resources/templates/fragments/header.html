@@ -1,0 +1,10 @@
+    <head th:fragment="head(title)">
+	<!--  header.html -->
+        <title th:text="${'OToD Portal / ' + title}">OToD Portal</title> 
+	 	<link rel="stylesheet" type="text/css" href="../static/resources/css/sb-admin-2.css" th:href="@{/resources/css/sb-admin-2.css}"/>
+	 	<link rel="icon" href="../static/resources/images/favicon.ico" th:href="@{/resources/images/favicon.ico}" type="image/x-icon"/>
+	 	<link rel="stylesheet" type="text/css" th:href="@{/resources/css/core.css}" href="../static/resources/css/core.css" />
+		 <link rel="stylesheet" th:href="@{/resources/css/fontawesome.min.css}" />
+		 <link rel="stylesheet" th:href="@{/resources/bootstrap-4.5.3-dist/css/bootstrap.min.css}" />
+		 <link rel="stylesheet" th:href="@{/resources/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css}" />
+    </head>

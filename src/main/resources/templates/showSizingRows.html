@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Sizing')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+				
+						<h1 class="h3 mb-2 text-gray-800">Sizing</h1>
+						<a href="new" th:href="@{/sizingRow/new}">Voeg regel toe</a>
+						<form method="get" action="#" th:action="@{/sizingRow/find}" th:object="${sizingRow}">
+							<table>
+								<tr>
+								<td>Status</td>
+								<td>Applicatie</td>
+								<td>Divisie</td>
+								<td>OS</td>
+								<!-- 
+									<td>Opgepakt door</td>
+									<td>Geleverd</td>< ! - - 
+									<td>Aantal rijen per pagina</td> -->
+								</tr>
+								<tr>
+								<td><select th:field="*{status}">
+								<option th:each="status : ${statuses}" th:value="${status}" th:text="${status}" />
+								</select>
+								</td><!-- 
+									<td><input type="text" th:field="*{status}" /></td>
+									 -->
+									<td><input type="text" th:field="*{applicationName}" /></td> 
+									<td><input type="text" th:field="*{division}" /></td>
+									<!-- 
+									<td><Input type="text" th:field="*{os}" /></td> -->
+									<td><select th:field="*{os}">
+										<option th:each="os : ${oses}" th:value="${os}" th:text="${os}"/>
+									</select>
+									</td>
+									<td><input type="submit" value="Zoek" /></td>
+								</tr>
+							</table>
+						</form>					
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<tr>
+								<th>Opgepakt door</th>
+								<th>Datum binnengekomen</a></th>
+								<th>Status</th>
+								<th>Datum Opgeleverd door OTOD</th>
+								<th>Wave</th>
+								<th>Applicatie</th>
+								<th>Divisie</th>
+								<th>Servernaam OToD IBM</th>
+								<th>OToD-projectnaam</th>
+								<th>Platform</th>
+								<th>Omgeving</th>
+								<th>UWV-IP-adres</th>
+								<th>Virtuele CPU's</th>
+								<!--  new -->
+								<th>Geheugen (GB)</th>
+								<th>Opslag (GB)</th>
+								<th>Functie</th>
+								<th>Discussie / actie</th>
+								<th>Doorgaan</th>
+								<th>Sprint</th>
+								<th>Datacenter</th>
+								<th>Omgeving</th>
+								<th>DXC / UWV managed</th>
+								<th>Service tier</th>
+								<th>Type server</th>
+								<th>OS</th>
+								<th>Oracle db?</th>
+								<th>Oracle MW ()</th>
+								<th class="t-shift-size">T-Shift Size CPU - MEM</th>
+								<th>Datadisk 1 (MANDATORY)</th>
+								<th>Datadisk 2</th>
+								<th>Datadisk 3</th>
+								<th>Datadisk 4</th>
+								<th>Datadisk 5</th>
+								<th>Datadisk 6</th>
+								<th>Datadisk 7</th>
+								<th>Datadisk 8</th>
+								<th>Datadisk 9</th>
+								<th>Aanvraagfile</th>
+								<th>request ID</th>
+								<th>Servername</th><!-- 
+								<th>Password</th> -->
+								<th>Gedeeld met UWV	IP</th>
+								<th>"Post Action AD-OU"</th>
+								<th>"Post Action Flexera"</th>
+								<th>"Post Action AV Endpoint"</th>
+								<th>"Post Action Backup"</th>
+								<th>"Post Action Backup Agent"</th>
+							</tr>
+							<tr th:each="row, iStat : ${sizingRows}">
+								<td th:text="${row.employee}"/>
+								<td th:text="${row.arrivalDate}" />
+								<td th:text="${row.status}" />
+								<td th:text="${row.otodDeliveryDate}" />
+								<td th:text="${row.wave}"/>
+								<td><a th:href="@{'/sizingRow/edit/' + ${row.id}}" th:text="${row.applicationName}"/></td>
+								<td th:text="${row.division}"/>
+								<td th:text="${row.serverName}"/> 
+								<td th:text="${row.otodProjectName}"/>
+								<td th:text="${row.currentPlatform}"/>
+								<td th:text="${row.environment}"/>
+								<td th:text="${row.uwvIpAddress}"/>
+								<td th:text="${row.vCpu}"/>
+								<td th:text="${row.memory}"/>
+								<td th:text="${row.storage}"/>
+								<td th:text="${row.function}"/>
+								<td th:text="${row.discussionAction}"/>
+								<td th:text="${row.proceed}"/>
+								<td th:text="${row.sprint}"/>
+								<td th:text="${row.datacenter}"/>
+								<td th:text="${row.dxcEnvironment}"/>
+								<td th:text="${row.dxcUwvManaged}"/>
+								<td th:text="${row.serviceTier}"/>
+								<td th:text="${row.serverType}"/>
+								<td th:text="${row.os}"/>
+								<td th:text="${row.oracleDb}"/>
+								<td th:text="${row.oracleMw}"/>
+								<td th:text="${row.tShiftSize}"/>
+								<td th:text="${row.dataDisk1}"/>
+								<td th:text="${row.dataDisk2}"/>
+								<td th:text="${row.dataDisk3}"/>
+								<td th:text="${row.dataDisk4}"/>
+								<td th:text="${row.dataDisk5}"/>
+								<td th:text="${row.dataDisk6}"/>
+								<td th:text="${row.dataDisk7}"/>
+								<td th:text="${row.dataDisk8}"/>
+								<td th:text="${row.dataDisk9}"/>
+								<td th:text="${row.requestFile}"/>
+								<td th:text="${row.requestId}"/>
+								<td th:text="${row.dxcServerName}"/>
+								<td th:text="${row.passwordSharedWithUwv}"/>
+								<td th:text="${row.ip}"/>
+								<td th:text="${row.remark}"/>
+								<td th:text="${row.arrivalDate}"/>
+								<td th:text="${row.status}"/>
+								<td th:text="${row.otodDeliveryDate}"/>
+							</tr>
+						</table>
+	                </div>
+	</body>    
+</html>

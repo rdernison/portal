@@ -1,0 +1,1591 @@
+vmt010140176004	544	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176007	1006	jfs2	/data	AIX Storage Pool	100	datalg	datavg	Decommissioned
+vmt010140176001	1314	NTFS	E	VMWare Additional Disk Pool	10			Operational
+vmt010140176013	8655	NTFS	d	VMWare Additional Disk Pool	1 500			Decommissioned
+vmt010140176013	8656	NTFS	F	VMWare Additional Disk Pool	1 500			Decommissioned
+vmt010140176013	8657	NTFS	F	VMWare Additional Disk Pool	1 500			Decommissioned
+vmt010140176013	10352	NTFS	M	VMWare Additional Disk Pool	1 000			Decommissioned
+vmt010140176013	1933	NTFS	K	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176013	8252	NTFS	L	VMWare Additional Disk Pool	1 000			Decommissioned
+vmt010140176013	8635	NTFS	M	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178035	8169	NTFS	F	VMWare Additional Disk Pool	250			Decommissioned
+vmd010140178035	4174	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmd010140178021	5506	ext3	/var/lib/ganglia	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178021	5507	ext3	/etc/puppetlabs	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178021	5508	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178011	2096	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178039	3787	NTFS	E	VMWare Additional Disk Pool	23			Decommissioned
+vmd010140178046	8482	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178046	13317	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178046	13318	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178046	9086	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178044	13625	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178045	13626	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178049	13627	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178048	8495	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178051	8506	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178055	13629	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178054	13628	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178066	6765	NTFS	H	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178066	14845	NTFS	f	VMWare Additional Disk Pool	150			Decommissioned
+vmd010140178066	14864	NTFS	j	VMWare Additional Disk Pool	150			Decommissioned
+vmd010140178066	14865	NTFS	k	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176052	11536	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176052	11537	NTFS	f	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176052	11538	NTFS	g	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176066	11533	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176066	11534	NTFS	f	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176066	11535	NTFS	g	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176075	7887	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178007	5676	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178072	5757	NTFS	E	VMWare Additional Disk Pool	70			Decommissioned
+vmd010140178012	6517	NTFS	E	VMWare Additional Disk Pool	10			Operational
+vmd010140178033	6766	NTFS	H	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178100	13221	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178100	13222	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178019	2372	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176035	2377	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178031	2681	NTFS	E	VMWare Additional Disk Pool	70			Decommissioned
+vmd010140178032	2691	NTFS	E	VMWare Additional Disk Pool	70			Decommissioned
+vmd010140178036	3001	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178037	3010	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176016	3457	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178014	4096	NTFS	E	VMWare Additional Disk Pool	70			Decommissioned
+vmd010140178013	5271	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178081	5276	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178075	19175	NTFS	g	VMWare Additional Disk Pool	10			Decommissioned
+vmd010140178075	5921	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmd010140178080	5926	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176017	7975	jfs2	data	AIX Storage Pool	150	datavg2	datavg	Operational
+vmt010140176017	7976	jfs2		AIX Storage Pool	30	extra	exvg	Operational
+vmd010140178015	13138	NTFS	H	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178015	8559	NTFS	R	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178015	10721	NTFS	H	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178015	2129	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178015	8533	NTFS	G	VMWare Additional Disk Pool	500			Operational
+vmd010140178015	2130	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmt010140176014	3743	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178038	3222	jfs2	/data1	AIX Storage Pool	100	datavn1	datavg1	Decommissioned
+vmd010140178038	3223	jfs2	/data2	AIX Storage Pool	100	datavn2	datavg2	Decommissioned
+vmd010140178018	3408	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178018	14922	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178022	14929	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178022	7940	NTFS	F	VMWare Additional Disk Pool	0			Decommissioned
+vmd010140178057	14921	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178057	7941	NTFS	F	VMWare Additional Disk Pool	0			Decommissioned
+vmd010140178076	5060	jfs2		AIX Storage Pool	100	datavn1	datavg1	Decommissioned
+vmd010140178076	5061	jfs2		AIX Storage Pool	60	datavn2	datavg2	Decommissioned
+vmd010140178076	5062	jfs2		AIX Storage Pool	40	datavn3	datavg3	Decommissioned
+vmd010140178058	5082	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmd010140178077	5086	jfs2		AIX Storage Pool	150	datavn1	datavg1	Decommissioned
+vmd010140178077	5087	jfs2		AIX Storage Pool	50	datavn2	datavg2	Decommissioned
+vmd010140178077	5088	jfs2		AIX Storage Pool	30	datavn3	datavg3	Decommissioned
+vmd010140178077	5089	jfs2		AIX Storage Pool	30	datavn4	datavg4	Decommissioned
+vmd010140178077	5090	jfs2		AIX Storage Pool	40	datavn5	datavg5	Decommissioned
+vmd010140178078	5100	jfs2		AIX Storage Pool	40	datavn6	datavg6	Decommissioned
+vmd010140178078	5095	jfs2		AIX Storage Pool	30	datavn1	datavg1	Decommissioned
+vmd010140178078	5096	jfs2		AIX Storage Pool	30	datavn2	datavg2	Decommissioned
+vmd010140178078	5097	jfs2		AIX Storage Pool	40	datavn3	datavg3	Decommissioned
+vmd010140178078	5098	jfs2		AIX Storage Pool	30	datavn4	datavg4	Decommissioned
+vmd010140178078	5099	jfs2		AIX Storage Pool	30	datavn5	datavg5	Decommissioned
+vmd010140178079	5105	jfs2		AIX Storage Pool	30	datavn1	datavg1	Decommissioned
+vmd010140178079	5106	jfs2		AIX Storage Pool	30	datavn2	datavg2	Decommissioned
+vmd010140178079	5107	jfs2		AIX Storage Pool	30	datavn3	datavg3	Decommissioned
+vmd010140178079	5108	jfs2		AIX Storage Pool	30	datavn4	datavg4	Decommissioned
+vmd010140178079	5109	jfs2		AIX Storage Pool	40	datavn5	datavg5	Decommissioned
+vmd010140178079	5110	jfs2		AIX Storage Pool	40	datavn6	datavg6	Decommissioned
+vmd010140178079	5111	jfs2		AIX Storage Pool	50	datavn7	datavg7	Decommissioned
+vmd010140178079	5112	jfs2		AIX Storage Pool	50	datavn8	datavg8	Decommissioned
+vmt010140176028	2296	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176029	2307	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176029	2308	NTFS	F	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176029	8379	NTFS	H	VMWare Additional Disk Pool	6			Decommissioned
+vmd010140178001	2401	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178025	2891	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178026	2962	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178005	4232	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmd010140178005	12457	NTFS	h	VMWare Additional Disk Pool	60			Operational
+vmd010140178006	4242	NTFS	E	VMWare Additional Disk Pool	70			Operational
+vmd010140178006	14464	NTFS	g	VMWare Additional Disk Pool	10			Operational
+vmd010140178060	4455	NTFS	F	VMWare Additional Disk Pool	0			Decommissioned
+vmd010140178060	15645	NTFS	h	VMWare Additional Disk Pool	2 000			Decommissioned
+vmd010140178061	4383	NTFS	E	VMWare Additional Disk Pool	124			Decommissioned
+vmt010140176034	4465	NTFS	F	VMWare Additional Disk Pool	350			Operational
+vmt010140176034	8760	NTFS	H	VMWare Additional Disk Pool	2 048			Decommissioned
+vmt010140176034	8769	NTFS	H	VMWare Additional Disk Pool	1 950			Operational
+vmt010140176034	8781	NTFS	I	VMWare Additional Disk Pool	1 200			Operational
+vmd010140178043	12444	NTFS	g	VMWare Additional Disk Pool	40			Operational
+vmd010140178043	13261	NTFS	H	VMWare Additional Disk Pool	285			Operational
+vmd010140178043	4829	NTFS	F	VMWare Additional Disk Pool	0			Operational
+vmd010140178042	5050	jfs2	data	AIX Storage Pool	30	datavm	datavg	Decommissioned
+vmt010140176047	5067	jfs2	data	AIX Storage Pool	30	datavm	datavg	Decommissioned
+vmt010140176059	5186	NTFS	F	VMWare Additional Disk Pool	70			Operational
+vmt010140176006	2649	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176005	2650	NTFS	e	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176008	2651	NTFS	e	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176036	2643	NTFS	e	VMWare Additional Disk Pool	20			Operational
+vmt010140176037	2645	NTFS	e	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176040	2646	NTFS	e	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176041	2647	NTFS	e	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176042	2648	NTFS	e	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176002	6142	jfs2		AIX Storage Pool	1 700	datavn	datavg	Decommissioned
+vmt010140176009	6952	jfs2		AIX Storage Pool	40	data01vn	data01vg	Decommissioned
+vmt010140176009	6953	jfs2		AIX Storage Pool	600	data02vn	data02vg	Decommissioned
+vmt010140176115	7470	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmt010140176021	2941	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176022	2948	jfs2	/data	AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140176024	3202	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176056	5010	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176083	5724	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176012	4722	jfs2	/data	AIX Storage Pool	80	datalog	datavg	Decommissioned
+vmt010140176018	4728	jfs2	/data	AIX Storage Pool	80	datalog	datavg	Decommissioned
+vmt010140176025	4733	jfs2	/data	AIX Storage Pool	80	datalog	datavg	Decommissioned
+vmt010140176032	4738	jfs2	/data	AIX Storage Pool	30	datalog	datavg	Decommissioned
+vmt010140176032	4739	jfs2	/data2	AIX Storage Pool	500	datalog2	datavg2	Decommissioned
+vmt010140176077	6613	jfs2	/dbvg	AIX Storage Pool	80	dbvg1	dbvg	Decommissioned
+vmt010140176077	6614	jfs2	/appvg	AIX Storage Pool	150	appvg1	appvg	Decommissioned
+vmt010140176051	4967	NTFS	E	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176055	5000	jfs2	DMOMP	AIX Storage Pool	100	DMOVM	DMOVG	Decommissioned
+vmt010140176060	5589	NTFS	E	VMWare Additional Disk Pool	6			Decommissioned
+vmt010140176060	5590	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176061	5600	NTFS	E	VMWare Additional Disk Pool	6			Decommissioned
+vmt010140176061	5601	NTFS	F	VMWare Additional Disk Pool	400			Decommissioned
+vmd010140178034	7468	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmd010140178099	7469	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176119	7508	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176119	7509	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176118	7506	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176118	7507	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176120	7866	NTFS	E	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176120	7867	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176120	16603	NTFS	g	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176030	7872	NTFS	E	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176030	7873	NTFS	F	VMWare Additional Disk Pool	0			Decommissioned
+vmt010140176080	7878	NTFS	E	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176080	7879	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176105	7884	NTFS	E	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176105	7885	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176050	5631	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176050	5632	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176063	6761	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176063	6762	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176088	5822	jfs2	/data	AIX Storage Pool	40	wintervn	wintervg	Operational
+vmt010140176089	5828	jfs2	/data	AIX Storage Pool	100	wintervn	wintervg	Operational
+vmt010140176091	6054	jfs2	/data	AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140176094	6064	NTFS	E	VMWare Additional Disk Pool	96			Operational
+vmt010140176033	6117	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176084	6127	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176102	7107	ext3	/data	VMWare Additional Disk Pool	80			Operational
+vmt010140176086	8110	ext3	/data	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176087	8133	jfs2		AIX Storage Pool	60	datavn	datavg	Decommissioned
+vmt010140176092	6011	NTFS	E	VMWare Additional Disk Pool	10			Decommissioned
+vmd010140178082	6192	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmd010140178084	6259	jfs2	/oracle	AIX Storage Pool	190	oraclevg	oracle	Decommissioned
+vmd010140178084	6260	jfs2	/filenet	AIX Storage Pool	150	filenetvg	filenet	Decommissioned
+vmd010140178085	6330	jfs2	/oracle	AIX Storage Pool	150	oraclevg	oracle	Decommissioned
+vmd010140178085	6331	jfs2	/filenet	AIX Storage Pool	150	filenetvg	filenet	Decommissioned
+vmd010140178085	6332	jfs2	/extra	AIX Storage Pool	30	extravg	extra	Decommissioned
+vmd010140178086	6341	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176068	6353	jfs2		AIX Storage Pool	160	datavn	datavg	Decommissioned
+vmt010140176099	6358	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178004	6500	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176015	6523	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmd010140178030	6539	jfs2		AIX Storage Pool	40	datavn1	datavg1	Decommissioned
+vmd010140178030	6540	jfs2		AIX Storage Pool	50	datavn3	datavg3	Decommissioned
+vmd010140178030	6541	jfs2	/oracle	AIX Storage Pool	100	datavn2	datavg2	Decommissioned
+vmt010140176038	6565	jfs2		AIX Storage Pool	40	datavn1	datavg1	Decommissioned
+vmt010140176038	6566	jfs2	/oracle	AIX Storage Pool	100	datavn2	datavg2	Decommissioned
+vmt010140176038	6567	jfs2		AIX Storage Pool	50	datavn3	datavg3	Decommissioned
+vmd010140178027	6602	NTFS	F	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178027	6603	NTFS	G	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178027	8322	NTFS	H	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178027	6601	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176046	6586	jfs2	/data	AIX Storage Pool	380	datavn	datavg	Decommissioned
+vmt010140176082	6798	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmd010140178083	7510	NTFS	E	VMWare Additional Disk Pool	120			Decommissioned
+vmd010140178088	7513	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176085	14829	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178089	6686	jfs2		AIX Storage Pool	500	datavn1	datavg1	Decommissioned
+vmd010140178089	6687	jfs2		AIX Storage Pool	250	datavn2	datavg2	Decommissioned
+vmd010140178090	6764	NTFS	E	VMWare Additional Disk Pool	75			Decommissioned
+vmt010140176096	6807	jfs2	data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176097	6948	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176100	6967	NTFS	E	VMWare Additional Disk Pool	250			Decommissioned
+vmt010140176100	6986	NTFS	F	VMWare Additional Disk Pool	250			Decommissioned
+vmt010140176101	6922	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmd010140178106	8003	jfs2	/data	AIX Storage Pool	100	datavn1	datavg1	Decommissioned
+vmd010140178106	8004	jfs2		AIX Storage Pool	100	datavn2	datavg2	Decommissioned
+vmd010140178094	7041	NTFS	F	VMWare Additional Disk Pool	5			Operational
+vmd010140178094	7042	NTFS	G	VMWare Additional Disk Pool	0			Operational
+vmd010140178095	16985	NTFS	F	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178095	6965	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178095	6966	NTFS	H	VMWare Additional Disk Pool	5			Decommissioned
+vmd010140178097	6990	NTFS	F	VMWare Additional Disk Pool	5			Decommissioned
+vmd010140178097	6989	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178020	7126	jfs2	/data	AIX Storage Pool	30	datavn1	datavg1	Operational
+vmd010140178020	7127	jfs2		AIX Storage Pool	30	datavn2	datavg2	Operational
+vmd010140178041	7145	jfs2	/data	AIX Storage Pool	30	datavn1	datavg1	Decommissioned
+vmd010140178041	7146	jfs2		AIX Storage Pool	30	datavn2	datavg2	Decommissioned
+vmt010140176107	7164	NTFS	E	VMWare Additional Disk Pool	6			Operational
+vmt010140176107	7165	NTFS	F	VMWare Additional Disk Pool	10			Operational
+vmt010140176107	7166	NTFS	G	VMWare Additional Disk Pool	50			Operational
+vmt010140176108	7535	ext3	/data	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176073	7553	ext3	/data	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176109	14541	NTFS	h	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176109	16986	NTFS	h	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176109	14732	NTFS	G	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176109	7336	NTFS	E	VMWare Additional Disk Pool	0			Decommissioned
+vmt010140176109	14489	NTFS	r	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176109	16983	NTFS	g	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176109	16984	NTFS	j	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176109	14495	NTFS	h	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176114	7572	NTFS	E	VMWare Additional Disk Pool	6			Decommissioned
+vmt010140176114	7573	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176114	7574	NTFS	G	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178101	7812	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176113	7851	jfs2		AIX Storage Pool	40	datavn	datavg	Decommissioned
+vmd010140178104	7920	ext3	/zwabber	VMWare Additional Disk Pool	10			Decommissioned
+vmd010140178105	7928	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176003	8012	NTFS	F	VMWare Additional Disk Pool	80			Decommissioned
+vmt010140176019	8078	jfs2	dmomp	AIX Storage Pool	130	DMOVN	DMOVG	Operational
+vmt010140176095	8138	jfs2		AIX Storage Pool	60	datavn	datavg	Decommissioned
+vmt010140176104	8162	NTFS	F	VMWare Additional Disk Pool	80			Operational
+vmt010140176121	8163	NTFS	E	VMWare Additional Disk Pool	30			Operational
+vmt010140176003	8168	jfs2		AIX Storage Pool	80	datavn	datavg	Decommissioned
+vmt010140176062	8177	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176070	8183	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176103	8206	jfs2	EXTRA	AIX Storage Pool	80	EXTRA2	EXTRA	Decommissioned
+vmt010140176103	8207	jfs2	APPS	AIX Storage Pool	200	APPS2	APPS	Decommissioned
+vmt010140176103	8208	jfs2	DATA	AIX Storage Pool	200	DATA2	DATA	Decommissioned
+vmt010140176117	8218	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176003	8246	jfs2		AIX Storage Pool	80	datavn	datavg	Decommissioned
+vmt010140176003	8251	jfs2	/data	AIX Storage Pool	160	datavn	datavg	Decommissioned
+vmt010140176079	8260	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176111	8270	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176111	8271	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176111	8272	NTFS	G	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178009	8278	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178009	8315	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178010	8303	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178010	8316	NTFS	F	VMWare Additional Disk Pool	50			Operational
+vmt010140176112	8308	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmd010140178016	8313	NTFS	F	VMWare Additional Disk Pool	50			Operational
+vmd010140178020	8320	NTFS	F	VMWare Additional Disk Pool	50			Operational
+vmt010140176072	8380	NTFS	Z	VMWare Additional Disk Pool	1 000			Decommissioned
+vmt010140176072	8375	NTFS	E	VMWare Additional Disk Pool	6			Decommissioned
+vmt010140176072	8376	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176072	8377	NTFS	G	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176073	8390	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176087	8432	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176108	8417	jfs2		AIX Storage Pool	1 990	datavn	datavg	Decommissioned
+vmt010140176122	8434	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176123	8433	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178028	8496	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmd010140178023	8439	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176127	8468	jfs2		AIX Storage Pool	30	datavn	datavg	Decommissioned
+vmt010140176128	8472	jfs2		AIX Storage Pool	60	datavn	datavg	Decommissioned
+vmt010140176125	8460	jfs2		AIX Storage Pool	180	datavg	data	Decommissioned
+vmt010140176056	13973	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140176083	8549	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176083	8550	NTFS	G	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176083	8551	NTFS	Z	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140176083	8548	NTFS	E	VMWare Additional Disk Pool	6			Decommissioned
+vmt010140176124	8552	NTFS	E	VMWare Additional Disk Pool	6			Decommissioned
+vmt010140176124	8553	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178029	8558	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176130	11413	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176131	8585	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176132	8584	jfs2	/data	AIX Storage Pool	150	data	datavn	Operational
+vmd010140178021	8590	jfs2		AIX Storage Pool	200	datavn	datavg	Decommissioned
+vmd010140178038	8594	jfs2		AIX Storage Pool	100	datavn0	datavg0	Decommissioned
+vmd010140178038	8595	jfs2		AIX Storage Pool	100	datavn1	datavg1	Decommissioned
+vmd010140178038	8596	jfs2		AIX Storage Pool	100	datavn2	datavg2	Decommissioned
+vmd010140178040	8602	jfs2		AIX Storage Pool	200	datavn	datavg	Operational
+vmt010140176134	8634	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176051	8654	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176133	8674	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176135	8681	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176136	8686	jfs2		AIX Storage Pool	100	datavn	datavg	Operational
+vmt010140176087.test.local	8712	ntfs	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176049	8770	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176087	8778	jfs2	data	AIX Storage Pool	50	datav	datag	Decommissioned
+vmt010140176087	8794	jfs2	data	AIX Storage Pool	50	datavn	data	Decommissioned
+vmt010140176123	8801	jfs2	data	AIX Storage Pool	80	datavn	data	Decommissioned
+vmt010140176087	8806	jfs2	data	AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140176129	8847	jfs2	data	AIX Storage Pool	100	datavn	datavg	Operational
+vmd010140178048	8855	jfs2	data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmd010140178059	8861	jfs2	data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176087	8867	jfs2	data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176135	8872	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmd010140178062	8887	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176087	8895	jfs2		AIX Storage Pool	30	datavn	datavg	Decommissioned
+vmt010140176140	9832	NTFS	E	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140176141	8936	NTFS	D	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176141	8946	NTFS	E	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176142	8953	NTFS	E	VMWare Additional Disk Pool	300			Operational
+vmt010140176144	9184	ext3	/u01	VMWare Additional Disk Pool	17			Decommissioned
+vmt010140176145	9185	ext3	/u01	VMWare Additional Disk Pool	70			Decommissioned
+vmt010140176146	9186	ext3	/u01	VMWare Additional Disk Pool	70			Decommissioned
+vmt010140176147	9187	ext3	/u01	VMWare Additional Disk Pool	120			Decommissioned
+vmt010140176147	9194	ext3	/u01	VMWare Additional Disk Pool	120			Decommissioned
+vmt010140176148	9195	ext3	/u01	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176155	9196	ext3	/u01	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176157	9035	jfs2	data	AIX Storage Pool	80	datavn	datavg	Decommissioned
+vmt010140176158	9040	jfs2	data	AIX Storage Pool	250	datavn	datavg	Decommissioned
+vmt010140176134	9048	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176134	9049	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176158	9056	jfs2	data	AIX Storage Pool	250	datavn	datavg	Decommissioned
+vmd010140178071	9064	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176157	9079	jfs2	data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176158	9085	jfs2	data	AIX Storage Pool	2 850	datavn	datavg	Operational
+vmd010140178074	9094	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmt010140176113	9188	ext3	/u01	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140176143	9104	ext3	/u01	VMWare Additional Disk Pool	70			Decommissioned
+vmd010140178082	9109	NTFS	E	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140176149	9115	ext3	/u01	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176159	9120	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176161	9137	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176161	9138	NTFS	G	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176162	9145	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178011	9159	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176163	11883	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176163	11884	NTFS	g	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176163	11414	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176164	9173	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176164	9174	NTFS	G	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176160	9192	jfs2		AIX Storage Pool	100	datavn	datavg	Operational
+vmd010140178048	9735	ext3	/data	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178084	9259	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140176024	9277	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176079	9288	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176090	9298	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178085	9303	NTFS	F	VMWare Additional Disk Pool	50			Operational
+vmt010140176170	9397	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176093	9402	ext3	/u01	VMWare Additional Disk Pool	70			Decommissioned
+vmt010140176144	9407	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmt010140176139	9412	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmd010140178087	9417	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176169	9422	ext3	/u01	VMWare Additional Disk Pool	1 000			Decommissioned
+vmt010140176169	9423	ext3	/u02	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176170	9431	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176171	9438	NTFS	E	VMWare Additional Disk Pool	120			Operational
+vmt010140176172	9455	jfs2	/u01	AIX Storage Pool	80	u01data	u01	Operational
+vmt010140176173	9461	jfs2	/u01	AIX Storage Pool	600	u01data	u01	Operational
+vmt010140176174	9485	ext3	/u01	VMWare Additional Disk Pool	120			Decommissioned
+vmd010140178013	9542	ext3	/u01	VMWare Additional Disk Pool	1 500			Decommissioned
+vmt010140176166	9550	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176167	9560	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmd010140178107	9571	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176168	9566	jfs2	/data	AIX Storage Pool	340	datavn	datavg	Operational
+vmt010140176169	12905	NTFS	e	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176169	12906	NTFS	f	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176169	12886	NTFS	E	VMWare Additional Disk Pool	400			Decommissioned
+vmt010140176169	12887	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176169	12888	NTFS	E	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140176169	12889	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176175	9589	jfs2	/data	AIX Storage Pool	200	datalog	datavg	Operational
+vmd010140178091	9594	NTFS	E	VMWare Additional Disk Pool	106			Decommissioned
+vmd010140178091	9595	NTFS	f	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176176	9725	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176178	9635	NTFS	g	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176178	9633	NTFS	e	VMWare Additional Disk Pool	6			Decommissioned
+vmt010140176178	9634	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176179	9726	NTFS	E	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176177	9704	NTFS	e	VMWare Additional Disk Pool	6			Decommissioned
+vmt010140176177	9705	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176181	9711	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176180	9715	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176184	9743	none		AIX Storage Pool	40		Datavg	Decommissioned
+vmt010140176184	9753	jfs2	/data	AIX Storage Pool	30	datavn	datavg	Decommissioned
+vmd010140178007	9763	jfs2	data	AIX Storage Pool	30	datavn	datavg	Decommissioned
+vmd010140178007	9769	jfs2	data	AIX Storage Pool	170	datavn	datavg	Decommissioned
+vmt010140176185	9792	ext3	/u01	VMWare Additional Disk Pool	75			Decommissioned
+vmt010140176186	9797	ext3	/u01	VMWare Additional Disk Pool	105			Decommissioned
+vmt010140176187	9802	ext3	/u01	VMWare Additional Disk Pool	105			Decommissioned
+vmt010140176188	9807	ext3	/u01	VMWare Additional Disk Pool	105			Decommissioned
+vmt010140176191	9826	ext3	/u01	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176192	9831	ext3	/u01	VMWare Additional Disk Pool	75			Decommissioned
+vmt010140176201	9922	NTFS	E	VMWare Additional Disk Pool	30			Operational
+vmt010140176202	9928	jfs2	/data	AIX Storage Pool	50	datavn1	datavg	Decommissioned
+vmt010140176202	9929	jfs2		AIX Storage Pool	30	datavn2	datavg1	Decommissioned
+vmt010140176204	9940	jfs2	/data	AIX Storage Pool	40	datavn1	datavg1	Operational
+vmt010140176204	9941	jfs2		AIX Storage Pool	40	datavn2	datavg2	Operational
+vmt010140176184	9975	NTFS	E	VMWare Additional Disk Pool	500			Operational
+vmt010140176184	9952	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176184	9953	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176184	9954	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176193	9951	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176190	9959	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176196	9964	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176196	9969	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176196	9974	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmd010140178067	13630	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176202	9984	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176196	9989	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176205	9994	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176196	9999	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmt010140176196	17051	NTFS	h	VMWare Additional Disk Pool	50			Operational
+vmt010140176196	18042	NTFS	s	VMWare Additional Disk Pool	200			Operational
+vmt010140176196	19956	NTFS	k	VMWare Additional Disk Pool	200			Operational
+vmt010140176202	10004	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176202	10009	NTFS	e	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176202	10014	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmt010140176202	17052	NTFS	h	VMWare Additional Disk Pool	50			Operational
+vmt010140176207	10069	jfs2		AIX Storage Pool	80	datavn	datavg	Decommissioned
+vmt010140176203	10161	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176203	10140	NTFS	D	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176203	10146	NTFS	D	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178069	10095	NTFS	e	VMWare Additional Disk Pool	250			Operational
+vmt010140176190	10102	NTFS	e	VMWare Additional Disk Pool	150			Operational
+vmt010140176208	10138	none		AIX Storage Pool	100		vgdata	Decommissioned
+vmt010140176210	10144	none		AIX Storage Pool	100		datavg	Decommissioned
+vmt010140176208	10150	none		AIX Storage Pool	100		datavg	Operational
+vmt010140176214	10213	jfs2		AIX Storage Pool	40	datavn	datavg	Decommissioned
+vmt010140176091	10277	ext3	/data1	VMWare Additional Disk Pool Oracle	10			Decommissioned
+vmd010140178037	10362	NTFS	E	VMWare Additional Disk Pool Oracle	40			Operational
+VMD010140178086	10375	NTFS	E	VMWare Additional Disk Pool Oracle	50			Decommissioned
+vmd010140178025	10407	NTFS	F	VMWare Additional Disk Pool Oracle	50			Decommissioned
+vmt010140176186	10413	ext3	/u01	VMWare Additional Disk Pool Oracle	105			Operational
+vmt010140176187	10418	ext3	/u01	VMWare Additional Disk Pool Oracle	105			Operational
+vmt010140176188	10443	ext3	/u01	VMWare Additional Disk Pool Oracle	105			Operational
+vmd010140178063	11759	NTFS	F	VMWare Additional Disk Pool	200			Operational
+vmd010140178063	11712	NTFS	F	VMWare Additional Disk Pool	200			Decommissioned
+vmd010140178063	10448	NTFS	E	VMWare Additional Disk Pool	60			Operational
+vmd010140178089	10471	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140176185	10509	ext3	/u01	VMWare Additional Disk Pool Oracle	75			Operational
+vmt010140176149	15154	ext3	/u02	VMWare Additional Disk Pool Oracle	300			Operational
+vmt010140176149	10514	ext3	/u01	VMWare Additional Disk Pool Oracle	1 500			Operational
+vmt010140176147	10519	ext3	/u01	VMWare Additional Disk Pool Oracle	120			Operational
+vmt010140176174	18096	ext3	/u02	VMWare Additional Disk Pool Oracle	100			Operational
+vmt010140176174	20654	ext3	/data	VMWare Additional Disk Pool Oracle	100			Operational
+vmt010140176174	10524	ext3	/u01	VMWare Additional Disk Pool Oracle	0			Operational
+vmt010140176093	10529	ext3	/u01	VMWare Additional Disk Pool Oracle	70			Operational
+vmt010140176145	10534	ext3	/u01	VMWare Additional Disk Pool Oracle	70			Operational
+vmt010140176146	10539	ext3	/u01	VMWare Additional Disk Pool Oracle	70			Operational
+vmd010140178090	10544	jfs2	w001	AIX Storage Pool	500	datavn	datavg	Decommissioned
+vmd010140178101	10587	NTFS	E	VMWare Additional Disk Pool Oracle	60			Decommissioned
+vmd010140178108	10598	jfs2	/w001	AIX Storage Pool	200	datavn	datavg	Operational
+vmd010140178109	10603	jfs2	a01	AIX Storage Pool	2 024	datavn	datavg	Operational
+vmt010140176035	10608	NTFS	E	VMWare Additional Disk Pool Oracle	40			Decommissioned
+vmt010140176177	10703	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176023	10719	jfs2	/u01	AIX Storage Pool	80	datavn	datavg	Operational
+vmt010140176209	10726	ext3	/u01	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140176062	10731	NTFS	E	VMWare Additional Disk Pool	80			Operational
+vmt010140176210	10736	ext3	/u01	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176212	10745	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmd010140178110	10760	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178110	10759	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178111	10764	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178111	10765	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178112	10769	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178112	10770	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178110	10777	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178110	10786	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178111	10781	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178111	10787	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178112	10785	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178112	10788	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176213	10793	NTFS	E	VMWare Additional Disk Pool	150			Operational
+vmd010140178113	15930	NTFS	f	VMWare Additional Disk Pool	55			Operational
+vmd010140178113	10798	NTFS	e	VMWare Additional Disk Pool	0			Operational
+vmd010140178013	10811	ext3	/u01	VMWare Additional Disk Pool	1 500			Decommissioned
+vmt010140176218	10832	NTFS	t	VMWare Additional Disk Pool	15			Operational
+vmt010140176218	19813	NTFS	F	VMWare Additional Disk Pool	300			Operational
+vmt010140176218	10830	NTFS	E	VMWare Additional Disk Pool	12			Operational
+vmt010140176218	10831	NTFS	s	VMWare Additional Disk Pool	0			Operational
+vmt010140176221	10871	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176220	10878	NTFS	E	VMWare Additional Disk Pool	30			Operational
+vmt010140176222	10883	NTFS	E	VMWare Additional Disk Pool	30			Operational
+vmt010140176206	10888	NTFS	E	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140176219	11897	NTFS	E	VMWare Additional Disk Pool	60			Operational
+vmt010140176223	10897	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmd010140178013	10902	ext3	/u01	VMWare Additional Disk Pool	1 500			Decommissioned
+vmd010140178013	10907	ext3	/u01	VMWare Additional Disk Pool	1 500			Decommissioned
+vmd010140178013	10912	ext3	/u01	VMWare Additional Disk Pool	1 500			Operational
+vmd010140178013	19074	ext3	/uo2	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178013	19096	ext3	/u02	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176007	15371	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176007	15372	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140176225	10996	NTFS	E	VMWare Additional Disk Pool Oracle	100			Decommissioned
+vmt010140176150	11093	jfs2	/w001	AIX Storage Pool	200	datavn	datavg	Operational
+vmt010140176226	11097	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140176227	11103	jfs2	/w001	AIX Storage Pool	250	datavn	datavg	Decommissioned
+vmt010140176226	11107	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140176226	11117	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140176050	11124	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176050	11123	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176228	13327	NTFS	o	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176228	11139	NTFS	E	VMWare Additional Disk Pool	3 000			Decommissioned
+vmt010140176228	11987	NTFS	G	VMWare Additional Disk Pool	2 000			Decommissioned
+vmt010140176228	13139	NTFS	G	VMWare Additional Disk Pool	2 000			Decommissioned
+vmt010140176228	11178	NTFS	E	VMWare Additional Disk Pool	2 000			Operational
+vmt010140176228	11825	NTFS	h	VMWare Additional Disk Pool	250			Decommissioned
+vmt010140176228	11179	NTFS	F	VMWare Additional Disk Pool	2 000			Operational
+vmt010140176050	11144	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176050	11145	NTFS	F	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176231	11184	jfs2	/a01	AIX Storage Pool	2 500	datavn	datavg	Operational
+vmt010140176232	11198	jfs2		AIX Storage Pool	1 600	datavn	datvg	Decommissioned
+vmd010140178114	11203	NTFS	E	VMWare Additional Disk Pool	250			Operational
+vmt010140176235	11760	NTFS	F	VMWare Additional Disk Pool	200			Operational
+vmt010140176235	11231	NTFS	e	VMWare Additional Disk Pool	60			Operational
+vmt010140176235	11736	NTFS	F	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140176013	11332	NTFS	E	VMWare Additional Disk Pool Oracle	50			Operational
+vmt010140176013	11555	NTFS	f	VMWare Additional Disk Pool Oracle	20			Operational
+vmt010140176013	11261	NTFS	E	VMWare Additional Disk Pool Oracle	100			Decommissioned
+vmt010140176217	11277	NTFS	E	VMWare Additional Disk Pool Oracle	30			Decommissioned
+vmt010140176224	11281	NTFS	E	VMWare Additional Disk Pool Oracle	30			Operational
+vmt010140176232	11299	NTFS	E	VMWare Additional Disk Pool Oracle	100			Decommissioned
+vmt010140176232	11326	NTFS	E	VMWare Additional Disk Pool Oracle	100			Decommissioned
+vmt010140176237	11331	NTFS	E	VMWare Additional Disk Pool Oracle	100			Decommissioned
+vmt010140176232	11336	ext3	/u01	VMWare Additional Disk Pool Oracle	0			Operational
+vmt010140176232	14942	ext3	/u02	VMWare Additional Disk Pool Oracle	60			Operational
+vmt010140176232	18095	ext3	/u03	VMWare Additional Disk Pool Oracle	100			Operational
+vmt010140176232	20653	ext3	/data	VMWare Additional Disk Pool Oracle	100			Operational
+vmd010140178115	11345	ext3	/u01	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140176021	11352	ext3	/u01	VMWare Additional Disk Pool Oracle	70			Decommissioned
+vmt010140176021	11362	ext3	/u01	VMWare Additional Disk Pool Oracle	75			Operational
+vmd010140178116	11370	ext3	/u01	VMWare Additional Disk Pool	200			Operational
+vmt010140176238	11377	jfs2		AIX Storage Pool	3 200	datavn	datavg	Operational
+vmt010140176240	11391	ext3	/u01	VMWare Additional Disk Pool Oracle	70			Operational
+vmt010140176241	11396	ext3	/u01	VMWare Additional Disk Pool Oracle	70			Operational
+vmd010140178115	11401	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178115	11402	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176242	11407	ext3	/u01	VMWare Additional Disk Pool Oracle	120			Operational
+vmt010140176243	11412	jfs2		AIX Storage Pool	1 840	datavn	datavg	Operational
+vmt010140176244	11418	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140176130	11423	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140176153	11462	ext3	/u01	VMWare Additional Disk Pool	150			Decommissioned
+vmd010140178117	11469	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178117	11470	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178048	11475	NTFS	e	VMWare Additional Disk Pool	50			Operational
+vmd010140178048	15671	NTFS	f	VMWare Additional Disk Pool	10			Decommissioned
+vmd010140178048	11476	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178118	11481	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178119	11487	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178119	11486	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178120	11492	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178120	11493	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176083	11501	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178121	11508	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178121	11509	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178122	11514	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178122	11515	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178123	11713	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178123	11520	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178124	11525	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178124	11526	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178125	11531	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178125	11532	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178126	11543	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178126	11544	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176216	11548	jfs2		AIX Storage Pool	200	datavn	datavg	Decommissioned
+vmt010140176212	11554	NTFS	e	VMWare Additional Disk Pool	150			Operational
+vmt010140176229	11563	jfs2	/app	AIX Storage Pool	200	datavn	datavg	Decommissioned
+vmd010140178127	11714	NTFS	e	VMWare Additional Disk Pool	50			Operational
+vmt010140176234	11586	ext3	/u01	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176151	11590	ext3	/u01	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176152	11594	ext3	/u01	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176153	11598	ext3	/u01	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176234	15607	ext3	/u01	VMWare Additional Disk Pool Oracle	25			Decommissioned
+vmt010140176152	15560	ext3	/u01	VMWare Additional Disk Pool Oracle	25			Decommissioned
+vmt010140176151	17855	ext3	/U02	VMWare Additional Disk Pool Oracle	30			Decommissioned
+vmt010140176151	11824	ext3	/u01	VMWare Additional Disk Pool Oracle	0			Operational
+vmt010140176151	17847	ext3	/data	VMWare Additional Disk Pool Oracle	30			Decommissioned
+vmt010140176236	11653	jfs2	/app	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176236	11654	jfs2	/db	AIX Storage Pool	3 048	datavn2	datavg2	Decommissioned
+vmt010140176239	11659	ext3	/u01	VMWare Additional Disk Pool Oracle	100			Decommissioned
+vmt010140176244	11664	ext3	/u01	VMWare Additional Disk Pool Oracle	400			Decommissioned
+vmt010140176246	11669	ext3	/u01	VMWare Additional Disk Pool	150			Operational
+vmt010140176245	11673	ext3	/u01	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176247	11677	ext3	/u01	VMWare Additional Disk Pool	150			Operational
+vmd010140178128	11688	ext3	/data	VMWare Additional Disk Pool Oracle	100			Decommissioned
+vmd010140178129	11720	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178129	11721	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178128	11725	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178128	11726	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176216	11740	jfs2	/data	AIX Storage Pool	200	datavn	datavg	Operational
+vmd010140178131	11747	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178131	11748	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178130	11752	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178130	11753	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176233	11757	jfs2	/app	AIX Storage Pool	200	datavn	datavg	Decommissioned
+vmd010140178132	11765	NTFS	f	VMWare Additional Disk Pool	900			Decommissioned
+vmd010140178132	11766	NTFS	g	VMWare Additional Disk Pool	900			Decommissioned
+vmd010140178132	11767	NTFS	h	VMWare Additional Disk Pool	400			Decommissioned
+vmd010140178132	11776	NTFS	F	VMWare Additional Disk Pool	900			Decommissioned
+vmd010140178132	11777	NTFS	g	VMWare Additional Disk Pool	900			Decommissioned
+vmd010140178132	11778	NTFS	h	VMWare Additional Disk Pool	400			Decommissioned
+vmd010140178130	11796	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178130	11797	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178132	11802	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178132	11803	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178133	11818	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178133	11817	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178134	11822	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178134	11823	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178031	13249	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178136	11876	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178136	11877	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178135	11881	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178135	11882	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178137	11890	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178137	11891	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178090	11895	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178090	11896	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176072	11902	NTFS	e	VMWare Additional Disk Pool Oracle	250			Operational
+vmd010140178137	11985	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178137	11986	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176178	12134	ext3	/u01	VMWare Additional Disk Pool Oracle	50			Decommissioned
+vmt010140176248	12003	jfs2	/db	AIX Storage Pool	1 000	datavn	datavg	Decommissioned
+vmt010140176248	12004	jfs2	/app	AIX Storage Pool	50	datavn2	datavg2	Decommissioned
+vmt010140176227	12013	NTFS	D	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176244	12017	NTFS	D	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176236	12021	NTFS	D	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176239	12025	NTFS	D	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176252	12038	NTFS	D	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176253	12042	NTFS	D	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176251	12046	NTFS	D	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176249	12050	NTFS	D	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178138	12060	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178138	12061	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176255	12069	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177001	12073	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177001	16521	NTFS	g	VMWare Additional Disk Pool	155			Decommissioned
+vmt010140176254	12077	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177000	12081	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176236	12096	NTFS	E	VMWare Additional Disk Pool Oracle	100			Decommissioned
+vmt010140176227	12101	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176239	12106	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176244	12111	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178139	12116	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178139	12117	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176249	12121	jfs2	/data	AIX Storage Pool	100	datavn	datavg	Operational
+vmt010140176251	12128	NTFS	E	VMWare Additional Disk Pool Oracle	0			Decommissioned
+vmt010140176251	14991	NTFS	f	VMWare Additional Disk Pool Oracle	250			Decommissioned
+vmt010140176252	12133	NTFS	E	VMWare Additional Disk Pool	300			Decommissioned
+vmt010140176092	16463	ext3	/tafdb	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176092	12142	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmt010140176253	12168	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176178	12172	ext3	/u01	VMWare Additional Disk Pool Oracle	50			Decommissioned
+vmt010140176245	12181	ext3	/data	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140177000	12186	ext3	/data	VMWare Additional Disk Pool	150			Operational
+vmd010140178011	12228	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176077	12232	ext3	/u01	VMWare Additional Disk Pool Oracle	50			Operational
+vmt010140176178	12239	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176206	12243	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140177002	12249	jfs2		AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176245	12253	jfs2		AIX Storage Pool	50	datavn	datavg	Operational
+vmt010140176206	12258	NTFS	E	VMWare Additional Disk Pool	300			Decommissioned
+vmt010140176178	12288	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177003	12282	jfs2	/data	AIX Storage Pool	30	datavn	datavg	Decommissioned
+vmt010140177004	12287	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Operational
+vmt010140177005	12313	NTFS	E	VMWare Additional Disk Pool	300			Operational
+vmt010140177006	12377	NTFS	E	VMWare Additional Disk Pool	300			Decommissioned
+vmt010140177006	12318	NTFS	E	VMWare Additional Disk Pool	300			Decommissioned
+vmd010140178050	14943	ext3	/U01	VMWare Additional Disk Pool	10			Decommissioned
+vmd010140178050	14944	ext3	/U02	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140177007	12327	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177008	12332	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmt010140177009	12337	NTFS	E	VMWare Additional Disk Pool Oracle	500			Operational
+vmt010140177010	12347	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140177003	12352	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Operational
+vmt010140176111	12356	ext3	/u01	VMWare Additional Disk Pool Oracle	50			Operational
+vmt010140176119	12362	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140177012	12388	NTFS	E	VMWare Additional Disk Pool	300			Decommissioned
+vmt010140177013	12398	jfs2		AIX Storage Pool	2 400	datavn	datavg	Decommissioned
+vmt010140176060	12408	jfs2		AIX Storage Pool	2 400	datavn	datavg	Operational
+vmt010140176061	12450	ext3	/u01	VMWare Additional Disk Pool	50			Operational
+vmt010140177011	12455	ext3	/u01	VMWare Additional Disk Pool	50			Operational
+vmd010140178009	13074	ext3	/u01	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178009	13075	ext3	/u01	VMWare Additional Disk Pool	2 000			Decommissioned
+vmd010140178009	13090	ext3	/u01	VMWare Additional Disk Pool	2 048			Decommissioned
+vmd010140178009	14643	ext3	/u02	VMWare Additional Disk Pool	500			Operational
+vmd010140178009	13091	ext3	/u01	VMWare Additional Disk Pool	2 000			Operational
+vmd010140178011	18644	ext3	/data2	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178011	15149	ext3	/data2	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178011	18936	ext3	/extra	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178011	12491	ext3	/data	VMWare Additional Disk Pool	0			Operational
+vmt010140177014	12511	NTFS	E	VMWare Additional Disk Pool	60			Operational
+vmt010140176083	12675	NTFS	E	VMWare Additional Disk Pool	300			Decommissioned
+vmd010140178034	12680	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140177017	12685	NTFS	E	VMWare Additional Disk Pool	300			Decommissioned
+vmt010140177019	12694	NTFS	E	VMWare Additional Disk Pool	300			Decommissioned
+vmt010140177016	12704	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177020	12709	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140177021	12714	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177022	12719	NTFS	E	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177023	19957	NTFS	k	VMWare Additional Disk Pool	300			Operational
+vmt010140177023	12724	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmt010140177023	17053	NTFS	h	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177024	12729	NTFS	E	VMWare Additional Disk Pool	210			Decommissioned
+vmt010140177015	12765	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178023	12832	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178053	12837	jfs2		AIX Storage Pool	300	datavn	datavg	Operational
+vmt010140177026	17853	NTFS	x	VMWare Additional Disk Pool	50			Operational
+vmt010140177026	15775	NTFS	F	VMWare Additional Disk Pool	300			Operational
+vmt010140177026	16157	NTFS	G	VMWare Additional Disk Pool	550			Operational
+vmt010140177026	12857	NTFS	E	VMWare Additional Disk Pool	250			Operational
+vmt010140177026	18641	NTFS	k	VMWare Additional Disk Pool	150			Operational
+vmt010140177026	18642	NTFS	l	VMWare Additional Disk Pool	150			Operational
+vmd010140178087	12874	NTFS	E	VMWare Additional Disk Pool	80			Decommissioned
+vmt010140177025	12883	jfs2		AIX Storage Pool	130	datavn	datavg	Decommissioned
+vmd010140178041	12904	NTFS	F	VMWare Additional Disk Pool Oracle	50			Decommissioned
+vmd010140178041	12907	NTFS	E	VMWare Additional Disk Pool Oracle	120			Operational
+vmd010140178041	12903	NTFS	E	VMWare Additional Disk Pool Oracle	120			Decommissioned
+vmt010140177029	12925	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177029	12926	NTFS	G	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140177030	12934	jfs2		AIX Storage Pool	40	datavn1	datavg1	Decommissioned
+vmt010140177030	12935	jfs2		AIX Storage Pool	40	datavn2	datavg2	Decommissioned
+vmt010140177030	12945	jfs2		AIX Storage Pool	170	datavn1	datavg1	Decommissioned
+vmt010140177030	12946	jfs2		AIX Storage Pool	140	datavn2	datavg2	Decommissioned
+vmt010140177031	12953	jfs2		AIX Storage Pool	500	datavn	datavg	Operational
+vmt010140177032	12957	jfs2		AIX Storage Pool	30	datavn1	datavg1	Decommissioned
+vmt010140177032	12958	jfs2		AIX Storage Pool	30	datavn2	datavg2	Decommissioned
+vmt010140177032	12963	jfs2		AIX Storage Pool	30	datavn1	datavg1	Decommissioned
+vmt010140177032	12964	jfs2		AIX Storage Pool	30	datavn2	datavg2	Decommissioned
+vmt010140176123	12969	jfs2		AIX Storage Pool	30	datavn1	datavg1	Decommissioned
+vmd010140178093	12975	NTFS	s	VMWare Additional Disk Pool	20			Operational
+vmd010140178093	12976	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140176123	12980	jfs2		AIX Storage Pool	30	datavn1	datavg1	Decommissioned
+vmt010140176123	12985	jfs2		AIX Storage Pool	100	datavn1	datavg1	Decommissioned
+vmt010140176123	12986	jfs2		AIX Storage Pool	30	datavn2	datavg2	Decommissioned
+vmd010140178101	12999	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178101	13000	NTFS	F	VMWare Additional Disk Pool	25			Decommissioned
+vmd010140178102	13052	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmd010140178062	13079	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140176123	13088	jfs2		AIX Storage Pool	100	datvn	datavg	Decommissioned
+vmd010140178062	13095	NTFS	F	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178062	13096	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178099	13152	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmd010140178119	13157	NTFS	E	VMWare Additional Disk Pool	80			Operational
+vmt010140176239	13167	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140177028	13185	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140177036	13250	ext3	/U01	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177036	13190	ext3	/U01	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140177037	13347	ext3	/u01	VMWare Additional Disk Pool Oracle	70			Operational
+vmt010140177037	13237	ext3	/test1	VMWare Additional Disk Pool Oracle	10			Decommissioned
+vmt010140177037	13239	ext3	/U01	VMWare Additional Disk Pool Oracle	70			Decommissioned
+vmd010140178120	13198	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmd010140178120	13199	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmt010140177038	13348	ext3	/u01	VMWare Additional Disk Pool Oracle	70			Operational
+vmt010140177038	13240	ext3	/U01	VMWare Additional Disk Pool Oracle	70			Decommissioned
+vmt010140177039	13349	ext3	/u01	VMWare Additional Disk Pool Oracle	70			Operational
+vmt010140177039	13241	ext3	/U01	VMWare Additional Disk Pool Oracle	70			Decommissioned
+vmt010140177040	13350	ext3	/u01	VMWare Additional Disk Pool Oracle	120			Operational
+vmt010140177040	13238	ext3	/u01	VMWare Additional Disk Pool Oracle	120			Decommissioned
+vmt010140177041	13242	ext3	/U01	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177042	13243	ext3	/data	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140177029	19034	NTFS	h	VMWare Additional Disk Pool	40			Operational
+vmt010140177029	15222	NTFS	e	VMWare Additional Disk Pool	40			Operational
+vmt010140177034	13248	ext3	/data	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140177034	13396	ext3	/u01	VMWare Additional Disk Pool	150			Operational
+vmt010140177041	13255	ext3	/U01	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177043	13260	ext3	/U01	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177043	13351	ext3	/u01	VMWare Additional Disk Pool	15			Operational
+vmd010140178031	13269	ext3	/pandora	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178031	13270	ext3	/release	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177044	13289	jfs2	/data	AIX Storage Pool	100	datavn	datavg	Operational
+vmd010140178031	13303	ext3	/release	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178031	13304	ext3	/pandora	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177045	13314	NTFS	E	VMWare Additional Disk Pool Oracle	15			Decommissioned
+vmt010140177041	13332	NTFS	E	VMWare Additional Disk Pool Oracle	15			Decommissioned
+vmd010140178121	13344	NTFS	E	VMWare Additional Disk Pool	130			Operational
+vmt010140177036	13359	NTFS	E	VMWare Additional Disk Pool	15			Decommissioned
+vmd010140178123	17578	ext3	/u02	VMWare Additional Disk Pool	30			Operational
+vmd010140178123	13370	ext3	/u01	VMWare Additional Disk Pool	0			Operational
+vmt010140176155	13395	ext3	/u01	VMWare Additional Disk Pool	15			Decommissioned
+vmd010140178021	13404	NTFS	e	VMWare Additional Disk Pool Oracle	60			Decommissioned
+vmt010140176178	13410	NTFS	e	VMWare Additional Disk Pool Oracle	60			Decommissioned
+vmt010140176195	13415	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140176200	13420	NTFS	e	VMWare Additional Disk Pool	60			Operational
+vmt010140176178	13449	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178021	13471	NTFS	e	VMWare Additional Disk Pool	60			Operational
+vmd010140178090	13476	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177048	13503	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177050	13507	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177051	13511	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177052	13515	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177049	13519	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177046	13523	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177047	13527	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177036	13531	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177053	13535	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177054	13549	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140177055	13556	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140177056	13560	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140177058	13566	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140177057	13570	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178090	13587	NTFS	E	VMWare Additional Disk Pool	200			Decommissioned
+vmd010140178105	13606	NTFS	E	VMWare Additional Disk Pool	150			Operational
+vmd010140178112	13611	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmd010140178112	17175	NTFS	F	VMWare Additional Disk Pool	250			Decommissioned
+vmt010140177007	13623	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178103	13647	ext3	/data	VMWare Additional Disk Pool	120			Operational
+vmt010140177012	13652	ext3	/data	VMWare Additional Disk Pool	120			Operational
+vmd010140178106	13694	NTFS	E	VMWare Additional Disk Pool	120			Operational
+vmd010140178124	13692	NTFS	E	VMWare Additional Disk Pool	120			Decommissioned
+vmd010140178087	13728	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177062	13797	NTFS	E	VMWare Additional Disk Pool	128			Decommissioned
+vmt010140176068	13857	jfs2	/data	AIX Storage Pool	500	datavn	datavg	Operational
+vmt010140177060	13892	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178086	13899	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178115	13903	NTFS	E	VMWare Additional Disk Pool	120			Operational
+vmt010140177060	13914	NTFS	E	VMWare Additional Disk Pool	150			Operational
+vmt010140177061	13919	NTFS	E	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140177064	18246	NTFS	e	VMWare Additional Disk Pool	25			Decommissioned
+vmt010140177065	13928	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178118	13933	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140177066	13938	jfs2		AIX Storage Pool	140	datavn	datavg	Decommissioned
+vmt010140176032	13942	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178124	13947	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178126	13952	ext3	/data	VMWare Additional Disk Pool	70			Operational
+vmt010140176032	13957	jfs2		AIX Storage Pool	30	datavn1	datavg1	Operational
+vmt010140177063	13962	ext3	/u01	VMWare Additional Disk Pool	30			Operational
+vmd010140178129	13978	jfs2		AIX Storage Pool	170	datavn1	datavg1	Operational
+vmd010140178130	13986	NTFS	E	VMWare Additional Disk Pool	200			Operational
+vmd010140178131	13992	jfs2		AIX Storage Pool	500	datavn1	datavg1	Decommissioned
+vmt010140176009	13997	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178132	14002	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140178131	14007	jfs2		AIX Storage Pool	300	datavn1	datavg1	Operational
+vmd010140178131	14008	jfs2		AIX Storage Pool	100	datavn2	datavg2	Operational
+vmd010140178131	14009	jfs2		AIX Storage Pool	50	datavn3	datavg3	Operational
+vmt010140176009	14017	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176040	14033	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176215	14038	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140178133	14046	NTFS	f	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140177032	14059	NTFS	E	VMWare Additional Disk Pool	128			Operational
+vmd010140178133	14064	NTFS	E	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140177057	14136	jfs2		AIX Storage Pool	50	datavn1	datavg1	Decommissioned
+vmt010140177058	14141	jfs2		AIX Storage Pool	50	datavn1	datavg1	Decommissioned
+vmt010140177067	14155	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140177068	14160	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmd010140178135	14173	jfs2	/u01	AIX Storage Pool	30	datavn	datavg	Decommissioned
+vmd010140178136	14178	ext3	/u01	VMWare Additional Disk Pool Oracle	30			Decommissioned
+vmt010140177046	14186	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140177048	14190	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140177047	14194	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmd010140178137	14231	ext3	/u01	VMWare Additional Disk Pool Oracle	30			Decommissioned
+vmt010140177052	14276	jfs2		AIX Storage Pool	100	datavn	datavg	Operational
+vmt010140177046	14296	jfs2		AIX Storage Pool	430	datavn	datavg	Operational
+vmt010140177047	14301	jfs2		AIX Storage Pool	100	datavn	datavg	Operational
+vmt010140177015	14310	ext3	/u01	VMWare Additional Disk Pool Oracle	30			Decommissioned
+vmt010140177048	14315	ext3	/u01	VMWare Additional Disk Pool Oracle	30			Decommissioned
+vmt010140177049	14321	jfs2		AIX Storage Pool	100	datavn	datavg	Operational
+vmt010140177053	14325	jfs2	/u01	AIX Storage Pool	30	datavn	datavg	Operational
+vmt010140177056	14333	NTFS	d	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177055	14337	NTFS	d	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177069	14341	NTFS	d	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177070	14346	jfs2		AIX Storage Pool	1 000	datavn1	datavg1	Decommissioned
+vmt010140177070	14347	jfs2		AIX Storage Pool	1 000	datavn2	datavg2	Decommissioned
+vmt010140177070	14348	jfs2		AIX Storage Pool	1 000	datavn3	datavg3	Decommissioned
+vmt010140177072	14355	NTFS	d	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177071	14359	NTFS	d	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177062	14363	NTFS	d	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177073	14371	NTFS	e	VMWare Additional Disk Pool	50			Operational
+vmt010140177073	14372	NTFS	f	VMWare Additional Disk Pool	10			Operational
+vmt010140177074	14378	NTFS	F	VMWare Additional Disk Pool	10			Operational
+vmt010140177074	14379	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178135	14394	NTFS	E	VMWare Additional Disk Pool	300			Operational
+vmt010140177050	14408	NTFS	d	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177077	14469	NTFS	d	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177079	14478	NTFS	e	VMWare Additional Disk Pool	15			Operational
+vmt010140177080	14483	NTFS	e	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177078	14488	NTFS	e	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177081	14493	NTFS	E	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140177082	14499	jfs2	/u01	AIX Storage Pool	50	datavn	datavg	Operational
+vmt010140176047	14549	ext3	/INTERNE_OT1	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177015	14556	ext3	/EXTERNE_OT1	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177015	14557	ext3	/INTERNE_OT2	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177036	14562	ext3	/EXTERNE_OT1	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177048	14567	ext3	/EXTERNE_OT2	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177051	14572	ext3	/API_CAT	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177075	14577	ext3	/SOGETE_TEST	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178038	14585	NTFS	E	VMWare Additional Disk Pool Oracle	200			Operational
+vmt010140177076	14591	NTFS	E	VMWare Additional Disk Pool Oracle	200			Operational
+vmt010140176193	15244	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmt010140177083	14606	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178042	14611	NTFS	E	VMWare Additional Disk Pool	120			Decommissioned
+vmt010140177085	14647	ext3	/u01	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140177086	14652	ext3	/u01	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140177087	14658	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178134	14662	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178136	14668	NTFS	E	VMWare Additional Disk Pool	120			Operational
+vmt010140177088	14920	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140177089	14680	ext2	/DATA	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178137	14687	ext3	/DATA	VMWare Additional Disk Pool	20			Operational
+vmt010140177089	14697	ext3	/DATA	VMWare Additional Disk Pool	20			Operational
+vmt010140177090	14705	ext3	/jira	VMWare Additional Disk Pool	50			Operational
+vmd010140178138	14712	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177091	14720	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmd010140178138	14737	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177084	14781	ext3	/u01	VMWare Additional Disk Pool Oracle	100			Operational
+vmt010140176047	14788	ext3	/u01	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140177015	14793	ext3	/u01	VMWare Additional Disk Pool	30			Decommissioned
+vmt010140177036	14797	jfs2		AIX Storage Pool	30	datavn	datavg	Operational
+vmt010140177092	14803	ext3	/a01	VMWare Additional Disk Pool Oracle	0			Decommissioned
+vmt010140177093	14808	ext3	/a01	VMWare Additional Disk Pool Oracle	190			Decommissioned
+vmt010140177096	14813	ext3	/INTERNE_OT2	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177096	14818	ext3	/INTERNE_OT2	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177096	15225	ext3	/u01	VMWare Additional Disk Pool	25			Decommissioned
+vmt010140177097	14823	ext3	/EXTERNE_OT1	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177098	14828	ext3	/INTERNE_OT1	VMWare Additional Disk Pool	100			Operational
+vmd010140178128	14833	jfs2	/data	AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmd010140178140	14842	NTFS	E	VMWare Additional Disk Pool	150			Operational
+vmd010140178140	14843	NTFS	F	VMWare Additional Disk Pool	20			Operational
+vmd010140178141	14927	NTFS	F	VMWare Additional Disk Pool Oracle	150			Decommissioned
+vmd010140178141	14926	NTFS	E	VMWare Additional Disk Pool Oracle	20			Decommissioned
+vmd010140178124	14933	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178124	14934	NTFS	F	VMWare Additional Disk Pool	80			Decommissioned
+vmd010140178142	14939	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmd010140178142	14940	NTFS	F	VMWare Additional Disk Pool	150			Operational
+vmd010140178143	14952	jfs2		AIX Storage Pool	150	datavn	datavg	Operational
+vmd010140178144	15408	ext3	/w001/app	VMWare Additional Disk Pool Oracle	20			Operational
+vmt010140177101	14963	NTFS	e	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140177101	14964	NTFS	f	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176148	15002	jfs2		AIX Storage Pool	1 500	datavn	datavg	Decommissioned
+vmt010140176148	15003	jfs2		AIX Storage Pool	1 700	datavn2	datavg2	Decommissioned
+vmd010140178146	15012	NTFS	E	VMWare Additional Disk Pool	500			Operational
+vmt010140176148	15017	jfs2		AIX Storage Pool	1 500	datavn	datavg	Decommissioned
+vmt010140176148	15018	jfs2		AIX Storage Pool	1 200	datavn2	datavg2	Decommissioned
+vmt010140176148	15019	jfs2		AIX Storage Pool	500	datavn3	datavg3	Decommissioned
+vmd010140178147	15024	NTFS	E	VMWare Additional Disk Pool	150			Operational
+vmd010140178147	18586	NTFS	h	VMWare Additional Disk Pool	1 500			Operational
+vmd010140178147	18311	NTFS	g	VMWare Additional Disk Pool	350			Operational
+vmd010140178148	15029	ext3	/AMG_DMZ	VMWare Additional Disk Pool	100			Operational
+vmd010140178148	15223	ext3	/u01	VMWare Additional Disk Pool	25			Operational
+vmd010140178149	15034	ext3	/AMG_INTERN	VMWare Additional Disk Pool	100			Operational
+vmt010140176148	15039	ext3	/INTERN_OT1	VMWare Additional Disk Pool	100			Operational
+vmt010140176148	15224	ext3	/u01	VMWare Additional Disk Pool	25			Operational
+vmt010140176191	15044	ext3	/EXTERN_OT2	VMWare Additional Disk Pool	100			Operational
+vmt010140176210	15409	ext3	/w001/app	VMWare Additional Disk Pool Oracle	20			Operational
+vmt010140177094	15089	jfs2		AIX Storage Pool	100	datavn	datavg	Decommissioned
+vmt010140177094	15094	jfs2		AIX Storage Pool	250	datavn	datavg	Operational
+vmt010140177099	15102	ext3	/u01	VMWare Additional Disk Pool Oracle	15			Operational
+vmt010140177095	15106	ext3	/u01	VMWare Additional Disk Pool Oracle	15			Operational
+vmd010140178152	15117	NTFS	e	VMWare Additional Disk Pool	50			Operational
+vmd010140178153	15123	NTFS	e	VMWare Additional Disk Pool	12			Operational
+vmd010140178153	15124	NTFS	s	VMWare Additional Disk Pool	250			Operational
+vmd010140178153	15125	NTFS	t	VMWare Additional Disk Pool	15			Operational
+vmd010140178154	15130	NTFS	e	VMWare Additional Disk Pool Oracle	50			Operational
+vmd010140178154	15131	NTFS	t	VMWare Additional Disk Pool Oracle	50			Operational
+vmt010140177105	15194	NTFS	e	VMWare Additional Disk Pool	12			Operational
+vmt010140177105	15195	NTFS	s	VMWare Additional Disk Pool	250			Operational
+vmt010140177105	15196	NTFS	t	VMWare Additional Disk Pool	15			Operational
+vmt010140177108	15219	NTFS	e	VMWare Additional Disk Pool Oracle	50			Operational
+vmt010140177108	15220	NTFS	f	VMWare Additional Disk Pool Oracle	20			Operational
+vmt010140177035	17856	ext3	/data2	VMWare Additional Disk Pool Oracle	1 500			Decommissioned
+vmt010140177035	17857	ext3	/data3	VMWare Additional Disk Pool Oracle	1 500			Decommissioned
+vmt010140177035	15261	ext3	/data	VMWare Additional Disk Pool Oracle	750			Decommissioned
+vmt010140177035	17572	ext3	/data1	VMWare Additional Disk Pool Oracle	3 000			Decommissioned
+vmt010140177035	17852	ext3	/data1	VMWare Additional Disk Pool Oracle	1 500			Decommissioned
+vmt010140177109	15267	ext3	/data	VMWare Additional Disk Pool Oracle	200			Decommissioned
+vmt010140177110	15272	ext3	/data	VMWare Additional Disk Pool Oracle	300			Decommissioned
+vmd010140178155	15299	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmd010140178155	20713	NTFS	h	VMWare Additional Disk Pool	40			Operational
+vmt010140177112	15305	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmt010140176099	15329	jfs2		AIX Storage Pool	100	datavn1	datavg1	Decommissioned
+vmt010140177010	15337	ext3	/u01	VMWare Additional Disk Pool Oracle	500			Decommissioned
+vmt010140177010	15339	ext3	/u02	VMWare Additional Disk Pool Oracle	10			Decommissioned
+vmd010140178156	15344	NTFS	E	VMWare Additional Disk Pool Oracle	250			Operational
+vmt010140177010	15358	ext3	/u01	VMWare Additional Disk Pool Oracle	500			Operational
+vmt010140176012	15364	jfs2	data	AIX Storage Pool	1 500	datavn	datavg	Decommissioned
+vmt010140176012	15365	jfs2		AIX Storage Pool	1 200	datavn2	datavg2	Decommissioned
+vmt010140177024	15369	ext3	/u01	VMWare Additional Disk Pool Oracle	60			Operational
+vmd010140178159	15380	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178159	15381	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178158	15386	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178158	15385	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178004	15390	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178004	15391	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178157	15395	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178157	15396	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178030	15400	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178030	15401	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178004	15417	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178004	15418	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178030	15422	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178030	15423	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178159	15427	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178159	15428	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178157	15433	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178157	15432	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178158	15437	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178158	15438	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178031	15448	ext3	/data	VMWare Additional Disk Pool	400			Operational
+vmt010140177104	15454	NTFS	e	VMWare Additional Disk Pool	150			Operational
+vmt010140177106	18245	NTFS	e	VMWare Additional Disk Pool	25			Operational
+vmd010140178004	15466	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178004	15467	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178157	15522	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178157	15521	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178004	15526	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178004	15527	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178159	15531	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178159	15532	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178158	15536	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178158	15537	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178030	15541	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178030	15542	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178004	15556	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178004	15557	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178004	15568	NTFS	D	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178004	15569	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178004	15579	NTFS	F	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178004	15580	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178157	15584	NTFS	F	VMWare Additional Disk Pool	40			Operational
+vmd010140178157	15585	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178158	15589	NTFS	F	VMWare Additional Disk Pool	40			Operational
+vmd010140178158	15590	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178159	15594	NTFS	F	VMWare Additional Disk Pool	40			Operational
+vmd010140178159	15595	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178030	15599	NTFS	F	VMWare Additional Disk Pool	40			Operational
+vmd010140178030	15600	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177111	15612	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140177113	15633	jfs2		AIX Storage Pool	100	datavn1	datavg1	Decommissioned
+vmt010140177114	15640	ext3	/u01	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177115	15744	NTFS	e	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140177107	15649	NTFS	E	VMWare Additional Disk Pool	250			Operational
+vmt010140176099	15655	jfs2		AIX Storage Pool	100	datavn1	datavg1	Operational
+vmt010140176112	15669	none		AIX Storage Pool	100			Operational
+vmt010140176112	15670	jfs2		AIX Storage Pool	90	datavn	datavg	Operational
+vmd010140178161	15675	NTFS	F	VMWare Additional Disk Pool	20			Operational
+vmd010140178161	15683	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178162	15680	NTFS	F	VMWare Additional Disk Pool	20			Operational
+vmd010140178162	15681	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177030	15688	NTFS	f	VMWare Additional Disk Pool	10			Operational
+vmt010140177030	15689	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140177066	15695	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177066	15694	NTFS	f	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140177066	15700	NTFS	f	VMWare Additional Disk Pool	10			Operational
+vmt010140177066	15701	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177116	15712	NTFS	f	VMWare Additional Disk Pool	10			Operational
+vmt010140177116	15713	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140177117	15718	NTFS	f	VMWare Additional Disk Pool	10			Operational
+vmt010140177117	15719	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140176091	15724	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176091	15725	NTFS	f	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140177118	15730	NTFS	f	VMWare Additional Disk Pool	10			Operational
+vmt010140177118	15731	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140176091	15736	NTFS	f	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176091	15737	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177119	20610	NTFS	G	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177119	15742	NTFS	f	VMWare Additional Disk Pool	0			Operational
+vmt010140177119	15743	NTFS	e	VMWare Additional Disk Pool	250			Operational
+vmt010140176091	15749	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176091	15750	NTFS	g	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176091	15751	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176101	15756	jfs2	/a01	AIX Storage Pool	50	a01vn	a01vg	Operational
+vmt010140176101	15757	jfs2	/data	AIX Storage Pool	30	datavn	datavg	Operational
+vmt010140177054	15776	NTFS	E	VMWare Additional Disk Pool	60			Operational
+vmt010140177113	15784	ext3	/u01	VMWare Additional Disk Pool Oracle	45			Operational
+vmd010140178164	15790	ext3	/data	VMWare Additional Disk Pool	200			Operational
+vmt010140177114	15799	jfs2	/data	AIX Storage Pool	100	datavn	datavg	Operational
+vmt010140177115	15806	ext3	/API_CAT	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140177115	15811	ext3	/API_CAT	VMWare Additional Disk Pool	40			Operational
+vmt010140177115	16102	ext3	/API_APM	VMWare Additional Disk Pool	40			Operational
+vmt010140177121	15825	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177121	15830	ext3	/data	VMWare Additional Disk Pool Oracle	100			Operational
+vmt010140177122	15835	ext3	/data	VMWare Additional Disk Pool Oracle	120			Operational
+vmt010140177123	15976	ext3	/data	VMWare Additional Disk Pool Oracle	60			Operational
+vmt010140177124	15862	NTFS	e	VMWare Additional Disk Pool	150			Operational
+vmd010140178008	15870	ext3	/u01	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178008	15871	ext3	/u02	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178008	15872	ext3	/u03	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178165	15926	ext3	/u01	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178165	15927	ext3	/u02	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178165	15928	ext3	/u03	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140177125	15993	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmd010140178008	16555	ext3	/u05	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178008	17319	ext3	/u06	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178008	18002	ext3	/u07	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178008	18003	ext3	/u08	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178008	16003	ext3	/u01	VMWare Additional Disk Pool	0			Operational
+vmd010140178008	16004	ext3	/u02	VMWare Additional Disk Pool	20			Operational
+vmd010140178008	16005	ext3	/u03	VMWare Additional Disk Pool	0			Operational
+vmd010140178008	16536	ext3	/u04	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178008	16537	ext3	/u05	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178008	18310	ext3	/u09	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178008	16538	ext3	/u04	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178008	17452	ext3	/u06	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178008	16539	ext3	/u05	VMWare Additional Disk Pool	1 000			Decommissioned
+vmt010140177131	16210	NTFS	E	VMWare Additional Disk Pool Oracle	10			Decommissioned
+vmt010140177133	16226	NTFS	E	VMWare Additional Disk Pool	10			Operational
+vmt010140177131	16234	ext3	/data	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176166	16269	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176166	16270	NTFS	F	VMWare Additional Disk Pool	10			Operational
+vmt010140176166	16271	NTFS	G	VMWare Additional Disk Pool	50			Operational
+vmt010140177051	16278	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140177129	17986	NTFS	e	VMWare Additional Disk Pool	25			Decommissioned
+vmt010140177129	18010	NTFS	e	VMWare Additional Disk Pool	25			Decommissioned
+vmt010140177130	16287	NTFS	e	VMWare Additional Disk Pool	10			Operational
+vmt010140177130	16288	NTFS	f	VMWare Additional Disk Pool	50			Operational
+vmt010140177132	16532	ext3	/appl	VMWare Additional Disk Pool	40			Operational
+vmt010140177132	16533	ext3	/oradata	VMWare Additional Disk Pool	100			Operational
+vmt010140177132	16534	ext3	/orabackup	VMWare Additional Disk Pool	50			Operational
+vmt010140177132	16535	ext3	/software	VMWare Additional Disk Pool	50			Operational
+vmt010140177081	16348	NTFS	E	VMWare Additional Disk Pool	200			Operational
+vmt010140177081	16349	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmt010140177134	16318	NTFS	f	VMWare Additional Disk Pool	40			Operational
+vmt010140177134	16319	NTFS	e	VMWare Additional Disk Pool	200			Operational
+vmd010140178165	16334	NTFS	E	VMWare Additional Disk Pool	250			Operational
+vmt010140177133	16341	NTFS	e	VMWare Additional Disk Pool	10			Operational
+vmt010140177133	16342	NTFS	f	VMWare Additional Disk Pool	50			Operational
+vmt010140177135	16347	NTFS	E	VMWare Additional Disk Pool	250			Operational
+vmt010140177136	16354	NTFS	g	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177136	16425	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177136	16353	NTFS	f	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177137	16360	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmt010140177137	16361	NTFS	F	VMWare Additional Disk Pool	200			Operational
+vmt010140177138	16377	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177143	16381	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177142	16385	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177139	16389	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140177140	16410	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177140	16411	NTFS	F	VMWare Additional Disk Pool	40			Operational
+vmt010140177140	16412	NTFS	G	VMWare Additional Disk Pool	200			Operational
+vmt010140177141	16417	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmt010140177141	16418	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmt010140177144	16423	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmt010140177144	16424	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmd010140178166	16429	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177126	16435	ext3	/u01	VMWare Additional Disk Pool	70			Decommissioned
+vmt010140177126	16491	ext3	/swap	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140177138	16499	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmt010140177138	18856	NTFS	h	VMWare Additional Disk Pool	400			Decommissioned
+vmt010140177139	16505	NTFS	E	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140177139	16510	NTFS	e	VMWare Additional Disk Pool	200			Operational
+vmd010140178167	16531	NTFS	E	VMWare Additional Disk Pool	400			Operational
+vmd010140178007	16556	ext3	/w001	VMWare Additional Disk Pool Oracle	200			Operational
+vmd010140178168	16553	jfs2	/a01	AIX Storage Pool	2 048	datavn	datavg	Operational
+vmd010140178168	16554	jfs2		AIX Storage Pool	30	datavn2	datavg2	Operational
+vmd010140178090	16560	NTFS	E	VMWare Additional Disk Pool	200			Operational
+vmd010140178169	16566	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmd010140178169	16567	NTFS	F	VMWare Additional Disk Pool	40			Operational
+vmd010140178167	16572	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178167	18009	NTFS	F	VMWare Additional Disk Pool	250			Decommissioned
+vmt010140177127	16577	ext3	/w001	VMWare Additional Disk Pool Oracle	200			Operational
+vmt010140177128	16582	jfs2	/a01	AIX Storage Pool	1 024	datavn	datavg	Operational
+vmt010140177142	16587	NTFS	e	VMWare Additional Disk Pool	40			Operational
+vmt010140177142	16588	NTFS	f	VMWare Additional Disk Pool	40			Operational
+vmd010140178170	16592	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177146	16934	ext3	/w001	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140177146	16638	ext3	/POC_WAS	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140177147	16645	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177148	16650	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177147	16673	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176125	16678	NTFS	E	VMWare Additional Disk Pool	175			Decommissioned
+vmd010140178171	16686	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140176123	16692	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177143	16701	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178060	16711	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178102	16728	NTFS	E	VMWare Additional Disk Pool	175			Operational
+vmd010140178172	18643	ext3	/data2	VMWare Additional Disk Pool Oracle	500			Decommissioned
+vmd010140178172	16756	ext3	/data	VMWare Additional Disk Pool Oracle	250			Operational
+vmd010140178172	19953	ext3	/mnt	VMWare Additional Disk Pool Oracle	500			Decommissioned
+vmt010140176025	16795	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178173	16850	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178174	16857	NTFS	e	VMWare Additional Disk Pool	60			Operational
+vmd010140178174	16858	NTFS	f	VMWare Additional Disk Pool	60			Decommissioned
+vmd010140178175	16872	NTFS	e	VMWare Additional Disk Pool	0			Operational
+vmd010140178175	16873	NTFS	f	VMWare Additional Disk Pool	0			Operational
+vmd010140178176	16882	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178177	16891	NTFS	e	VMWare Additional Disk Pool	60			Operational
+vmd010140178178	16897	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178179	16902	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178180	16907	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177083	16916	ext3	/data	VMWare Additional Disk Pool	250			Decommissioned
+vmt010140177096	16927	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178181	16932	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177145	16952	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmd010140178182	16967	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178183	16972	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178070	16994	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178173	17004	ext3	/u01	VMWare Additional Disk Pool	60			Operational
+vmt010140176123	17014	ext3	/u01	VMWare Additional Disk Pool	50			Operational
+vmd010140178184	20271	ext3	/data	VMWare Additional Disk Pool	150			Operational
+vmd010140178185	17025	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmd010140178186	17030	NTFS	E	VMWare Additional Disk Pool	200			Operational
+vmd010140178186	18109	NTFS	h	VMWare Additional Disk Pool	500			Operational
+vmt010140176226	19418	NTFS	e	VMWare Additional Disk Pool	20			Decommissioned
+vmt010140177120	17259	NTFS	g	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177120	17038	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176018	17044	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmd010140178095	17049	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmd010140178095	17050	NTFS	F	VMWare Additional Disk Pool	60			Decommissioned
+vmd010140178187	17057	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176018	17063	NTFS	e	VMWare Additional Disk Pool	15			Decommissioned
+vmd010140178095	17077	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmd010140178095	17078	NTFS	F	VMWare Additional Disk Pool	60			Decommissioned
+vmd010140178095	18093	NTFS	G	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178095	18097	NTFS	g	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140177096	17087	ext3	/u01	VMWare Additional Disk Pool	0			Operational
+vmt010140177096	18094	ext3	/u02	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177096	18108	ext3	/u02	VMWare Additional Disk Pool	100			Operational
+vmt010140177096	20652	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmt010140177150	17096	NTFS	e	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140177151	17104	NTFS	E	VMWare Additional Disk Pool	40			Operational
+vmt010140177146	17120	ext3	/w001	VMWare Additional Disk Pool	200			Operational
+vmd010140178189	17128	NTFS	E	VMWare Additional Disk Pool	130			Operational
+vmd010140178190	17132	NTFS	E	VMWare Additional Disk Pool	130			Operational
+vmt010140176116	17143	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Decommissioned
+vmt010140176139	17149	NTFS	E	VMWare Additional Disk Pool	300			Decommissioned
+vmd010140178128	17183	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177025	17854	NTFS	f	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177025	18990	NTFS	G	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140177025	17199	NTFS	e	VMWare Additional Disk Pool	250			Operational
+vmt010140177025	19954	NTFS	j	VMWare Additional Disk Pool	190			Operational
+vmt010140177153	17209	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmt010140177155	17224	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178191	17233	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178193	17237	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178192	17241	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140177157	17317	jfs2	/data	AIX Storage Pool	250	datavn	datavg	Decommissioned
+vmd010140178194	17327	NTFS	f	VMWare Additional Disk Pool	450			Operational
+vmd010140178195	17334	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140178195	17335	NTFS	g	VMWare Additional Disk Pool	10			Operational
+vmt010140177158	18273	NTFS	e	VMWare Additional Disk Pool	1 500			Operational
+vmt010140177158	18274	NTFS	g	VMWare Additional Disk Pool	1 500			Decommissioned
+vmt010140177158	17340	NTFS	f	VMWare Additional Disk Pool	500			Operational
+vmd010140178196	17377	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178092	17381	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178197	17389	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178198	17435	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmt010140176015	17878	ext3	/orabackup	VMWare Additional Disk Pool	25			Operational
+vmt010140176015	17879	ext3	/oradata	VMWare Additional Disk Pool	25			Operational
+vmt010140176015	17880	ext3	/appl	VMWare Additional Disk Pool	40			Operational
+vmt010140176015	17881	ext3	/swap	VMWare Additional Disk Pool	18			Operational
+vmd010140178092	17451	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178199	17460	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176038	17477	NTFS	E	VMWare Additional Disk Pool	60			Operational
+vmd010140178200	17476	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmt010140177159	17485	ext3	/APM	VMWare Additional Disk Pool	500			Operational
+vmt010140176003	17495	NTFS	F	VMWare Additional Disk Pool	50			Operational
+vmt010140176046	17501	NTFS	f	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176082	17506	NTFS	f	VMWare Additional Disk Pool	50			Operational
+vmt010140176229	17511	NTFS	f	VMWare Additional Disk Pool	50			Operational
+vmt010140177007	17530	NTFS	E	VMWare Additional Disk Pool	30			Operational
+vmt010140177028	17536	none		AIX Storage Pool	100		data	Decommissioned
+vmt010140177156	17541	none		AIX Storage Pool	100		dmomp	Decommissioned
+vmt010140177028	17555	jfs2		AIX Storage Pool	100	dmompvn	dmompvg	Operational
+vmt010140177156	17560	jfs2		AIX Storage Pool	100	datavn	datavg	Operational
+vmt010140177161	17565	NTFS	F	VMWare Additional Disk Pool	50			Operational
+vmt010140177162	17570	NTFS	f	VMWare Additional Disk Pool	50			Operational
+vmt010140177163	17576	NTFS	f	VMWare Additional Disk Pool	50			Operational
+vmt010140176046	17582	NTFS	f	VMWare Additional Disk Pool	50			Operational
+vmd010140178076	17591	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178077	17598	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178078	17603	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178202	17609	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178201	17613	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177164	17618	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177166	17624	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177165	17628	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177167	17632	NTFS	f	VMWare Additional Disk Pool	50			Operational
+vmt010140177172	17674	NTFS	f	VMWare Additional Disk Pool	50			Operational
+vmt010140177173	17678	NTFS	f	VMWare Additional Disk Pool	60			Operational
+vmt010140177169	17709	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140178204	17862	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmd010140178207	17869	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmd010140178205	17873	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmd010140178206	17877	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178206	18029	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmd010140178208	17886	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178208	17887	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178208	17901	NTFS	F	VMWare Additional Disk Pool	50			Operational
+vmd010140178209	19787	ext3	/w001	VMWare Additional Disk Pool	50			Operational
+vmd010140178209	19788	ext3	/w002	VMWare Additional Disk Pool	50			Operational
+vmd010140178110	17910	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178110	17924	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178211	18203	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmt010140177022	17970	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140178077	18222	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmd010140178212	18223	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmt010140177041	17994	ext3	/u01	VMWare Additional Disk Pool	999			Decommissioned
+vmd010140178213	19157	ext3	/u02	VMWare Additional Disk Pool	1 000			Operational
+vmd010140178213	18000	ext3	/u01	VMWare Additional Disk Pool	999			Operational
+vmd010140178214	18008	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140176083	18050	ext3	/w001	VMWare Additional Disk Pool	200			Operational
+vmt010140177150	18054	ext3	/w001	VMWare Additional Disk Pool	200			Operational
+vmt010140177166	18058	ext3	/w001	VMWare Additional Disk Pool	200			Operational
+vmt010140177160	18062	ext3	/w001	VMWare Additional Disk Pool	200			Operational
+vmt010140177168	18082	NTFS	G	VMWare Additional Disk Pool	200			Operational
+vmt010140177169	18087	NTFS	G	VMWare Additional Disk Pool	120			Operational
+vmt010140177170	18092	NTFS	G	VMWare Additional Disk Pool	120			Operational
+vmt010140177017	18105	jfs2		AIX Storage Pool	30	datavn	datavg	Decommissioned
+vmt010140177017	18140	NTFS	E	VMWare Additional Disk Pool	128			Decommissioned
+vmt010140177017	18145	NTFS	E	VMWare Additional Disk Pool	128			Decommissioned
+vmd010140178215	18178	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140178216	18367	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140177041	18201	NTFS	E	VMWare Additional Disk Pool	128			Operational
+vmt010140177174	18228	ext3	/a01	VMWare Additional Disk Pool	100			Operational
+vmt010140177174	18229	ext3	/a02	VMWare Additional Disk Pool	2 000			Decommissioned
+vmt010140177175	18237	NTFS	E	VMWare Additional Disk Pool	250			Operational
+vmt010140177176	18241	NTFS	E	VMWare Additional Disk Pool	250			Operational
+vmt010140177177	18251	ext3	/data	VMWare Additional Disk Pool	30			Operational
+vmt010140177178	18256	ext3	/a01	VMWare Additional Disk Pool	100			Operational
+vmt010140177178	18257	ext3	/a02	VMWare Additional Disk Pool	600			Decommissioned
+vmt010140177178	18309	ext3	/a02	VMWare Additional Disk Pool	2 000			Decommissioned
+vmt010140177178	18312	ext3	/a02	VMWare Additional Disk Pool	2 000			Decommissioned
+vmt010140177179	18262	ext3	/w001	VMWare Additional Disk Pool	80			Operational
+vmt010140177180	18267	ext3	/w001	VMWare Additional Disk Pool	80			Operational
+vmt010140177181	18272	ext3	/w001	VMWare Additional Disk Pool	80			Operational
+vmd010140178099	18282	ext3	/u01	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176063	18288	ext3	/u01	VMWare Additional Disk Pool	100			Operational
+vmd010140178099	18293	ext3	/u01	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178218	18298	ext3	/u01	VMWare Additional Disk Pool	100			Operational
+vmd010140178004	18320	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178004	18321	NTFS	F	VMWare Additional Disk Pool	500			Operational
+vmd010140178099	18335	ext3	/u01	VMWare Additional Disk Pool	1 000			Operational
+vmd010140178099	18336	ext3	/u02	VMWare Additional Disk Pool	1 000			Operational
+vmd010140178099	18337	ext3	/u03	VMWare Additional Disk Pool	1 000			Operational
+vmd010140178099	18338	ext3	/u04	VMWare Additional Disk Pool	1 000			Operational
+vmd010140178101	18371	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140178101	18372	NTFS	f	VMWare Additional Disk Pool	100			Operational
+vmd010140178140	18377	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140178140	20200	NTFS	g	VMWare Additional Disk Pool	200			Operational
+vmd010140178140	18378	NTFS	f	VMWare Additional Disk Pool	100			Operational
+vmd010140178197	18435	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178197	18436	NTFS	F	VMWare Additional Disk Pool	40			Decommissioned
+vmd010140178170	18440	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178170	18441	NTFS	F	VMWare Additional Disk Pool	40			Operational
+vmd010140178220	18446	NTFS	F	VMWare Additional Disk Pool	40			Operational
+vmd010140178220	18445	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178219	18450	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178219	18451	NTFS	F	VMWare Additional Disk Pool	40			Operational
+vmd010140178221	18460	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178221	18461	NTFS	F	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178221	18462	NTFS	G	VMWare Additional Disk Pool	10			Decommissioned
+vmt010140176120	18471	ext3	/w001	VMWare Additional Disk Pool	0			Decommissioned
+vmt010140176120	18881	ext3	/w002	VMWare Additional Disk Pool	200			Operational
+vmd010140178222	18882	ext3	/w002	VMWare Additional Disk Pool	200			Operational
+vmd010140178222	18478	ext3	/w001	VMWare Additional Disk Pool	120			Decommissioned
+vmd010140178092	18509	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmd010140178110	18514	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmd010140178196	18519	ext3	/data	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140178196	18528	NTFS	E	VMWare Additional Disk Pool Oracle	300			Operational
+vmd010140178223	18534	ext3	/u01	VMWare Additional Disk Pool	200			Operational
+vmd010140178224	18539	ext3	/u01	VMWare Additional Disk Pool	500			Operational
+vmt010140176105	18553	ext3	/u01	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176118	18558	NTFS	E	VMWare Additional Disk Pool Oracle	300			Decommissioned
+vmd010140178225	18567	jfs2	/w001	AIX Storage Pool	100	datavn	datavg	Operational
+vmd010140178225	18568	jfs2		AIX Storage Pool	100	datavn2	datavg2	Operational
+vmt010140176080	18574	NTFS	E	VMWare Additional Disk Pool Oracle	300			Decommissioned
+vmt010140176030	18578	NTFS	E	VMWare Additional Disk Pool Oracle	300			Operational
+vmd010140178226	18584	ext3	/data	VMWare Additional Disk Pool	500			Operational
+vmd010140178226	20651	None		VMWare Additional Disk Pool	500			Operational
+vmd010140178226	19955	ext3	/mnt	VMWare Additional Disk Pool	500			Decommissioned
+vmt010140176096	18599	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176096	18600	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmd010140178059	18605	ext3	/data	VMWare Additional Disk Pool	20			Operational
+vmd010140178096	18614	NTFS	E	VMWare Additional Disk Pool	200			Decommissioned
+vmd010140178096	18621	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Operational
+vmd010140178118	18626	jfs2	/data	AIX Storage Pool	50	datavn	datavg	Operational
+vmd010140178227	18630	ext3	/data	VMWare Additional Disk Pool	30			Operational
+vmd010140178228	18635	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178229	19018	ext3	/w001	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176080	18649	NTFS	e	VMWare Additional Disk Pool	25			Decommissioned
+vmt010140176080	18654	NTFS	e	VMWare Additional Disk Pool	25			Operational
+vmt010140176118	18662	NTFS	E	VMWare Additional Disk Pool	60			Operational
+vmt010140176124	18674	NTFS	e	VMWare Additional Disk Pool	25			Operational
+vmt010140176134	18709	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140176079	18816	jfs2		AIX Storage Pool	100	datavn	datavg	Operational
+vmt010140176079	18817	jfs2		AIX Storage Pool	100	datavn2	datavg2	Operational
+vmt010140176090	18826	jfs2		AIX Storage Pool	200	datavn	datavg	Operational
+vmd010140178026	18843	ext3	/data2	VMWare Additional Disk Pool	100			Operational
+vmd010140178026	18844	ext3	/prog1	VMWare Additional Disk Pool	100			Operational
+vmd010140178230	18860	NTFS	e	VMWare Additional Disk Pool	1 000			Operational
+vmd010140178230	18861	NTFS	f	VMWare Additional Disk Pool	1 000			Operational
+vmt010140176227	18887	ext3	/w001	VMWare Additional Disk Pool	150			Operational
+vmt010140176236	19295	NTFS	e	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140176236	19296	NTFS	f	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140176236	19297	NTFS	e	VMWare Additional Disk Pool	200			Decommissioned
+vmd010140178001	18935	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140176161	19017	ext3	/w001	VMWare Additional Disk Pool	150			Operational
+vmt010140176255	18996	ext3	/w001	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140177017	18961	NTFS	e	VMWare Additional Disk Pool	75			Operational
+vmt010140177018	18968	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmt010140177042	18973	ext3	/data	VMWare Additional Disk Pool	120			Operational
+vmt010140177050	18978	jfs2		AIX Storage Pool	60	datavn1	datavg1	Operational
+vmt010140177050	18979	jfs2		AIX Storage Pool	50	datavn2	datavg2	Operational
+vmt010140177055	18984	NTFS	E	VMWare Additional Disk Pool	60			Decommissioned
+vmt010140176121	18988	jfs2	/data	AIX Storage Pool	150	datavn	datavg	Operational
+vmt010140177056	18994	jfs2	/data	AIX Storage Pool	1 200	datavn	datavg	Operational
+vmd010140178138	19005	NTFS	e	VMWare Additional Disk Pool	70			Operational
+vmd010140178231	19010	jfs2	/data	AIX Storage Pool	150	datavn	datavg	Operational
+vmt010140176024	19015	jfs2	/data	AIX Storage Pool	1 500	datavn	datavg	Decommissioned
+vmd010140178232	19026	jfs2		AIX Storage Pool	50	datavn	datavg	Operational
+vmd010140178233	19032	jfs2	/data	AIX Storage Pool	1 500	datavn	datavg	Operational
+vmt010140176024	19042	NTFS	e	VMWare Additional Disk Pool	10			Operational
+vmd010140178234	19048	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmd010140178217	19057	ext3	/u01	VMWare Additional Disk Pool	1 000			Operational
+vmd010140178217	19058	ext3	/u02	VMWare Additional Disk Pool	1 000			Operational
+vmd010140178235	19376	ext3	/opt/ibm	VMWare Additional Disk Pool	200			Operational
+vmd010140178235	19067	ext3	/data	VMWare Additional Disk Pool	150			Operational
+vmt010140176170	20030	ext3	/opt/ibm	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176170	19958	ext3	/data	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176170	20031	ext3	/data	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176170	19959	ext3	/mnt	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140176170	19981	ext3	/data	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176170	19982	ext3	/mnt	VMWare Additional Disk Pool	200			Decommissioned
+vmt010140176170	19984	ext3	/data	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140176170	20028	ext3	/opt/ibm	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178237	19093	NTFS	E	VMWare Additional Disk Pool	150			Operational
+vmt010140176254	19104	ext3	/w001	VMWare Additional Disk Pool	150			Operational
+vmt010140177055	19108	ext3	/w001	VMWare Additional Disk Pool	150			Operational
+vmt010140177061	19116	ext3	/data	VMWare Additional Disk Pool	150			Decommissioned
+vmt010140177061	20032	ext3	/opt/ibm	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178238	19129	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140177067	19848	NTFS	E	VMWare Additional Disk Pool	120			Decommissioned
+vmt010140177068	19879	NTFS	E	VMWare Additional Disk Pool	120			Decommissioned
+vmd010140178239	19880	NTFS	E	VMWare Additional Disk Pool	120			Operational
+vmd010140178240	19881	NTFS	E	VMWare Additional Disk Pool	120			Operational
+vmd010140178241	19155	NTFS	E	VMWare Additional Disk Pool	150			Operational
+vmt010140176070	19165	NTFS	e	VMWare Additional Disk Pool	40			Operational
+vmt010140176070	19166	NTFS	f	VMWare Additional Disk Pool	10			Operational
+vmt010140177069	19172	NTFS	e	VMWare Additional Disk Pool	40			Decommissioned
+vmt010140177069	19173	NTFS	f	VMWare Additional Disk Pool	10			Decommissioned
+vmd010140178236	19190	NTFS	E	VMWare Additional Disk Pool	120			Operational
+vmt010140177069	19195	NTFS	E	VMWare Additional Disk Pool	130			Operational
+vmd010140178242	19222	NTFS	e	VMWare Additional Disk Pool	50			Operational
+vmt010140177083	19284	NTFS	g	VMWare Additional Disk Pool	40			Operational
+vmt010140177083	19247	NTFS	e	VMWare Additional Disk Pool	10			Operational
+vmt010140177085	19253	ext3	/w001	VMWare Additional Disk Pool Oracle	200			Operational
+vmt010140177086	19257	ext3	/w001	VMWare Additional Disk Pool Oracle	200			Operational
+vmt010140177101	19273	NTFS	E	VMWare Additional Disk Pool Oracle	200			Operational
+vmd010140178243	19278	ext3	/data	VMWare Additional Disk Pool	150			Decommissioned
+vmd010140178243	20027	ext3	/opt/ibm	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140178243	20029	ext3	/opt/ibm	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177120	19283	ext3	/data	VMWare Additional Disk Pool	150			Operational
+vmt010140177120	20033	ext3	/opt/ibm	VMWare Additional Disk Pool	100			Operational
+vmt010140177143	19292	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140176097	19345	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177147	19416	ext3	/w001	VMWare Additional Disk Pool	150			Operational
+vmt010140176100	19432	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178032	19473	NTFS	E	VMWare Additional Disk Pool	150			Operational
+vmd010140178062	19493	ext3	/w001	VMWare Additional Disk Pool	100			Operational
+vmd010140178067	19553	NTFS	e	VMWare Additional Disk Pool	350			Decommissioned
+vmd010140178100	19586	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140178100	19587	NTFS	f	VMWare Additional Disk Pool	500			Operational
+vmt010140177154	19557	ext3	/w001	VMWare Additional Disk Pool Oracle	30			Operational
+vmt010140177072	19561	ext3	/w001	VMWare Additional Disk Pool Oracle	30			Operational
+vmt010140177071	19565	ext3	/w001	VMWare Additional Disk Pool Oracle	30			Operational
+vmt010140177171	19588	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140177182	19593	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmt010140177077	19602	NTFS	e	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140177077	19607	ext3	/data	VMWare Additional Disk Pool	30			Operational
+vmd010140178067	19660	NTFS	e	VMWare Additional Disk Pool	350			Decommissioned
+vmt010140176255	19644	ext3	/data	VMWare Additional Disk Pool	60			Operational
+vmt010140177183	19659	ext3	/data	VMWare Additional Disk Pool	60			Operational
+vmt010140177184	19668	jfs2		AIX Storage Pool	30	u01vn	u01vg	Decommissioned
+vmd010140178079	19674	NTFS	E	VMWare Additional Disk Pool	130			Decommissioned
+vmd010140178079	19786	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140177186	19737	ext3	/u01	VMWare Additional Disk Pool	15			Decommissioned
+vmt010140176034	19769	ext3	/u01	VMWare Additional Disk Pool	15			Decommissioned
+vmd010140178043	19780	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178043	19983	NTFS	F	VMWare Additional Disk Pool	500			Operational
+vmt010140177148	19785	NTFS	e	VMWare Additional Disk Pool	150			Operational
+vmd010140178166	19798	NTFS	E	VMWare Additional Disk Pool	300			Operational
+vmt010140177184	19803	NTFS	e	VMWare Additional Disk Pool	150			Decommissioned
+vmd010140178067	19830	ext3	/u01	VMWare Additional Disk Pool	15			Operational
+vmd010140178249	19834	ext3	/u01	VMWare Additional Disk Pool	15			Operational
+vmt010140176007	19841	ext3	/data	VMWare Additional Disk Pool	200			Operational
+vmt010140176052	19847	ext3	/data	VMWare Additional Disk Pool	500			Operational
+vmt010140176012	19856	ext3	/w001	VMWare Additional Disk Pool	15			Operational
+vmt010140176105	19860	ext3	/w001	VMWare Additional Disk Pool	15			Operational
+vmt010140176169	19864	ext3	/w001	VMWare Additional Disk Pool	15			Operational
+vmt010140177185	19868	ext3	/w001	VMWare Additional Disk Pool	15			Operational
+vmt010140177186	19878	NTFS	E	VMWare Additional Disk Pool	20			Operational
+vmd010140178250	19926	NTFS	E	VMWare Additional Disk Pool	500			Operational
+vmt010140176035	19927	NTFS	E	VMWare Additional Disk Pool	500			Operational
+vmt010140176053	20460	NTFS	E	VMWare Additional Disk Pool	200			Operational
+vmd010140178251	19918	NTFS	e	VMWare Additional Disk Pool	75			Operational
+vmt010140176064	19925	NTFS	e	VMWare Additional Disk Pool	75			Operational
+vmt010140176177	19948	ext3	/u01	VMWare Additional Disk Pool	175			Operational
+vmd010140178080	19964	ext3	/data	VMWare Additional Disk Pool	500			Operational
+vmd010140178080	19965	ext3	/mnt	VMWare Additional Disk Pool	500			Operational
+vmd010140178080	19980	ext3	/data2	VMWare Additional Disk Pool	500			Operational
+vmd010140178081	19970	NTFS	e	VMWare Additional Disk Pool	1 200			Operational
+vmd010140178081	20210	NTFS	F	VMWare Additional Disk Pool	400			Operational
+vmd010140178253	19998	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140178253	19999	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmt010140177188	20050	NTFS	E	VMWare Additional Disk Pool	10			Operational
+vmd010140178254	20080	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmd010140178254	20081	ext3	/opt/apps	VMWare Additional Disk Pool	100			Operational
+vmd010140178255	20085	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmd010140178255	20086	ext3	/opt/apps	VMWare Additional Disk Pool	100			Operational
+vmd010140179000	20092	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140179000	20093	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmd010140179001	20097	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140179001	20098	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmt010140176034	20103	ext3	/w001	VMWare Additional Disk Pool	15			Operational
+vmt010140176087	20108	ext3	/w001	VMWare Additional Disk Pool	15			Operational
+vmt010140177192	20113	ext3	/w001	VMWare Additional Disk Pool	15			Operational
+vmd010140179002	20121	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179003	20125	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179003	20147	NTFS	F	VMWare Additional Disk Pool	100			Operational
+vmd010140179004	20129	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179008	20173	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179006	20177	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179005	20181	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179007	20185	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179009	20190	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140178006	20232	NTFS	e	VMWare Additional Disk Pool	15			Operational
+vmt010140176109	20466	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140178029	20259	NTFS	E	VMWare Additional Disk Pool	20			Decommissioned
+vmd010140178221	20269	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140179012	20288	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179011	20292	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179010	20296	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179013	20308	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140179013	20309	NTFS	f	VMWare Additional Disk Pool	100			Operational
+vmd010140179014	20319	NTFS	E	VMWare Additional Disk Pool	15			Operational
+vmd010140178243	20365	NTFS	e	VMWare Additional Disk Pool	50			Operational
+vmd010140179017	20379	NTFS	E	VMWare Additional Disk Pool	15			Operational
+vmd010140179016	20383	NTFS	E	VMWare Additional Disk Pool	15			Operational
+vmd010140179015	20391	NTFS	E	VMWare Additional Disk Pool	15			Operational
+vmd010140179018	20410	NTFS	e	VMWare Additional Disk Pool	50			Operational
+vmd010140179019	20427	NTFS	e	VMWare Additional Disk Pool	50			Operational
+vmt010140176033	20432	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176033	20433	ext3	/opt/IBM	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176033	20438	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmt010140176033	20439	ext3	/IBM	VMWare Additional Disk Pool	100			Operational
+vmd010140179020	20444	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140179020	20449	NTFS	e	VMWare Additional Disk Pool	50			Operational
+vmd010140179021	20459	NTFS	e	VMWare Additional Disk Pool	50			Decommissioned
+vmd010140179030	20464	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140179031	20486	NTFS	E	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140179031	20487	NTFS	F	VMWare Additional Disk Pool	500			Decommissioned
+vmd010140179032	20609	NTFS	h	VMWare Additional Disk Pool	50			Operational
+vmd010140179032	20503	NTFS	E	VMWare Additional Disk Pool	0			Operational
+vmd010140179033	20522	ext3	/u01	VMWare Additional Disk Pool	1 000			Operational
+vmd010140179031	20541	ext3	/opt/IBM	VMWare Additional Disk Pool	100			Operational
+vmd010140179031	20542	ext3	/data	VMWare Additional Disk Pool	100			Operational
+vmt010140176095	20561	ext3	/DATA	VMWare Additional Disk Pool	20			Operational
+vmt010140176108	20567	NTFS	E	VMWare Additional Disk Pool	128			Decommissioned
+vmt010140176108	20572	NTFS	E	VMWare Additional Disk Pool	128			Operational
+vmd010140178029	20577	NTFS	e	VMWare Additional Disk Pool	300			Operational
+vmd010140178029	20578	NTFS	f	VMWare Additional Disk Pool	300			Operational
+vmd010140179034	20596	NTFS	e	VMWare Additional Disk Pool	100			Operational
+vmd010140179035	20603	NTFS	E	VMWare Additional Disk Pool	150			Decommissioned
+vmd010140179030	20607	ext3	/data	VMWare Additional Disk Pool	1 000			Operational
+vmt010140176047	20615	NTFS	e	VMWare Additional Disk Pool	150			Operational
+vmt010140176073	20619	NTFS	E	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176103	20624	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmt010140176116	20637	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176113	20644	NTFS	E	VMWare Additional Disk Pool	100			Decommissioned
+vmd010140179035	20649	NTFS	E	VMWare Additional Disk Pool	50			Operational
+vmd010140179036	20663	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmd010140179036	20662	ext3	/opt/IBM	VMWare Additional Disk Pool	100			Operational
+vmt010140176073	20669	ext3	/opt/IBM	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176073	20670	ext3	/data	VMWare Additional Disk Pool	50			Decommissioned
+vmt010140176073	20675	ext3	/opt/IBM	VMWare Additional Disk Pool	100			Operational
+vmt010140176073	20676	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmd010140179037	20682	ext3	/data	VMWare Additional Disk Pool	100			Decommissioned
+vmt010140176113	20690	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176116	20694	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmt010140176050	20705	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmd010140178071	20712	ext3	/data	VMWare Additional Disk Pool	50			Operational
+vmd010140178124	20718	ext3	/mnt/backups	VMWare Additional Disk Pool	1 000			Decommissioned
+vmd010140178124	20736	ext3	/mnt/backups	VMWare Additional Disk Pool	1 000			Operational
+vmd010140179038	20744	NTFS	E	VMWare Additional Disk Pool	100			Operational
+vmd010140179037	20748	NTFS	E	VMWare Additional Disk Pool	100			Operational

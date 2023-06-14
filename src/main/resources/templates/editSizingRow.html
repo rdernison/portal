@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Bewerk sizing regel')" />
+	<body>
+		<div id="wrapper">
+			<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			<div id="page-wrapper">
+				<div class="row">
+				<div id="navbar-wrapper" class="collapse navbar-collapse">
+	 		
+		 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+				        <div th:replace="fragments/navbar-header :: header"></div>
+			        </nav>   <!-- /.navbar-static-top -->
+			        </div>
+		        </div>			
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="navbar" class="collapse navbar-collapse">
+						<h1 class="h3 mb-2 text-gray-800">Bewerk sizingregel</h1>
+						<form method="post" th:action="save" action="#" th:object="${sizingRow}" >
+						
+							<input 
+									th:if="*{id != null}" 
+									type="hidden" 
+									th:value="*{id}" name="id"/>
+							<table>
+								<tr>
+									<td>
+										<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+										<tr>
+											<th>Opgepakt door</th>								
+											<td><input type="text" th:field="*{employee}"/></td>
+										</tr>
+										<tr>
+											<th>Datum binnengekomen bij OToD</th>
+											<td><input type="date" class="form-control" id="arrivalDate" th:field="*{arrivalDate}" placeholder="dd-MM-yyyy"/></td>
+										</tr>
+										<tr>
+											<th>Status</th>
+										</tr>
+										<tr>
+											<th>Datum opgeleverd door OToD</th>
+											<td><input type="date" class="form-control" id="otodDeliveryDate" th:field="*{otodDeliveryDate}" placeholder="dd-MM-yyyy"/></td>
+										</tr>
+										<tr>
+											<th>Wave</th>
+											<td><input th:field="*{wave}"/>
+										</tr>
+										<tr>
+											<th>Applicatie</th>
+											<td><input type="text" th:field="*{applicationName}"/></td>
+										</tr>
+										<tr>
+											<th>Divisie</th>
+											<td><input type="text" th:field="*{division}"/></td>
+										</tr>
+										<tr>
+											<th>Server</th>
+											<td><input type="text" th:field="*{serverName}"/></td>
+										</tr>
+										<tr>
+											<th>OToD-projectnaam</th>
+											<td><input type="text" th:field="*{otodProjectName}"/></td>
+										</tr>
+										<tr>
+											<th>Platform</th>
+											<td><input type="text" th:field="*{currentPlatform}"/></td>
+										</tr>
+										<tr>
+											<th>Omgeving</th>
+											<td><input type="text" th:field="*{environment}"/></td>
+										</tr>
+										<tr>
+											<th>UWV-IP-adres</th>
+											<td><input type="text" th:field="*{uwvIpAddress}"/></td>
+										</tr>
+										<tr>
+											<th>Virtuele CPU's</th>
+											<td><input type="text" th:field="*{vCpu}"/></td>
+										</tr>
+										<tr>
+											<th>Memory</th>
+											<td><input type="text" th:field="*{memory}"/></td>
+										</tr>
+									</table>
+								</td>
+								<td>
+									<table class="table table-bordered" id="dataTable2" width="100%" cellspacing="0">
+										<tr>
+											<th>Storage</th>
+											<td><input type="text" th:field="*{storage}"/></td>
+										</tr>
+										<tr>
+											<th>Functie</th>
+											<td><input type="text" th:field="*{function}"/></td>
+										</tr>
+										<tr>
+											<th>Discussie / actie</th>
+											<td><input type="text" th:field="*{discussionAction}"/></td>
+										</tr>
+										<tr>
+											<th>Doorgaan</th>
+											<td><input type="checkbox" name="proceed" th:checked="*{proceed}"/>
+										</tr>
+										<tr>
+											<th>Sprint</th>
+											<td><input type="text" th:field="*{sprint}"/></td>
+										</tr>
+										<tr>
+											<th>DXC-omgeving</th>
+											<td><input type="text" th:field="*{environment}"/></td>
+										</tr>
+										<tr>
+											<th>DXC/UWV managed</th>
+											<td><input type="text" th:field="*{dxcUwvManaged}"/></td>
+										</tr>
+										<tr>
+											<th>Servicetier</th>
+											<td><input type="text" th:field="*{serviceTier}"/></td>
+										</tr>
+										<tr>
+											<th>Servertype</th>
+											<td><input type="text" th:name="*{serverType}"/></td>
+										</tr>
+										<tr>
+											<th>OS</th>
+											<td><input type="text" th:field="*{os}"/></td>
+										</tr>
+										<tr>
+											<th>Oracle-db</th>
+											<td><input type="checkbox" name="oracleDb" th:checked="*{oracleDb}"/></td>
+										</tr>
+										<tr>
+											<th>Oracle-mw</th>
+											<td><input type="checkbox" name="oracleMw" th:checked="*{oracleMw}"/></td>
+										</tr>
+										<tr>
+											<th>T-shift size</th>
+											<td><input type="text" th:field="*{tShiftSize}"/></td>
+										</tr>
+										<tr>
+											<th>Datadisk 1</th>
+											<td><input type="text" th:field="*{dataDisk1}"/></td>
+										</tr>
+										<!-- 
+										
+	private String discussionAction;
+	private String proceed;
+	private String sprint;
+	private String dxcEnvironment; // environment
+	private String dxcUwvManaged;
+	private String serviceTier;
+	private String serverType;
+	private String os;
+	private char oracleDb;
+	private char oracleMw;
+	private String tShiftSize;
+	private String dataDisk1; -->
+									</table>
+								</td>
+								<td>
+									<table class="table table-bordered" id="dataTable3" width="100%" cellspacing="0">
+										<tr>
+											<th>Datadisk 2</th>
+											<td><input type="text" th:field="*{dataDisk2}"/></td>
+										</tr>
+										<tr>
+											<th>Datadisk 3</th>
+											<td><input type="text" th:field="*{dataDisk3}"/></td>
+										</tr>
+										<tr>
+											<th>Datadisk 4</th>
+											<td><input type="text" th:field="*{dataDisk4}"/></td>
+										</tr>
+										<tr>
+											<th>Datadisk 5</th>
+											<td><input type="text" th:field="*{dataDisk5}"/></td>
+										</tr>
+										<tr>
+											<th>Datadisk 6</th>
+											<td><input type="text" th:field="*{dataDisk6}"/></td>
+										</tr>
+										<tr>
+											<th>Datadisk 7</th>
+											<td><input type="text" th:field="*{dataDisk7}"/></td>
+										</tr>
+										<tr>
+											<th>Datadisk 8</th>
+											<td><input type="text" th:field="*{dataDisk8}"/></td>
+										</tr>
+										<tr>
+											<th>Datadisk 9</th>
+											<td><input type="text" th:field="*{dataDisk9}"/></td>
+										</tr>
+										<tr>
+											<th>Request file</th>
+											<td><input type="text" th:field="*{requestFile}"/></td>
+										</tr>
+										<tr>
+											<th>Request id</th>
+											<td><input type="text" th:field="*{requestId}"/></td>
+										</tr>
+										<tr>
+											<th>DXC-servernaam</th>
+											<td><input type="text" th:field="*{dxcServerName}"/></td>
+										</tr>
+										<tr>
+											<th>Met UWV gedeeld w8woord</th>
+											<td><input type="text" th:field="*{passwordSharedWithUwv}"/></td>
+										</tr>
+										<tr>
+											<th>IP-adres</th>
+											<td><input type="text" th:field="*{ip}"/></td>
+										</tr>
+										<tr>
+											<th>Opmerking</th>
+											<td><input type="text" th:field="*{remark}"/></td>
+										</tr>
+									</table>
+								</td>
+								</tr>
+							</table>
+							<input type="hidden" name="id" th:field="*{id}" />
+							<input type="submit" value="Sla op" />
+						</form><!-- 
+						<div>
+						<p>Test</p>
+						<p>Datum binnengekomen bij otod: <span th:text="*{arrivalDate}"/></p>
+						</div> -->
+						</div>
+					</div>
+					<!-- /.col-lg-12 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /#page-wrapper -->
+	
+		</div>
+	
+	
+	
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+	    <script src="../../../resources/js/jquery-1.11.0.min.js"
+	        data-th-href="@{/resources/js/jquery-1.11.0.min.js}"></script> -->
+	
+		<!-- Include all compiled plugins (below), or include individual files as needed
+	    <script src="../../../resources/js/bootstrap-3.1.1.min.js"
+	        data-th-href="@{/resources/js/bootstrap-3.1.1.min.js}"></script> -->
+	
+		<!-- Core Scripts - Include with every page
+	    <script src="../../../resources/js/plugins/metisMenu/jquery.metisMenu.js"
+	        data-th-href="@{/resources/js/plugins/metisMenu/jquery.metisMenu.js}"></script> -->
+	
+		<!-- SB Admin Scripts - Include with every page
+	    <script src="../../../resources/js/sb-admin.js"
+	        data-th-href="@{/resources/js/sb-admin.js}"></script> -->
+	 </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Beheer')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<nav id="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</nav>
+				<div class="container" style="float: left">
+			
+						<h1 class="h3 mb-2 text-gray-800">Beheer</h1>
+						<div>
+							<a href="/fileSystem" th:href="@{/fileSystem}">Bestandssystemen</a>
+						</div>
+						<div>
+							<a href="/middleware" th:href="@{/middleware}">Middleware</a>
+						</div>
+						<div>
+							<a href="/os" th:href="@{/os}">OS'en</a>
+						</div>
+						<div>
+							<a href="/availableIpAddresses/paged" th:href="@{/availableIpAddresses/paged}">Beschikbare IP-adressen</a>
+						</div>
+						<div>
+							<a href="/usedIpAddress" th:href="@{/usedIpAddress}">Gebruikte IP-adressen</a>
+						</div>
+						<div>
+							<a href="/usedIpAddress/new" th:href="@{/usedIpAddress/new}">Gebruikt IP-adres aanmaken</a>
+						</div>
+						<div>
+							<a href="/sizingRow" th:href="@{/sizingRow}">Sizing</a>
+						</div>
+						<div>
+							<a href="/user/admin" th:href="@{/user/admin}">Gebruikers</a>
+						</div>
+						<div>
+							<a href="/loginSuccess" th:href="@{/loginSuccess}">Succesvolle logins</a>
+						</div>
+						<div>
+							<a href="/loginFailure" th:href="@{/loginFailure}">Gefaalde logins</a>
+						</div>
+	 				</div>
+					<!-- /.col-lg-12 -->
+					</div>
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /#page-wrapper -->
+	
+		<script th:src="@{/webjars/jquery/3.5.1/jquery.min.js}"></script>
+      	<script th:src="@{/webjars/bootstrap/4.6.0/js/bootstrap.min.js}"></script>
+	
+	
+	</body>
+</html>

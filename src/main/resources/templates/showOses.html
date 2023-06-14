@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Besturingssystemen')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container" style="float: left"> 
+				
+						<h1 class="h3 mb-2 text-gray-800">OS'en</h1>
+						<!--  TODO
+						<form method="get" action="#" th:action="@{/project/find}" th:object="${project}">
+							<table>
+								<tr>
+									<td>Naam</td>
+									<td>Status</td><! - - 
+									<td>Aantal rijen per pagina</td> - - >
+								</tr>
+								<tr>
+									<td><input type="text" th:field="*{name}" /></td>
+									<td><input type="text" th:field="*{status}" /></td>
+									<!-- 
+									<td><input type="text" name="resultsPerPage" /></td>
+									 - - >
+									<td><input type="submit" value="Zoek" /></td>
+								</tr>
+							</table>
+						</form>
+						 -->
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<tr>
+							<th colspan="2">Beschrijving</th>
+							<th>Plugin</th>
+							<th>Status</th>
+							<th>Bewerkingen</th>
+							<th>Ingeschakeld</th>
+							</tr>
+							<!-- th:if="${project.name == 'ABS'}" -->
+							<tr th:each="os, iStat : ${oses}">
+								<td align="right"><!-- <a th:href="@{'/os/' + ${os.id}}" th:text="${os.number}"/> --></td>
+								<td th:text="${os.name}"/>
+								<td>Find / replace</td>
+								<td>Normaal</td>
+								<td>Bewerken verwijderen</td>
+								<td><input type="checkbox" th:checked="${os.enabled}" /></td>
+							</tr>
+						</table>
+						</div>
+	</body>    
+</html>

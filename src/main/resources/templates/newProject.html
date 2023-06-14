@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Maak project aan')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+				
+							
+			
+						<h1>Maak project aan</h1>
+						<form method="post" th:object="${project}" th:action="@{/project/create}" action="#">
+						<!-- 
+								<div class="form-group row">
+					            <div class="col-md-4 mt-5">
+					                <label for="projectname">Projectnaam</label>
+					                <div class="input-group text">
+					                	<input type="text" th:field="*{name}" class="form-control"/>
+					                </div>
+					            </div>
+					         </div>
+								<div class="form-group row">
+					            <div class="col-md-4 mt-5">
+					                <label for="projectDescription">Projectomschrijving</label>
+					                <div class="input-group text">
+					                	<input type="text" th:field="*{description}" class="form-control"/>
+					                </div>
+					            </div>
+					         </div>
+								<div class="form-group row">
+					            <div class="col-md-4 mt-5">
+					                <label for="objid">OBJID</label>
+					                <div class="input-group text">
+					                	<input type="text" th:field="*{objId}" class="form-control"/>
+					                </div>
+					            </div>
+					         </div>
+								<div class="form-group row">
+					            <div class="col-md-4 mt-5">
+					                <label for="projectDate">Projectdatum</label>
+					                <div class="input-group date">
+					                	<input type="text" th:field="*{startDate}" id="startDate" class="form-control"/>
+					                </div>
+					            </div>
+					         </div>
+					          -->
+       							<!--
+       							
+       							<div class="form-group row">
+           <div class="col-md-4 mt-5">
+               <label for="birthdate">Date of birth</label>
+               <div class="input-group date">
+                   <input type="text" class="form-control" id="birthdate" autocomplete="off" th:field="*{birtdate}"/>
+                   <div class="input-group-append">
+                       <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                   </div>
+               </div>
+           </div>
+       </div>
+       -->
+						<table>
+							<tr>
+								<td>Projectnaam *</td>
+								<td><input type="text" th:field="*{name}"/></td>
+								<td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
+							</tr>
+							<tr>
+								<td>Projectomschrijving *</td>
+								<td><input type="text" th:field="*{description}"/></td>
+							</tr>
+							<tr>
+								<td>OBJID</td>
+								<td><input type="text" th:field="*{objId}"/></td>
+							</tr>
+							<tr>
+								<td>Datum project *</td>
+								<td><input type="date" class="form-control"
+									th:field="*{startDate}" /></td>
+							</tr>
+							<tr>
+								<td>Toon einddatum</td>
+								<td><input type="checkbox" th:field="*{showEndDate}"/></td>
+							</tr>
+							<tr>
+								<td>Projectstatus</td><!-- 
+								<td><input type="text" th:field="*{status}"/></td> -->
+								<td>
+									<select name="status"><!-- 
+										<option th:each="statusOpt : ${T(nl.uwv.otod.otod_portal.model.ProjectStatus).value()}" th:text="${statusOpt}"/>
+																 -->
+										<option value=""></option>
+										<option value="1">Draft</option>
+										<option value="2">Operational</option>
+										<option value="3">Canceled</option>
+										<option value="0">Decommissioned</option>
+									</select>
+								</td>
+							</tr>
+							
+														<!-- 
+							
+							<tr>
+								<td>Gewenste opleverdatum</td>
+								<td><input type="date" class="form-control"
+									th:field="*{desirableDeliveryDate}" /></td>
+							</tr>
+											 -->
+							
+							<tr>
+								<td>Datum status</td>
+								<td><input type="date" class="form-control" th:field="*{statusDate}" /></td>
+							</tr>
+							<tr>
+								<td>Project-id</td>
+								<td><input type="text" th:field="*{projectId}"/></td>
+							</tr>
+							<tr>
+								<td>Budgethouder</td>
+								<td><input type="text" th:field="*{budgetOwner}"/></td>
+							</tr>
+							<tr>
+								<td>SPOC</td>
+								<td><input type="text" th:field="*{spoc}"/></td>
+							</tr>
+							<tr>
+								<td>Kostenplaats</td>
+								<td><input type="text" th:field="*{costPlace}"/></td>
+							</tr>
+							<tr>
+								<td><input type="submit" th:value="Opslaan" /></td>
+								<td><input type="reset" /></td>
+							</tr>
+						</table>
+						
+					</form>
+					</div>
+	    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+		<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+		<script th:src="@{/webjars/bootstrap/js/bootstrap-3.1.1.min.js}"></script>
+		<script th:src="@{/webjars/bootstrap/js/bootstrap-datepicker.js}"></script>
+	    
+        <script>
+		    $('.input-group.date').datepicker({
+		        autoclose: true,
+		        todayHighlight: true
+		    });
+		</script>
+	</body> 
+</html>

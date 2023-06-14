@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Bewerk gebruiker')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+				
+				
+			
+						<h1>Bewerk gebruiker</h1>
+						<form action="save" method="post" th:object="${user}"
+							th:action="@{/user/save}">
+							<input type="hidden" th:field="*{id}"/>
+							<table>
+								<tr>
+									<td>Username</td>
+									<td><input type="text" th:field="*{username}"/></td>
+								</tr>
+								<tr>
+									<td>Emailadres</td>
+									<td><input type="text" th:field="*{emailAddress}"/></td>
+								</tr>
+								<tr>
+									<td>Wachtwoord</td>
+									<td><input type="password" th:field="*{password1}"/></td>
+								</tr>
+								<tr>
+									<td>Herhaal wachtwoord</td>
+									<td><input type="password" th:field="*{password2}"/></td>
+								</tr>
+								<tr>
+									<td>Rol</td>									
+									<td><!-- select th:field="*{role}">
+											<option th:each="role : ${roles}" th:value="${role}"
+												th:text="${role}" />
+									</select> -->
+									<div th:each="role : ${user.roles}" th:text="${role.name}">
+									<div th:each="priv : ${role.privileges}" th:text="${priv.name}"></div>
+									</div></td>
+								</tr>
+								<tr>
+									<td><Input type="submit" value="Sla op"/></td>
+								</tr>
+							</table>
+							
+						</form>
+	</div>
+		<script th:src="@{/webjars/jquery/3.5.1/jquery.min.js}"></script>
+      	<script th:src="@{/webjars/bootstrap/4.6.0/js/bootstrap.min.js}"></script>
+	</body>
+</html>

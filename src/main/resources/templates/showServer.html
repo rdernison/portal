@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Server')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+				
+			
+	                	<h1 class="h3 mb-2 text-gray-800" th:text="${'Server ' + server.name}"/>
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<tr>
+								<th>Project</th>
+								<td><a th:href="@{'/project/' + ${server.project.id}}" th:text="${server.project?.name}" /></td>
+							</tr>
+							<tr>
+								<th>Eigenaar</th>
+								<td th:text="${server.project?.budgetOwner}" />
+							</tr>
+							<tr>
+								<th>Naam</th>
+								<td><a th:href="@{'/server/' + ${server.id}}" th:text="${server.name}" />
+							</tr>
+							<tr>
+								<th>IP-adres</th>
+								<td th:text="${server.ipAddress}" />
+							</tr>
+							<tr>
+								<th>Virtuele CPU's</th>
+								<td th:text="${server.virtualCpus}" />
+							</tr>
+							<tr>
+								<th>Fysieke cores</th>
+								<td th:text="${server.physicalCores}" />
+							</tr>
+							<tr>
+								<th>Besturingssysteem</th>
+								<td th:text="${server.os.name}" />
+							</tr>
+							<tr>
+								<th>Aanmaakdatum</th>
+								<td th:text="${server.productionDate}" />
+							</tr>
+							<tr>
+								<th>Verwijderdatum</th>
+								<td th:text="${server.removalDate}" />
+							</tr>
+							<tr>
+								<th>Status</th>
+								<td th:text="${server.status}" />
+							</tr>
+							<tr>
+								<th>Root password</th>
+								<td th:text="${server.rootPassword}" />
+							</tr>
+							<tr>
+								<th>Username</th>
+								<td th:text="${server.username}" />
+							</tr>
+							<tr>
+								<th>Admin password</th>
+								<td th:text="${server.adminPassword}" />
+							</tr>
+							<tr>
+							<!-- link naar project toevoegen -->
+							<!-- in project-detailscherm lijst met servers -->
+							</tr>
+						</table>
+		                <!-- /.col-lg-12 -->
+		                <h2>Extra schijven</h2>
+		                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+		                <tr>
+		                	<th>Badnaam</th>
+		                	<th>Grootte</th>
+		                	<th>Bestandssysteem</th>
+		                	<th>Aanknopingspunt</th>
+		                </tr>
+		                <tr th:each="disk, iStat: ${disks}">
+		                	<td th:text="${disk.poolName}"/>
+		                	<td th:text="${disk.size}"/>
+		                	<td th:text="${disk.fileSystemName}"/>
+		                	<td th:text="${disk.mountPoint}"/>
+		                </tr>
+		                </table>
+		                </div>
+		            </div>
+		        <!-- /#page-wrapper -->
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+	    <script src="../../../resources/js/jquery-1.11.0.min.js"
+	        data-th-href="@{/resources/js/jquery-1.11.0.min.js}"></script> -->
+	         
+	    <!-- Include all compiled plugins (below), or include individual files as needed
+	    <script src="../../../resources/js/bootstrap-3.1.1.min.js"
+	        data-th-href="@{/resources/js/bootstrap-3.1.1.min.js}"></script> -->
+	 
+	    <!-- Core Scripts - Include with every page
+	    <script src="../../../resources/js/plugins/metisMenu/jquery.metisMenu.js"
+	        data-th-href="@{/resources/js/plugins/metisMenu/jquery.metisMenu.js}"></script> -->
+	         
+	    <!-- SB Admin Scripts - Include with every page
+	    <script src="../../../resources/js/sb-admin.js"
+	        data-th-href="@{/resources/js/sb-admin.js}"></script> -->
+	 
+	</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Project')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container" style="float: left"> 
+						<h1 class="h3 mb-2 text-gray-800" th:text="${'Project ' + project.name}"/>
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<tr>
+							<td>Projectomschrijving</td>
+							<td th:text="${project.description}"/>
+							</tr>
+							<tr>
+							<td>Budgethouder</td>
+							<td th:text="${project.budgetOwner}"/>
+							</tr>
+							<tr>
+							<td>Kostenplaats</td>
+							<td></td>
+							</tr>
+							<tr>
+							<td>SPOC</td>
+							<td></td>
+							</tr>
+						<div sec:authorize="hasAuthority('admin')">
+						<h2 class="h3 mb-2 text-gray-800">Servers</h2>
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<tr>
+								<th>Computernaam</th>
+								<th>Besturingssysteem</th>
+								<th>Virtuele CPU's</th>
+								<th>Fysieke cores</th>
+								<th>RAM (MB's)</th>
+								<th>Status</th>
+								<th>Disks</th>
+							</tr>
+							<tr th:each="server, iStat : ${servers}" >
+								<td th:text="${server.name}"/>
+								<td th:text="${server.os.name}"/>
+								<td th:text="${server.virtualCpus}" align="right"/>
+								<td th:text="${server.physicalCores}" align="right"/>
+								<td th:text="${server.ram}" align="right"/>
+								<td th:text="${server.status}"/>
+								<td>
+									<table>
+									<thead>
+										<tr><!-- 
+											<td colspan="6"/> -->
+											<!-- td th:text="${server.disks}"/-->
+											<th>Grootte</th>
+											<th>Opstappunt</th>
+											<th>Bestandssysteem</th>
+										</tr>
+										</thead>
+										<tbody>
+										<tr th:each="disk : ${server.disks}">
+											<td th:text="${disk.size}" />
+											<td th:text="${disk.mountPoint}"/>
+											<td th:if="${disk.fileSystem}" th:text="${disk.fileSystem.name}" />
+										</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</table> 
+						</div>
+						</div>
+			   		</div>
+	                <!-- /.col-lg-12 -->
+	            </div>
+	            <!-- /.row -->
+	        </div>
+	        <!-- /#page-wrapper -->
+	 
+	    </div>
+    </body> 
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Berekeningen')" />
+	<body>
+	    <div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container" style="float: left"> 
+		
+						<h1 class="h3 mb-2 text-gray-800">Berekeningen</h1>
+							<span th:utext="${'&#8364;'+'&nbsp;'}" ></span></b><span>30,00</span>
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<tr>
+								<th>Naam</th>
+								<th>Besturingssysteem</th>
+								<th>Aantal processoren</th>
+								<th>Ram (gb)</th>
+								<th>Systeemschijf (gb)</th>
+								<th>Extra harddisk (gb)</th>
+								<th>Totale kosten /maand</th>
+							</tr>
+							
+							
+							<tr th:each="calculation : ${calculations}">
+								<td th:text="${calculation.name}"/>
+								<td th:text="${calculation.osName}"/>
+								<td th:text="${calculation.numberOfProcessors}"/>
+								<td th:text="${calculation.ram}"/>
+								<td th:text="${calculation.systemDisk}"/>
+								<td th:text="${calculation.extraHarddiskSpace}"/>
+								<td th:text="${'&#8364; ' + calculation.costPerServerPerMonth}"/>
+							</tr>
+						</table>
+						</div>
+	               </div>
+	</body>
+</html>

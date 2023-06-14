@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Error</title>
+		<link rel="stylesheet" type="text/css" href="../../static/css/sb-admin-2.css" th:href="@{/resources/css/sb-admin-2.css}"/>
+    </head>
+    <body>
+	    <div id="wrapper">
+		    <ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+	        <div id="page-wrapper">
+				<div class="row">
+		 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+				        <div th:replace="fragments/navbar-header :: header"></div>
+			        </nav>   <!-- /.navbar-static-top -->
+		        </div>			
+	            <div class="row">
+	                <div class="col-lg-12">
+					<h1 class="h3 mb-2 text-gray-800">Object niet gevonden</h1>
+						<div>
+						<p>Het object waarnaar gezocht wordt, kan niet worden gevonden.</p>
+						</div>
+					</div>
+	                <!-- /.col-lg-12 -->
+	            </div>
+	            <!-- /.row -->
+	        </div>
+	        <!-- /#page-wrapper -->
+	 
+	    </div>
+
+      
+        <script src="../js/jquery.min.js" th:src="@{/js/jquery.min.js}"></script>
+	    <script src="../js/bootstrap-3.1.1.min.js" th:src="@{/js/bootstrap-3.1.1.min.js}"></script>
+    </body>
+</html>

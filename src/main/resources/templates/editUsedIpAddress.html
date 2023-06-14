@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Bewerk gebruikt ip-adres')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container"> 
+				
+						<h1>Bewerk gebruikt ip-adres</h1>
+						<form action="save" method="post" th:object="${usedIpAddress}"
+							th:action="@{/usedIpAddress/save}">
+							<input type="hidden" th:field="*{id}"/>
+							<table>
+								<tr>
+									<td>Adres</td>
+									<td><input type="text" th:field="*{address}"/></td>
+								</tr>
+								<tr>
+									<td><Input type="submit" /></td>
+								</tr>
+							</table>
+							
+						</form>
+	
+					</div>
+	
+	
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+	    <script src="../../../resources/js/jquery-1.11.0.min.js"
+	        data-th-href="@{/resources/js/jquery-1.11.0.min.js}"></script> -->
+	
+		<!-- Include all compiled plugins (below), or include individual files as needed
+	    <script src="../../../resources/js/bootstrap-3.1.1.min.js"
+	        data-th-href="@{/resources/js/bootstrap-3.1.1.min.js}"></script> -->
+	
+		<!-- Core Scripts - Include with every page
+	    <script src="../../../resources/js/plugins/metisMenu/jquery.metisMenu.js"
+	        data-th-href="@{/resources/js/plugins/metisMenu/jquery.metisMenu.js}"></script> -->
+	
+		<!-- SB Admin Scripts - Include with every page
+	    <script src="../../../resources/js/sb-admin.js"
+	        data-th-href="@{/resources/js/sb-admin.js}"></script> -->
+		<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+		<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+		<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+		<script th:src="@{/assets/moment/moment.min.js}"></script>
+		<script
+			th:src="@{/assets/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.js}"></script>
+	
+		<script>
+			$.fn.datetimepicker.Constructor.Default = $.extend({},
+					$.fn.datetimepicker.Constructor.Default, {
+						icons : {
+							time : 'far fa-clock',
+							date : 'far fa-calendar',
+							up : 'fas fa-arrow-up',
+							down : 'fas fa-arrow-down',
+							previous : 'fas fa-chevron-left',
+							next : 'fas fa-chevron-right',
+							today : 'far fa-calendar-check-o',
+							clear : 'far fa-trash',
+							close : 'far fa-times'
+						}
+					});
+	
+			$('#datetimepicker1').datetimepicker({
+				format : 'DD/MM/YYYY h:mm A'
+			});
+		</script>
+	</body>
+</html>

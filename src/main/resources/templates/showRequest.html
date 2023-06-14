@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Aanvraag')" />
+	<body>
+<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+					<div class="container" style="float: left"> 
+						<h1 class="h3 mb-2 text-gray-800" th:text="${'Aanvraag ' + (request.title == null ? request.applicationName : request.title)}"/>
+						<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<tr>
+								<th>Projectnaam</th>
+								<td th:text="${request.projectName + ' ' + '('+ request.id + ')'}"/>
+							</tr>
+							<tr>
+								<th>Applicatienaam</th>
+								<td th:text="${request.applicationName}"/>
+							</tr>
+							<tr>
+								<th>Opgepakt door</th>
+								<td th:text="${request.employee}"/>
+							</tr>
+							<tr>
+								<th>OToD-projectnaam</th>
+								<td th:text="${request.otodProjectName}"/>
+							</tr>
+							<tr>
+								<th>Datum van inzending</th>
+								<td th:text="${request.requestDate}"/>
+							</tr>
+							<tr>
+								<th>Gewenste opleverdatum</th>
+								<td th:text="${request.desirableDeliveryDate}"/>
+							</tr>
+							<tr>
+								<th>Opgeleverd</th>
+								<td th:text="${request.deliveryDate}"/>
+							</tr>
+							<tr>
+								<th>Naam serviceaanvrager</th>
+								<td th:text="${request.nameServiceRequester}"/>
+							</tr>
+							<tr>
+								<th>Naam budgethouder</th>
+								<td th:text="${request.nameBudgetOwner}"/>
+							</tr>
+							<tr>
+								<th>Kostenplaats</th>
+								<td th:text="${request.costCenter}"/>
+							</tr>
+							<tr>
+								<th>Getekend contract</th>
+								<td><a th:href="'/request/files/' + ${request.signedContract}" th:text="${request.signedContract}" /></td>
+							</tr>
+						</table>
+						<dev th:replace="fragments/show-request-infrastructure-dev" />
+						<dev th:replace="fragments/show-request-infrastructure-test" />
+						
+						<a th:href="@{'../edit/' + ${request.id}}" th:text="Bewerk"/>
+						</div>
+	
+	
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+	    <script src="../../../resources/js/jquery-1.11.0.min.js"
+	        data-th-href="@{/resources/js/jquery-1.11.0.min.js}"></script> -->
+	
+		<!-- Include all compiled plugins (below), or include individual files as needed
+	    <script src="../../../resources/js/bootstrap-3.1.1.min.js"
+	        data-th-href="@{/resources/js/bootstrap-3.1.1.min.js}"></script> -->
+	
+		<!-- Core Scripts - Include with every page
+	    <script src="../../../resources/js/plugins/metisMenu/jquery.metisMenu.js"
+	        data-th-href="@{/resources/js/plugins/metisMenu/jquery.metisMenu.js}"></script> -->
+	
+		<!-- SB Admin Scripts - Include with every page
+	    <script src="../../../resources/js/sb-admin.js"
+	        data-th-href="@{/resources/js/sb-admin.js}"></script> -->
+	 </body>
+</html>

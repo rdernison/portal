@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>OToD Portal</title> 
+	 	<link rel="stylesheet" type="text/css" th:href="@{/resources/css/core.css}" href="../static/resources/css/core.css"/>
+	 	<link rel="stylesheet" type="text/css" th:href="@{/resources/css/sb-admin-2.css}" href="../static/resources/css/sb-admin-2.css" />
+		<link rel="stylesheet" type="text/css" th:href="@{/resources/css/bootstrap.min.css}" href="../static/resources/css/bootstrap.min.css" />
+    </head>
+    <body>
+    	<h1>OToD-portal</h1>
+    	<!-- 
+        <div th:if="${param.error}">
+            Invalid username and password.
+        </div> -->
+        
+        <div id="waitMessage" style="visibility: hidden">
+        	<h1>Even geduld aub.</h1>
+        </div>
+        <div th:if="${param.logout}">
+            You have been logged out.
+        </div> 
+        <div th:if="${session['SPRING_SECURITY_LAST_EXCEPTION']?.message} == 'Bad credentials'" class="alert alert-danger">Ongeldige gebruikersnaam of wachtwoord.</div>
+        <div th:if="${session['SPRING_SECURITY_LAST_EXCEPTION']?.message} == 'User account is locked'" class="alert alert-danger">Gebruikersaccount is geblokkeerd.</div>
+        <div>
+        Wachtwoord vergeten? <a th:href="@{/forgot_password}" 
+  >reset</a>
+        </div>
+        <div>
+        <p>Let op inloggen kan enkele seconden duren</p>
+	        <form th:action="@{/login}" method="post" id="loginForm">
+	            <div><label class="login_username_password_label"> Username:  </label><input class="login_username_password_input" type="text" name="username"/></div>
+	            <div><label class="login_username_password_label"> Password:  </label><input class="login_username_password_input" type="password" name="password"/></div>
+	            <div><input type="button" onClick="submitForm();" value="Sign In"/></div>
+	        </form>
+		        <div><a href="/subscription/">Account aanmaken.</a></div>
+        </div>
+        <div id="wrapper">
+	        <div id="first">
+		        <img class="img-responsive" th:src="@{/resources/images/otodportal_0.png}" src="../static/resources/images/otodportal_0.png" />
+		        <div>
+			        <div class="header">OToD-beheer</div>
+			        <p>Het Kyndryl-beheerdocument: <a th:href="@{/resources/pdf/OTOD beheer v1.5_definitief.pdf}">OToD Beheer Document Kyndryl</a>.</p>
+			        <p>Het DXC-beheerdocument: <a href="https://confluence.ba.uwv.nl/display/OB/OT+on+Demand+Beheerdocument">DXC-beheerdocument</a></p>
+	<p>Het OToD proces wordt inzichtelijk gemaakt in dit document: <a th:href="@{/resources/pdf/OTOD-proces-2018.pdf}">OToD procesplaat</a>.</p>
+		        </div>
+		        <div>
+		        	<div class="header">Licenties binnen OToD</div>
+		        	<p>Let Op: Het gebruik van software / middleware in de OToD omgeving dient ook afgestemd en goedgekeurd te worden door ICT Licenties. De toestemming kan worden aangevraagd via het webformulier “Aanvragen Licentiedesk”. Het aanvraag formulier is te vinden op de Sharepointpagina van ICT Licenties: <a href="https://samenwerken.sharepoint.uwv.nl/sites/tlm/default.aspx">Introductiepagina - Leveranciersmanagement (uwv.nl)</a>.
+		        </div>
+		        <div>
+		        	<div class="header">Applicatiebeheer OToD</div>
+		        	<p>Vanaf medio mei 2018 dient elke aanvrager van een OToD omgeving aan te geven waar het beheer van de servers/applicaties is belegd.<br/>
+	
+	Het formulier voor deze verklaring is hier te vinden: <a th:href="@{/resources/pdf/Checklist%20beheer%20OToD%20omgeving%20v1.0.pdf}">Formulier</a></p>
+		        </div>
+	        </div>
+	        <div id="second">
+	        	<div>
+	        		<h3>OToD Facts</h3>
+	       			<table>
+	        			<tr>
+		        			<th class="otod_facts_th_left">Type</th>
+		        			<th class="otod_facts_th_right">Aantal</th>
+	        			</tr><!-- 
+	        			<tr>
+		        			<td class="otod_facts_td_left">Aanvragen</td><!-- 362 --><!-- 
+		        			<td class="otod_facts_td_right" th:text="${requestCount}"></td>
+	        			</tr>
+	        			<tr>
+		        			<td class="otod_facts_td_left">Projecten</td><!-- 178 --><!-- 
+		        			<td class="otod_facts_td_right" th:text="${allProjects == null ? 0 : allProjects.size()}"></td>
+	        			</tr> -->
+	        			<tr>
+		        			<td class="otod_facts_td_left">Servers</td><!-- 589 -->
+		        			<td class="otod_facts_td_right" th:text="${serverCount}"></td>
+	        			</tr>
+	       			</table>
+	        	</div>
+	        	<div>
+	        		<h3>Ontwikkel- en testomgevingen on demand</h3>
+	        		<p>Sinds Q3 2013 levert het TSC de dienst Ontwikkel- en Testomgevingen On Demand (OTOD). De OTOD omgeving is een private UWV Cloud voor ontwikkel- en testomgevingen. IBM is de hosting partij, verantwoordelijk voor de ondersteunende infrastructuur van de OTOD Cloud. Het belangrijkste verschil met de huidige Ontwikkel en Test omgevingen, die worden beheerd door IBM (en TAB), is dat UWV zelf verantwoordelijk is voor de inrichting en beheer van de servers binnen de OTOD omgeving.</p>
+					<p>De OTOD omgeving wordt door het ToTEM team van het TSC beheerd en dit team is de verantwoordelijke partij voor de verwerking van aanvragen, wijzigingen en beëindiging van OTOD servers. Naast deze primaire zaken zorgt het ToTEM team ook voor toegang tot de OTOD servers, de administratieve verwerking en verzorgt het TSC ToTEM team de installatie van noodzakelijke patches en upgrades op de besturingssystemen binnen de OTOD omgeving.</p>
+	        	</div>
+	       	</div>
+        </div>
+    <script>
+    function showMessage() {
+    	console.log("Showing message");
+    	var element = document.getElementById("waitMessage");
+    	console.log("Found element: " + element);
+    	element.style.display="block";
+    }
+    
+    function submitForm() {
+    	console.log("Showing message");
+    	var element = document.getElementById("waitMessage");
+    	console.log("Found element: " + element);
+    	element.style.display="block";
+    	console.log("Submitting form")
+    	document.getElementById('loginForm').submit();	
+    }
+    </script>
+    </body>
+</html>

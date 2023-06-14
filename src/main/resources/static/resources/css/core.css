@@ -1,0 +1,98 @@
+body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    padding-bottom: 40px;
+    /*background-color: #0000ff;*/
+}
+
+td.number {
+	text-align: right;
+}
+
+td {
+	padding: 15px;
+}
+
+.form-narrow {
+    max-width: 490px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+div.header {
+	color: white;
+	background-color: lightblue;
+	font-family: serif;
+	font-size: 20px;
+}
+
+div.pagination {
+	color: #000000;
+	background-color: lightblue;
+	float: left;
+	padding: 2px;
+}
+
+thead th
+{
+    position: sticky;
+    top: 0px;
+}
+
+#wrapper {
+    width: 100%;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+#first {
+    width: 75%;
+    float:left; /* add this */
+    padding: 10px;
+}
+
+#second {
+	width: 25%;
+    border: 1px solid black;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    padding: 10px;
+}
+
+.otod_facts_th_left {
+	width: 200px;
+	font-weight: bold;
+	float: left;
+}
+
+.otod_facts_th_right {
+	width: 100px;
+	font-weight: bold;	
+}
+
+.otod_facts_td_left {
+	width: 200px;	
+	float: left;
+}
+
+.otod_facts_td_right {
+	width: 100px;	
+}
+
+.login_username_password_label {
+	width: 150px;
+}
+
+.login_username_password_input {
+	width: 100px;
+}
+
+.t-shift-size {
+	width: 25px;
+}
+

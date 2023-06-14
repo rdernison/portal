@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/header :: head(title = 'Vraag omgeving aan')" />
+	<body>
+		<div class="wrapper">
+ 			<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		        <div th:replace="fragments/navbar-header :: header"></div>
+	        </nav>
+			<div class="sidebar" style="float: left">
+				<ul th:replace="fragments/navbar-sidebar :: menu"></ul>
+			</div>
+			<div class="container">
+				<h3>Vraag een omgeving aan</h3>
+				<p>Velden met een * zijn verplicht</p>
+		        <p>Alles weten over de OToD dienstverlening: <a th:href="@{/resources/pdf/OTOD beheer v1.5_definitief.pdf}">OToD Beheer Document</a>.
+				<p>Let op! Als je het formulier verlaat, worden de ingevulde gegevens niet opgeslagen. Dit is te voorkomen door onderaan aan te vinken dat je het formulier voor later opslaat en op 'Opslaan' te klikken.</p>
+				<form th:object="${request}" th:action="@{/request/save}"
+					method="post" enctype="multipart/form-data" id="requestForm" name="requestForm">
+					
+					<div aria-multiselectable="true" class="panel-group"
+						id="accordion" role="tablist">
+						<div th:replace="fragments/request-contract"/>
+						<div th:replace="fragments/request-infastructure"/>
+						<div th:replace="fragments/request-signature"/>
+						<div>
+							<input type="submit" th:value="Opslaan" />
+						</div>
+						<div id="summary"/>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- /#page-wrapper -->
+		<script src="../static/resources/js/jquery.min.js" 
+				th:src="@{/resources/js/jquery.min.js}"></script>
+		<script src="../static/resources/bootstrap-4.5.3-dist/js/bootstrap.min.js"
+				th:src="@{/resources/bootstrap-4.5.3-dist/js/bootstrap.min.js}"></script>
+		<script src="../static/resources/js/sb-admin-2.js"
+				th:src="@{/resources/js/sb-admin-2.js}"></script>
+		
+		
+		<script type="text/javascript"
+			th:src="@{/resources/js/jquery-validation/jquery.validate.min.js}"></script>
+		<script th:src="@{/resources/js/popper.js/umd/popper.min.js}"></script>
+
+		<script th:src="@{/resources/js/scripts.js}"></script>
+		
+		<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.full.js"></script>
+	</body>
+</html>

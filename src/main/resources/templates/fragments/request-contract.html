@@ -1,0 +1,98 @@
+<div class="panel panel-warning">
+								<div class="panel-heading" id="heading1" role="tab">
+									<h3 class="panel-title">
+										<a aria-controls="contractData" aria-expanded="true"
+											data-parent="#accordion" data-toggle="collapse"
+											href="#contractData" role="button">Contractgegevens<span
+											class="glyphicon glyphicon-collapse-down"></span></a>
+									</h3>
+								</div>
+								<div aria-labelledby="heading1"
+									class="panel-collapse collapse in" id="contractData"
+									role="tabpanel">
+									<div class="panel-body">
+										<table>
+											<tr>
+												<td>Projectnaam *</td>
+												<td><input type="text" th:field="*{projectName}" /></td>
+												<td th:if="${#fields.hasErrors('projectName')}" th:errors="*{projectName}">Project name Error</td>
+											</tr>
+											<tr>
+												<td>Applicatienaam *</td>
+												<td><input type="text" th:field="*{applicationName}" /></td>
+												<td th:if="${#fields.hasErrors('applicationName')}" th:errors="*{applicationName}">Application name Error</td>
+											</tr>
+											<tr>
+												<td>Naam service-aanvrager *</td>
+												<td><input type="text"
+													th:field="*{nameServiceRequester}" value="${user.fullName}"/></td>
+												<td th:if="${#fields.hasErrors('nameServiceRequester')}" th:errors="*{nameServiceRequester}">Naam service-aanvrager Error</td>
+											</tr>
+											<tr>
+												<td>Emailadres service-aanvrager *</td>
+												<td><input type="text"
+													th:field="*{emailAddressServiceRequester}" /></td>
+												<td th:if="${#fields.hasErrors('emailAddressServiceRequester')}" th:errors="*{emailAddressServiceRequester}">Email-adres service-aanvrager Error</td>
+											</tr>
+											<tr>
+												<td>Naam budgethouder</td>
+												<td><input type="text" th:field="*{nameBudgetOwner}" /></td>
+												<td th:if="${#fields.hasErrors('nameBudgetOwner')}" th:errors="*{nameBudgetOwner}">Naam budgethouder Error</td>
+											</tr>
+											<tr>
+												<td>Emailadres budgethouder</td>
+												<td><input type="text"
+													th:field="*{emailAddressBudgetOwner}" /></td>
+												<td th:if="${#fields.hasErrors('emailAddressBudgetOwner')}" th:errors="*{emailAddressBudgetOwner}">Emailadres budgethouder Error</td>
+											</tr>
+											<tr>
+												<td>Directoraat *</td>
+												<td><input type="text" th:field="*{directorate}" /></td>
+											</tr>
+											<tr>
+												<td>Kostenplaats *</td> 
+												<td><input type="text" th:field="*{costCenter}" /></td>
+											</tr>
+											<tr>
+												<td>Naam gedelegeerde MvO</td>
+												<td><input type="text" th:field="*{nameMvoDelegate}" /></td>
+											</tr>
+											<tr>
+												<td>Emailadres gedelegeerde</td>
+												<td><input type="text"
+													th:field="*{emailAddressDelegate}" /></td>
+												<td th:if="${#fields.hasErrors('emailAddressDelegate')}" th:errors="*{emailAddressDelegate}">Emailadres gedelegeerde Error</td>
+											</tr>
+											<tr>
+												<td>Contactpersoon</td>
+												<td><input type="text" th:field="*{contact}" /></td>
+												<td th:if="${#fields.hasErrors('contact')}" th:errors="*{contact}">Contactpersoon Error</td>
+											</tr>
+											<tr>
+												<td>Afdeling</td>
+												<td><input type="text" th:field="*{department}" /></td>
+											</tr>
+											<tr>
+												<td>Emailadres serviceverlener</td>
+												<td><input type="text"
+													th:field="*{emailAddressServiceProvider}" /></td>
+											</tr>
+											<tr>
+												<td>Gewenste opleverdatum</td>
+												<td><input type="date" class="form-control"
+													th:field="*{desirableDeliveryDate}" /></td>
+											</tr><!-- 
+											<tr>
+												<td>Opgepakt door</td>
+												<td><input type="text" th:field="*{takenBy}" /></td>
+											</tr>
+											<tr>
+												<td>Opleverdatum</td>
+												<td><input type="datetime-local" class="form-control"
+													th:field="*{deliveryDateStr}" /></td>
+											</tr> -->
+										</table>
+									</div>
+								</div>
+
+							</div>

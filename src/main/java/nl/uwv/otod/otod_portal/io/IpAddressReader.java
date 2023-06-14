@@ -1,0 +1,31 @@
+package nl.uwv.otod.otod_portal.io;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+
+import nl.uwv.otod.otod_portal.util.SettingsUtil;
+
+public class IpAddressReader {
+
+	
+	public String readIpAddress(int serverId) throws IOException {
+	var rootPath = SettingsUtil.readSetting("path");
+		
+		Path inputPath = Paths.get(rootPath, "admin-pass.csv");
+		var ipAddress = "";
+		List<String> allLines = Files.readAllLines(inputPath);
+		for (var line : allLines) {
+			var subs = line.split("\\|");
+			var serverIdFromLine = Integer.parseInt(subs[1]);
+			if (serverIdFromLine == serverId) {
+				ipAddress = subs[7];
+				break;
+			}
+			
+		}
+		return ipAddress;
+	}
+}

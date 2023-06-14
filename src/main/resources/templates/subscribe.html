@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	 	<link rel="stylesheet" type="text/css" href="../static/resources/css/core.css" th:href="@{/resources/css/core.css}"/>
+	 	<link rel="stylesheet" type="text/css" href="../static/resources/css/sb-admin-2.css" 
+				th:href="@{/resources/css/sb-admin-2.css}"/>
+		<link rel="stylesheet" href="../static/resources/css/bootstrap.min.css"
+				th:href="@{/resources/css/bootstrap.min.css}" />
+</head>
+	<body>
+		<div id="wrapper">
+			<div id="page-wrapper"> 
+				<div class="row">
+					<div id="navbar-wrapper" class="collapse navbar-collapse">
+	 				 	<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+				        	<div th:replace="fragments/navbar-header :: header-new-user"/>
+				        </nav>   
+			        </div>
+		        </div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="navbar" class="collapse navbar-collapse">
+				
+			
+						<h1>Gebruiker</h1>
+						<form method="post" th:object="${user}" th:action="@{/subscription/subscribe}" >
+							<table>
+								<tr>
+									<td>Gebruikersnaam *</td>
+									<td><input type="text" th:field="*{username}"/></td>
+								</tr>
+								<tr>
+									<td>Volledige naam *</td>
+									<td><input type="text" th:field="*{fullName}"/></td>
+								</tr>
+								<tr>
+									<td>Emailadres *</td>
+									<td><input type="text" th:field="*{emailAddress}"/></td>
+								</tr>
+								
+								<tr>
+									<td>Wachtwoord</td>
+									<td><input type="password" th:field="*{password}"/></td>
+								</tr>
+								<tr>
+									<td>Herhaal wachtwoord</td>
+									<td><input type="password" th:field="*{password2}"/></td>
+								</tr>
+								<tr>
+									<td><input type="submit" th:value="Opslaan"/></td>
+									<td><input type="reset" /></td>
+								</tr>
+							</table>
+	
+						</form>
+						</div>
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /#page-wrapper -->
+	
+			</div>
+	
+	
+			<script th:src="@{/resources/js/jquery.min.js}"></script>
+			<script th:src="@{/resources/js/popper.min.js}"></script>
+			<script th:src="@{/resources/js/bootstrap-3.1.1.min.js}"></script>
+			<script th:src="@{/resources/js/bootstrap-datepicker.js}"></script>
+			
+			<script>
+			    $('.input-group.productionDate').datepicker({
+			        autoclose: true,
+			        todayHighlight: true
+			    });
+			    $('.input-group.removalDate').datepicker({
+			        autoclose: true,
+			        todayHighlight: true
+			    });
+			</script>
+			
+	</body>
+</html>
